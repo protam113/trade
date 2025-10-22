@@ -1,0 +1,11 @@
+# Python virtual environments
+venv/
+.env/
+.venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Others
+*.log
