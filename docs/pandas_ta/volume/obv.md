@@ -1,13 +1,14 @@
-Đây, bạn nhìn vào chart này sẽ thấy:
+Here, you look at this chart and you will see:
 
 ![OBV](../../../public/imgs/obv.png)
 
 
-* **Blue line (Close Price)**: giá dao động tăng giảm từng phiên.
-* **Red dashed line (OBV)**: volume cộng dồn theo hướng giá.
+* **Blue line (Close Price)**: price fluctuates up and down each session.
 
-Ví dụ: từ phiên 3 → 4, giá tăng từ 101 → 103, OBV tăng mạnh vì volume cũng cao.
-Nếu giá giảm mà OBV vẫn tăng, đó là **dấu hiệu divergence**, cảnh báo có thể trend sẽ đảo chiều sớm.
+* **Red dashed line (OBV)**: cumulative volume according to price direction.
 
-OBV giúp bạn xác nhận sóng tăng/giảm trong **wave trading**, đặc biệt khi kết hợp với RSI hay candlestick patterns.
+For example: from session 3 → 4, price increases from 101 → 103, OBV increases sharply because volume is also high.
 
+If price decreases but OBV still increases, it is a **divergence sign**, warning that the trend may reverse soon.
+
+OBV helps you confirm the increase/decrease wave in **wave trading**, especially when combined with RSI or candlestick patterns.
