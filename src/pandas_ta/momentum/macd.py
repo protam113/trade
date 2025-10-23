@@ -11,40 +11,39 @@ from pandas_ta.utils import (
     v_talib
 )
 
-
-
 def macd(
     close: Series, fast: Int = None, slow: Int = None,
     signal: Int = None, talib: bool = None,
     offset: Int = None, **kwargs: DictLike
 ) -> DataFrame:
-    """Moving Average Convergence Divergence
+    """Moving Average Convergence Divergence (Optimized for M5 Scalping)
 
-    This indicator attempts to identify trends.
+    This indicator attempts to identify trends, optimized for 5-minute timeframe scalping.
 
     Sources:
-        * [tradingview](https://www.tradingview.com/wiki/MACD_(Moving_Average_Convergence/Divergence))
+        * [tradingview](https://www.tradingview.com/support/solutions/43000502344-macd-moving-average-convergence-divergence/)
         * [tradingview (AS Mode)](https://tr.tradingview.com/script/YFlKXHnP/)
 
     Parameters:
         close (pd.Series): ```close``` Series
-        fast (int): Fast MA period. Default: ```12```
-        slow (int): Slow MA period. Default: ```26```
-        signal (int): Signal period. Default: ```9```
+        fast (int): Fast MA period. Default: ```6``` (optimized for M5)
+        slow (int): Slow MA period. Default: ```13``` (optimized for M5)
+        signal (int): Signal period. Default: ```5``` (optimized for M5)
         talib (bool): If installed, use TA Lib. Default: ```True```
         offset (int): Post shift. Default: ```0```
 
     Other Parameters:
         asmode (value): Enable AS version of MACD. Default: ```False```
         fillna (value): ```pd.DataFrame.fillna(value)```
+        signal_indicators (bool): Include buy/sell signals. Default: ```True``` for scalping
 
     Returns:
-        (pd.DataFrame): 3 columns
+        (pd.DataFrame): 3 columns (MACD, Signal, Histogram) + optional signal columns
     """
     # Validate
-    fast = v_pos_default(fast, 12)
-    slow = v_pos_default(slow, 26)
-    signal = v_pos_default(signal, 9)
+    fast = v_pos_default(fast, 6)  # Adjusted for M5
+    slow = v_pos_default(slow, 13)  # Adjusted for M5
+    signal = v_pos_default(signal, 5)  # Adjusted for M5
     if slow < fast:
         fast, slow = slow, fast
     _length = slow + signal - 1
@@ -66,13 +65,13 @@ def macd(
         slowma = ema(close, length=slow, talib=mode_tal)
 
         macd = fastma - slowma
-        macd_fvi = macd.loc[macd.first_valid_index():, ]
+        macd_fvi = macd.loc[macd.first_valid_index():]
         signalma = ema(close=macd_fvi, length=signal, talib=mode_tal)
         histogram = macd - signalma
 
     if as_mode:
         macd = macd - signalma
-        macd_fvi = macd.loc[macd.first_valid_index():, ]
+        macd_fvi = macd.loc[macd.first_valid_index():]
         signalma = ema(close=macd_fvi, length=signal, talib=mode_tal)
         histogram = macd - signalma
 
@@ -105,7 +104,8 @@ def macd(
     df.name = f"MACD{_asmode}{_props}"
     df.category = macd.category
 
-    signal_indicators = kwargs.pop("signal_indicators", False)
+    # Enable signal indicators by default for scalping
+    signal_indicators = kwargs.pop("signal_indicators", True)
     if not signal_indicators:
         return df
     else:
@@ -114,7 +114,7 @@ def macd(
                 df,
                 signals(
                     indicator=histogram,
-                    xa=kwargs.pop("xa", 0),
+                    xa=kwargs.pop("xa", 0),  # Zero line for histogram cross
                     xb=kwargs.pop("xb", None),
                     xseries=kwargs.pop("xseries", None),
                     xseries_a=kwargs.pop("xseries_a", None),
