@@ -1,7 +1,6 @@
 import sys
 import os
 import numpy as np
-import json
 
 ROOT = "/home/hoang-pham/Documents/bot_v2/src"  
 sys.path.append(ROOT)
@@ -13,17 +12,6 @@ import pandas as pd
 import pandas_ta as ta
 import pyqtgraph as pg
 from pyqtgraph.Qt import QtCore, QtWidgets
-from datetime import datetime
-
-# Load trade config
-with open("trade_config.json", "r") as f:
-    config = json.load(f)
-BUY_THRESHOLD = config["BUY_THRESHOLD"]
-SCALP_TARGET = config["SCALP_TARGET"]  # 1.02 = 2% profit
-STOP_LOSS = config["STOP_LOSS"]  # 0.98 = 2% loss
-ENABLE_TRAILING_PROFIT = config["ENABLE_TRAILING_PROFIT"]
-ENABLE_DCA = config["ENABLE_DCA"]
-MAX_TRADES_PER_DAY = config["MAX_TRADES_PER_DAY"]
 
 # === Load data ===
 df = pd.read_csv("./data/EURUSD_M5_48-1_reversed.csv", sep=';')
@@ -154,7 +142,7 @@ pg.setConfigOption('foreground', 'w')
 # === Trading Simulator State ===
 balance = 1000
 position = None 
-risk_percent = 0.01  # Rủi ro 1% mỗi lệnh
+lot = 0.1
 ptr = 20  # Start later to allow indicator initialization
 buy_entries, sell_entries = [], []  # Entry points
 buy_exits, sell_exits = [], []      # Exit points
@@ -164,7 +152,6 @@ wins = 0
 losses = 0
 total_profit = 0
 debug_mode = True 
-daily_trades = {}  # Theo dõi số lệnh mỗi ngày
 
 def log_event(text):
     logs.append(text)
@@ -188,11 +175,14 @@ for btn, f in speed_buttons:
     btn.clicked.connect(lambda _, f=f: set_speed(f))
 
 # === Trading Parameters ===
+STOP_LOSS_PIPS = 10
+TAKE_PROFIT_PIPS = 15
 SPREAD = 0.00015
+ATR_MULTIPLIER = 1.5  # SL/TP based on ATR
 
 # === Update function ===
 def update():
-    global ptr, balance, position, risk_percent, speed, total_trades, wins, losses, total_profit, daily_trades
+    global ptr, balance, position, lot, speed, total_trades, wins, losses, total_profit
 
     for _ in range(speed):
         if ptr >= len(df):
@@ -208,7 +198,6 @@ def update():
         price_now = df['close'].iloc[ptr]
         high_now = df['high'].iloc[ptr]
         low_now = df['low'].iloc[ptr]
-        current_date = df['time'].iloc[ptr].date()
         
         sliced = df.iloc[:ptr+1]
         
@@ -277,37 +266,30 @@ def update():
             exit_price = None
             hit = None
             profit = 0
-            risk_amount = balance * risk_percent
             
             if position["type"] == "buy":
-                # Trailing profit if enabled
-                if ENABLE_TRAILING_PROFIT and high_now > position["tp"]:
-                    position["tp"] = max(position["tp"], high_now - (atr_now * 1.5))  # Trail by 1.5 ATR
                 # Check TP
                 if high_now >= position["tp"]:
                     exit_price = position["tp"]
                     hit = "TP✅"
-                    profit = (exit_price - position["entry"] - SPREAD) * position["lot"] * 100000
+                    profit = (exit_price - position["entry"] - SPREAD) * lot * 100000
                 # Check SL
                 elif low_now <= position["sl"]:
                     exit_price = position["sl"]
                     hit = "SL❌"
-                    profit = (exit_price - position["entry"] - SPREAD) * position["lot"] * 100000
+                    profit = (exit_price - position["entry"] - SPREAD) * lot * 100000
                     
             elif position["type"] == "sell":
-                # Trailing profit if enabled
-                if ENABLE_TRAILING_PROFIT and low_now < position["tp"]:
-                    position["tp"] = min(position["tp"], low_now + (atr_now * 1.5))  # Trail by 1.5 ATR
                 # Check TP
                 if low_now <= position["tp"]:
                     exit_price = position["tp"]
                     hit = "TP✅"
-                    profit = (position["entry"] - exit_price - SPREAD) * position["lot"] * 100000
+                    profit = (position["entry"] - exit_price - SPREAD) * lot * 100000
                 # Check SL
                 elif high_now >= position["sl"]:
                     exit_price = position["sl"]
                     hit = "SL❌"
-                    profit = (position["entry"] - exit_price - SPREAD) * position["lot"] * 100000
+                    profit = (position["entry"] - exit_price - SPREAD) * lot * 100000
 
             if hit is not None:
                 balance += profit
@@ -331,106 +313,55 @@ def update():
 
         # === MỞ LỆNH MỚI ===
         if position is None:
-            # Count trades for the day
-            if current_date not in daily_trades:
-                daily_trades[current_date] = 0
-            if daily_trades[current_date] >= MAX_TRADES_PER_DAY:
-                ptr += 1
-                continue
-
-            # Calculate signal strength (0-1)
-            signal_score = 0
-            total_indicators = 3  # EMA, RSI, MACD
-            if ema5_prev <= ema20_prev and ema5_now > ema20_now:
-                signal_score += 1  # EMA Buy
-            if rsi_now > 20 and rsi_now < 80:
-                signal_score += 1  # RSI not extreme
-            if macd_prev <= macd_signal_prev and macd_now > macd_signal_now:
-                signal_score += 1  # MACD Buy
-            buy_strength = signal_score / total_indicators
-
-            # Sell signal
-            signal_score = 0
-            if ema5_prev >= ema20_prev and ema5_now < ema20_now:
-                signal_score += 1  # EMA Sell
-            if rsi_now < 80 and rsi_now > 20:
-                signal_score += 1  # RSI not extreme
-            if macd_prev >= macd_signal_prev and macd_now < macd_signal_now:
-                signal_score += 1  # MACD Sell
-            sell_strength = signal_score / total_indicators
-
-            # DEBUG: Log signals
-            if debug_mode and (buy_strength >= BUY_THRESHOLD or sell_strength >= BUY_THRESHOLD):
-                if buy_strength >= BUY_THRESHOLD:
-                    log_event(f"🟡 BUY Signal @ {ptr} | Strength: {buy_strength:.2f} | EMA5: {ema5_now:.5f} | RSI: {rsi_now:.2f} | MACD: {macd_now:.4f}")
-                if sell_strength >= BUY_THRESHOLD:
-                    log_event(f"🔴 SELL Signal @ {ptr} | Strength: {sell_strength:.2f} | EMA5: {ema5_now:.5f} | RSI: {rsi_now:.2f} | MACD: {macd_now:.4f}")
+            # Scalping M5 Conditions (Nới lỏng)
+            buy_signal = (
+                ema5_prev <= ema20_prev and ema5_now > ema20_now and  # EMA crossover
+                rsi_now > 20 and rsi_now < 80 and  # Nới lỏng RSI
+                macd_prev <= macd_signal_prev and macd_now > macd_signal_now  # MACD crossover
+                # Bỏ StochF, VWAP, BBands để nới lỏng
+            )
             
-            # Calculate dynamic lot size based on risk
-            risk_amount = balance * risk_percent
-            pip_value = 10  # $10 per lot per pip for EURUSD
-            atr_now = df["ATR"].iloc[ptr]
-            stop_loss_pips = (price_now * (1 - STOP_LOSS)) / 0.0001 if buy_strength >= BUY_THRESHOLD else (STOP_LOSS - 1 + price_now) / 0.0001
-            lot = min(0.1, risk_amount / (stop_loss_pips * pip_value * 0.0001))  # Cap at 0.1
-
+            sell_signal = (
+                ema5_prev >= ema20_prev and ema5_now < ema20_now and  # EMA crossover
+                rsi_now < 80 and rsi_now > 20 and  # Nới lỏng RSI
+                macd_prev >= macd_signal_prev and macd_now < macd_signal_now  # MACD crossover
+                # Bỏ StochF, VWAP, BBands để nới lỏng
+            )
+            
+            # DEBUG: Log signals
+            if debug_mode and (buy_signal or sell_signal):
+                if buy_signal:
+                    log_event(f"🟡 BUY Signal @ {ptr} | EMA5: {ema5_now:.5f} | EMA20: {ema20_now:.5f} | RSI: {rsi_now:.2f} | MACD: {macd_now:.4f}")
+                if sell_signal:
+                    log_event(f"🟡 SELL Signal @ {ptr} | EMA5: {ema5_now:.5f} | EMA20: {ema20_now:.5f} | RSI: {rsi_now:.2f} | MACD: {macd_now:.4f}")
+            
             # BUY Signal
-            if buy_strength >= BUY_THRESHOLD:
+            if buy_signal:
                 entry_price = price_now
-                dynamic_sl = entry_price * STOP_LOSS
-                dynamic_tp = entry_price * SCALP_TARGET
+                dynamic_sl = entry_price - (ATR_MULTIPLIER * atr_now)
+                dynamic_tp = entry_price + (ATR_MULTIPLIER * atr_now)
                 position = {
                     "type": "buy",
                     "entry": entry_price,
                     "tp": dynamic_tp,
-                    "sl": dynamic_sl,
-                    "lot": lot,
-                    "dca_count": 0,
-                    "dca_entries": [entry_price]
+                    "sl": dynamic_sl
                 }
                 buy_entries.append({"x": ptr, "y": entry_price})  # Green dot
-                daily_trades[current_date] += 1
-                log_event(f"🟢 BUY @ {entry_price:.5f} | TP: {dynamic_tp:.5f} | SL: {dynamic_sl:.5f} | Lot: {lot:.2f}")
+                log_event(f"🟢 BUY @ {entry_price:.5f} | TP: {dynamic_tp:.5f} | SL: {dynamic_sl:.5f}")
 
             # SELL Signal
-            elif sell_strength >= BUY_THRESHOLD:
+            elif sell_signal:
                 entry_price = price_now
-                dynamic_sl = entry_price * (2 - STOP_LOSS)  # 1 - (1 - STOP_LOSS)
-                dynamic_tp = entry_price * (2 - SCALP_TARGET)  # 1 - (1 - SCALP_TARGET)
+                dynamic_sl = entry_price + (ATR_MULTIPLIER * atr_now)
+                dynamic_tp = entry_price - (ATR_MULTIPLIER * atr_now)
                 position = {
                     "type": "sell",
                     "entry": entry_price,
                     "tp": dynamic_tp,
-                    "sl": dynamic_sl,
-                    "lot": lot,
-                    "dca_count": 0,
-                    "dca_entries": [entry_price]
+                    "sl": dynamic_sl
                 }
                 sell_entries.append({"x": ptr, "y": entry_price})  # Red dot
-                daily_trades[current_date] += 1
-                log_event(f"🔴 SELL @ {entry_price:.5f} | TP: {dynamic_tp:.5f} | SL: {dynamic_sl:.5f} | Lot: {lot:.2f}")
-
-            # DCA Logic
-            elif ENABLE_DCA and position is not None and position["dca_count"] < 2:  # Limit to 2 DCA
-                if position["type"] == "buy" and low_now < position["sl"] and price_now < position["entry"]:
-                    new_lot = position["lot"] * 0.5  # Half lot for DCA
-                    new_entry = price_now
-                    position["entry"] = (position["entry"] * position["lot"] + new_entry * new_lot) / (position["lot"] + new_lot)
-                    position["lot"] += new_lot
-                    position["dca_count"] += 1
-                    position["dca_entries"].append(new_entry)
-                    position["sl"] = min(position["sl"], new_entry * STOP_LOSS)
-                    position["tp"] = max(position["tp"], new_entry * SCALP_TARGET)
-                    log_event(f"🔄 DCA BUY @ {new_entry:.5f} | New Entry: {position['entry']:.5f} | SL: {position['sl']:.5f} | TP: {position['tp']:.5f} | Lot: {position['lot']:.2f}")
-                elif position["type"] == "sell" and high_now > position["sl"] and price_now > position["entry"]:
-                    new_lot = position["lot"] * 0.5  # Half lot for DCA
-                    new_entry = price_now
-                    position["entry"] = (position["entry"] * position["lot"] + new_entry * new_lot) / (position["lot"] + new_lot)
-                    position["lot"] += new_lot
-                    position["dca_count"] += 1
-                    position["dca_entries"].append(new_entry)
-                    position["sl"] = max(position["sl"], new_entry * (2 - STOP_LOSS))
-                    position["tp"] = min(position["tp"], new_entry * (2 - SCALP_TARGET))
-                    log_event(f"🔄 DCA SELL @ {new_entry:.5f} | New Entry: {position['entry']:.5f} | SL: {position['sl']:.5f} | TP: {position['tp']:.5f} | Lot: {position['lot']:.2f}")
+                log_event(f"🔴 SELL @ {entry_price:.5f} | TP: {dynamic_tp:.5f} | SL: {dynamic_sl:.5f}")
 
         # Update all markers
         buy_entry_scatter.setData([b["x"] for b in buy_entries], [b["y"] for b in buy_entries])
@@ -459,7 +390,7 @@ def toggle_debug():
     log_event(f"Debug mode: {'ON' if debug_mode else 'OFF'}")
 
 def reset_sim():
-    global ptr, balance, position, buy_entries, sell_entries, buy_exits, sell_exits, logs, total_trades, wins, losses, total_profit, daily_trades
+    global ptr, balance, position, buy_entries, sell_entries, buy_exits, sell_exits, logs, total_trades, wins, losses, total_profit
     ptr = 20
     balance = 1000
     position = None
@@ -470,7 +401,6 @@ def reset_sim():
     wins = 0
     losses = 0
     total_profit = 0
-    daily_trades = {}
     buy_entry_scatter.setData([], [])
     sell_entry_scatter.setData([], [])
     buy_exit_scatter.setData([], [])
