@@ -1,0 +1,8 @@
+{
+    "BUY_THRESHOLD": 0.4,
+    "SCALP_TARGET": 1.02,
+    "STOP_LOSS": 0.98,
+    "ENABLE_TRAILING_PROFIT": true,
+    "ENABLE_DCA": true,
+    "MAX_TRADES_PER_DAY": 5
+}
