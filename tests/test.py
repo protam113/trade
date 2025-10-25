@@ -1,16 +1,40 @@
-from src.v1.contrib.strategies.dca import DCAGroup
+import pandas as pd
+import MetaTrader5 as mt5
 
-# Giả sử đang trade buy
-dca = DCAGroup(side="buy")
+creds = {
+    'path': 'C:\\Program Files\\MetaTrader 5\\terminal64.exe',
+    'login': 98171894,
+    'password': '3kP!YmVv',
+    'server': 'MetaQuotes-Demo',
+    'timeout': 60000,
+    'portable': False
+}
 
-# Thêm 3 cấp DCA
-dca.add_order(entry=1.0850, volume=0.1, stoploss=1.0820)
-dca.add_order(entry=1.0865, volume=0.1, stoploss=1.0835)
-dca.add_order(entry=1.0875, volume=0.1, stoploss=1.0845)
+if mt5.initialize(
+        path=creds['path'],
+        login=creds['login'],
+        password=creds['password'],
+        server=creds['server'],
+        timeout=creds['timeout'],
+        portable=creds['portable']
+):
+    print("MT5 initialized successfully")
+else:
+    print("MT5 initialization failed")
+    mt5.shutdown()
+    exit()
 
-# Cập nhật giá hiện tại
-dca.update_current_price(1.0890)
+account_info = mt5.account_info()
+if account_info is not None:
+    print("Logged in:", account_info.login)
+else:
+    print("Failed to connect")
 
-print("✅ All profitable:", dca.all_profitable())
-print("📊 Average entry:", dca.get_average_entry())
-print("🧱 Deepest stoploss:", dca.get_max_stoploss())
+# Lấy và in giá hiện tại của BTCUSD
+symbol = "EURUSD"
+tick = mt5.symbol_info_tick(symbol)
+if tick is not None:
+    print(f"Giá Bid của EURUSD: {tick.bid}")
+    print(f"Giá Ask của EURUSD: {tick.ask}")
+else:
+    print(f"Không thể lấy giá của {symbol}. Vui lòng kiểm tra xem symbol có sẵn không.")

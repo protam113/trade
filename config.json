@@ -1,13 +1,13 @@
 {
     "accounts": {
         "main": {
-            "login": 250323,
-            "password": "encrypted_password",
-            "server": "MetaQuotes-Demo"
+            "login": 98171894,
+            "password": "3kP!YmVv",
+            "server": "MetaQuotes-Live"
         },
         "test": {
-            "login": 250323,
-            "password": "hoang2003",
+            "login": 98171894,
+            "password": "3kP!YmVv",
             "server": "MetaQuotes-Demo"
         }
     },

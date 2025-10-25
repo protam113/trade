@@ -1,21 +1,14 @@
-"""
-main.py - Main Trading Bot Application
-Kết nối monitor và strategy, chạy backtest
-
-Sử dụng:
-    python main.py
-"""
-import sys
 import os
+import sys
 
-ROOT = "/home/hoang-pham/Documents/bot_v2/src"  
+ROOT = os.path.join(os.path.dirname(__file__), "..", "src")
 sys.path.append(ROOT)
 
 print("ROOT:", ROOT)
-print("Folders:", os.listdir(ROOT))  
+print("Folders:", os.listdir(ROOT))
 
 import pandas as pd
-from bot.signals.signal_generator import MockSignalGenerator as SignalGenerator
+from bot.signals.signal_generator import SignalGenerator
 
 # ===== CONFIG =====
 AGENT_VERSION = "lenf_001"
