@@ -1,13 +1,12 @@
-# Maaux
-import sys
 import os
-import numpy as np
+import sys
 
-ROOT = "/home/hoang-pham/Documents/bot_v2/src"  
+ROOT = os.path.join(os.path.dirname(__file__), "src")
 sys.path.append(ROOT)
 
 print("ROOT:", ROOT)
-print("Folders:", os.listdir(ROOT))  
+print("Folders:", os.listdir(ROOT))
+  
 
 import pandas as pd
 import pandas_ta as ta
