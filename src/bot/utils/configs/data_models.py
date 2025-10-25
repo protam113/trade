@@ -52,31 +52,42 @@ class SymbolSpec(BaseModel):
     margin: float
 
 
-class RawDataConfig(BaseModel):
-    """Parameters for processing the raw tick data."""
+# class RawDataConfig(BaseModel):
+#     """Parameters for processing the raw tick data."""
 
-    # if None, then load all available tick data files. Otherwise put in dates, i.e.
-    # ['2023-04-01,'2023-05-01'] to load a specific range of ticks
-    tick_file_dates: list[str] | None = None
-    # polars format for how frequently the trading agent can make a decision, i.e. 10s
-    # means that an agent makes a decision every 10 seconds
-    trade_timeframe: str
-    # number of seconds that off the trade_timeframe to make decision. A trade_timeframe
-    # =10s and a trade_time_offset=3s means that the agent trades on the 13th, 23rd, 33rd
-    # 43rd and 53rd second of each minute
-    trade_time_offset: str
-    # clip time difference, important to avoid outliers for time differencing, especially
-    # for weekends, market close periods
-    tick_time_diff_clip_val: int
-    # simulated inference time, when we take an open or close action, we take the symbol
-    # price that is min_inf_time_s to max_inf_time_s after the current time
-    min_inf_time_s: str
-    max_inf_time_s: str
-    # min and max values for each gym observation
-    min_obs_val: float
-    max_obs_val: float
-    # live or demo data
-    data_mode: str
+#     # if None, then load all available tick data files. Otherwise put in dates, i.e.
+#     # ['2023-04-01,'2023-05-01'] to load a specific range of ticks
+#     tick_file_dates: list[str] | None = None
+#     # polars format for how frequently the trading agent can make a decision, i.e. 10s
+#     # means that an agent makes a decision every 10 seconds
+#     trade_timeframe: str
+#     # number of seconds that off the trade_timeframe to make decision. A trade_timeframe
+#     # =10s and a trade_time_offset=3s means that the agent trades on the 13th, 23rd, 33rd
+#     # 43rd and 53rd second of each minute
+#     trade_time_offset: str
+#     # clip time difference, important to avoid outliers for time differencing, especially
+#     # for weekends, market close periods
+#     tick_time_diff_clip_val: int
+#     # simulated inference time, when we take an open or close action, we take the symbol
+#     # price that is min_inf_time_s to max_inf_time_s after the current time
+#     min_inf_time_s: str
+#     max_inf_time_s: str
+#     # min and max values for each gym observation
+#     min_obs_val: float
+#     max_obs_val: float
+#     # live or demo data
+#     data_mode: str
+
+
+class RawDataConfig(BaseModel):
+    min_obs_val: float = -1.0
+    max_obs_val: float = 1.0
+    trade_timeframe: str = "M5"
+    trade_time_offset: int = 0
+    tick_time_diff_clip_val: float = 1.0
+    min_inf_time_s: int = 0
+    max_inf_time_s: int = 60
+    data_mode: str = "csv"  # ✅ thêm dòng này để báo đang dùng data CSV
 
 
 class GymEnvConfig(BaseModel):
@@ -188,13 +199,20 @@ class AerospikeConfig(BaseModel):
     set_name: str
 
 
-class MT5Config(BaseModel):
-    """MT5 config."""
+# class MT5Config(BaseModel):
+#     """MT5 config."""
 
-    server: str
-    login: int
-    password: str
-    path: str
+#     server: str
+#     login: int
+#     password: str
+#     path: str
+
+class MT5Config(BaseModel):
+    server: str = "metaquotes"
+    login: int = 0
+    password: str = ""
+    path: str = ""
+
 
 
 class RedisConfig(BaseModel):

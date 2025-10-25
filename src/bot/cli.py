@@ -6,15 +6,15 @@ from time import sleep
 import aerospike
 import typer
 
-from rlbot.data.pipeline import populate_train_data
-from rlbot.data.pipeline import update_gym_env_hparam
-from rlbot.utils.configs.config_builder import load_config
-from rlbot.utils.logging import get_logger
-from rlbot.workflows import generate_signals
-from rlbot.workflows import service_manager as sm
-from rlbot.workflows.service_manager import start_services
-from rlbot.workflows.service_manager import stop_services
-from rlbot.workflows.train_rl_agent import train_rl_agent
+from bot.data.pipeline import populate_train_data
+from bot.data.pipeline import update_gym_env_hparam
+from bot.utils.configs.config_builder import load_config
+from bot.utils.logging import get_logger
+from bot.workflows import generate_signals
+from bot.workflows import service_manager as sm
+from bot.workflows.service_manager import start_services
+from bot.workflows.service_manager import stop_services
+from bot.workflows.train import train_rl_agent
 
 app = typer.Typer()
 

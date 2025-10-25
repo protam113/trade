@@ -14,6 +14,7 @@ from bot.gym_env.gym_env import FxEnv
 
 def train_rl_agent(config, AgentModel):
     """Train rl agent."""
+    print("✅ Connecting Aerospike...")
     client = aerospike.client(config.aerospike.connection).connect()
 
     key = (
@@ -25,6 +26,7 @@ def train_rl_agent(config, AgentModel):
     _, _, bins = client.get(key)
     max_samples = bins["max_samples"]
 
+    print("✅ Ray init done")
     ray.init(address="auto")
 
     logdir = config.paths.algo_dir
@@ -37,7 +39,8 @@ def train_rl_agent(config, AgentModel):
         **config.rl_env,
         "env_config": dict(config),
     }
-
+    
+    print("✅ Building trainer...")
     trainer = (
         RLAlgorithmConfig()
         .training(**config.rl_train)
@@ -53,6 +56,8 @@ def train_rl_agent(config, AgentModel):
         .resources(**config.rl_resources)
         .build()
     )
+    print("✅ Trainer built")
+    print("✅ Model ready")
 
     trainer.get_policy().model.base_model.summary()
 
@@ -70,6 +75,7 @@ def train_rl_agent(config, AgentModel):
     _, _, bins = client.get(key)
 
     for i in range(bins["train_iter"]):
+        print("🚀 Starting training...")
         results = trainer.train()
         counter += 1
 
@@ -108,3 +114,4 @@ def train_rl_agent(config, AgentModel):
             ckpt_print_str += f"  ckpt: {checkpoint_str}"
 
         print(" | " + ckpt_print_str)
+        

@@ -5,7 +5,7 @@ from pathlib import Path
 
 from bot.utils.time import mt5_hour_diff
 
-root_dir = str(Path(os.path.dirname(__file__)).parents[2])
+root_dir = str(Path(os.path.dirname(__file__)).parents[3])
 
 s3_secret = None
 

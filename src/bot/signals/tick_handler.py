@@ -44,7 +44,7 @@ class TickHandler:
 
         Args:
             agent_version (str):
-                i.e. 't00001'
+                i.e. 'lenf_001'
 
         """
         self.tick_data = None

@@ -25,7 +25,7 @@ class SignalGenerator:
             self:
                 None
             agent_version (str):
-                i.e. 't00001'
+                i.e. 'lenf_001'
 
         """
         self.agent_version = agent_version
@@ -174,3 +174,18 @@ class SignalGenerator:
 
         """
         self.rla.reload_checkpoint()
+
+
+class MockSignalGenerator:
+    def __init__(self, agent_version):
+        self.agent_version = agent_version
+
+    def initialise_data(self, now, clean_start=True):
+        print("Init data fake done")
+
+    def update_data(self, now):
+        print(f"Update data fake at {now}")
+
+    def predict(self):
+        # Trả về dummy action
+        return {"time": "2025-01-01 00:00:00", "action_pos": 0, "action_dist_pos": [0.0, 0.0, 0.0]}

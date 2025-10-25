@@ -24,7 +24,7 @@ class RLActor:
 
         Args:
             agent_version (str):
-                i.e. 't00001' - should match a folder that exists in the agent folder
+                i.e. 'lenf_001' - should match a folder that exists in the agent folder
             address (str):
                 'local' or any other value to indicate whether to spin up ray locally
                 (for testing) or to connect to an existing instance of ray.

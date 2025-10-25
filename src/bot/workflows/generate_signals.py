@@ -21,18 +21,18 @@ from bot.utils.time import wait_till_action_time
 
 
 def generate_signal(agent_version):
-    """Generate a trading signal.
+    """Tạo tín hiệu giao dịch.
 
-    Spins up processes to extract data from MT5, build features, invoke
-    RL model and push the predictions to redis, where the primary key
-    is the agent_version.
+    Khởi động các quy trình để trích xuất dữ liệu từ MT5, xây dựng các tính năng, gọi
+    mô hình RL và đẩy các dự đoán lên redis, trong đó khóa chính
+    là agent_version.
 
-    Args:
-        agent_version (str):
-            i.e. 't00001'
+    Đối số:
+    agent_version (chuỗi):
+    ví dụ: 'lenf_001'
 
-    Returns:
-        None
+    Trả về:
+        Không có
 
     """
     config = load_config(agent_version)

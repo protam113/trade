@@ -44,7 +44,7 @@ class FeatureBuilder:
             self:
                 None
             agent_version (str):
-                agent version, i.e. 't00001'. Configuration is loaded from this
+                agent version, i.e. 'lenf_001'. Configuration is loaded from this
                 directory from the agents folder
 
         Returns:
