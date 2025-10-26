@@ -1,0 +1,24 @@
+{
+    "setup": {
+        "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+        "timeout": 60000,
+        "portable": false
+    },
+    "accounts": {
+        "main": {
+            "login": 98171894,
+            "password": "3kP!YmVv",
+            "server": "MetaQuotes-Live"
+        },
+        "test": {
+            "login": 52575885,
+            "password": "@q30SMKYhawwOa",
+            "server": "ICMarketsSC-Demo"
+        },
+        "test_1": {
+            "login": 98171894,
+            "password": "3kP!YmVv",
+            "server": "MetaQuotes-Demo"
+        }
+    }
+}

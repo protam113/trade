@@ -1,111 +1,83 @@
+import os
 import sys
-import pandas as pd
+
+ROOT = os.path.join(os.path.dirname(__file__), "..", "src")
+sys.path.append(ROOT)
+
+print("ROOT:", ROOT)
+print("Folders:", os.listdir(ROOT))
+
 import MetaTrader5 as mt5
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout
-import pyqtgraph as pg
-import numpy as np
+import time
 
-# Thông tin đăng nhập MT5
-creds = {
-    'path': 'C:\\Program Files\\MetaTrader 5\\terminal64.exe',
-    'login': 98171894,
-    'password': '3kP!YmVv',
-    'server': 'MetaQuotes-Demo',
-    'timeout': 60000,
-    'portable': False
-}
-
-# Khởi động MT5
+# --- Initialize MT5 ---
 if not mt5.initialize(
-        path=creds['path'],
-        login=creds['login'],
-        password=creds['password'],
-        server=creds['server'],
-        timeout=creds['timeout'],
-        portable=creds['portable']
+    path='C:\\Program Files\\MetaTrader 5\\terminal64.exe',
+    login=52575885,
+    password='@q30SMKYhawwOa',
+    server='ICMarketsSC-Demo'
 ):
     print("MT5 initialization failed")
     mt5.shutdown()
-    sys.exit()
+    exit()
 
-account_info = mt5.account_info()
-if account_info is None:
-    print("Failed to connect")
+# --- Check account info ---
+info = mt5.account_info()
+if info is None:
+    print("Account not logged in")
     mt5.shutdown()
-    sys.exit()
-account_info = mt5.account_info()
-if account_info is None:
-    print("Failed to connect")
-    mt5.shutdown()
-    sys.exit()
+    exit()
 else:
-    print("Logged in:", account_info.login)
-    balance = account_info.balance  # Lấy số dư tài khoản
-    print(f"Số tiền hiện tại trong tài khoản: {balance} USD")
+    print(f"Logged in: {info.login}, trade_mode: {info.trade_mode}")
 
-# Lấy dữ liệu từ 22/10/2025 đến 23/10/2025, khung H1
-from_date = pd.Timestamp('2025-10-1 00:00:00').to_pydatetime()
-to_date = pd.Timestamp('2025-10-23 23:59:59').to_pydatetime()
-rates = mt5.copy_rates_range("EURUSD", mt5.TIMEFRAME_H4, from_date, to_date)
-
-if len(rates) > 0:
-    df = pd.DataFrame(rates)
-    print(f"Đã lấy {len(df)} cây nến H4 từ 22/10 đến 23/10.")
-else:
-    print("Không thể lấy dữ liệu. Kiểm tra symbol hoặc ngày tháng.")
+# --- Select symbol ---
+symbol = "EURUSD"
+if not mt5.symbol_select(symbol, True):
+    print(f"Cannot select {symbol}")
     mt5.shutdown()
-    sys.exit()
+    exit()
 
-# Tạo ứng dụng PyQt
-app = QApplication(sys.argv)
-window = QMainWindow()
-window.setWindowTitle("EURUSD H4 Chart (22/10 - 23/10/2025)")
-window.setGeometry(100, 100, 800, 600)
+# Wait a bit for data
+time.sleep(1)
 
-# Tạo widget đồ thị
-widget = QWidget()
-layout = QVBoxLayout()
-window.setCentralWidget(widget)
-widget.setLayout(layout)
+# --- Get symbol info ---
+symbol_info = mt5.symbol_info(symbol)
+if symbol_info is None:
+    print(f"Cannot get symbol info for {symbol}")
+    mt5.shutdown()
+    exit()
 
-# Tạo biểu đồ pyqtgraph
-graph = pg.PlotWidget()
-layout.addWidget(graph)
+print(f"Symbol: {symbol_info.name}")
+print(f"Filling modes: {symbol_info.filling_mode}")
 
-# Chuẩn bị dữ liệu
-x = np.arange(len(df))
-open_prices = df['open'].values
-high_prices = df['high'].values
-low_prices = df['low'].values
-close_prices = df['close'].values
-dates = pd.to_datetime(df['time'], unit='s')
+# --- Determine filling type ---
+filling_type = None
+if symbol_info.filling_mode & 1:  # FOK
+    filling_type = mt5.ORDER_FILLING_FOK
+    print("Using FOK filling")
+elif symbol_info.filling_mode & 2:  # IOC
+    filling_type = mt5.ORDER_FILLING_IOC
+    print("Using IOC filling")
+elif symbol_info.filling_mode & 4:  # RETURN
+    filling_type = mt5.ORDER_FILLING_RETURN
+    print("Using RETURN filling")
+else:
+    print("No valid filling mode found")
+    mt5.shutdown()
+    exit()
 
-# Vẽ nến thủ công
-for i in range(len(df)):
-    # Đường giá cao-thấp
-    graph.plot([i, i], [low_prices[i], high_prices[i]], pen=pg.mkPen('w', width=1))
-    
-    # Thân nến
-    if close_prices[i] >= open_prices[i]:  # Nến tăng (xanh)
-        color = (0, 255, 0, 100)  # Màu xanh nhạt
-    else:  # Nến giảm (đỏ)
-        color = (255, 0, 0, 100)  # Màu đỏ nhạt
-    body_height = abs(close_prices[i] - open_prices[i])
-    if body_height > 0.0001:  # Tránh nến quá mỏng
-        bar = pg.BarGraphItem(x0=i-0.2, x1=i+0.2, y0=min(open_prices[i], close_prices[i]), 
-                              height=body_height, brush=pg.mkBrush(color))
-        graph.addItem(bar)
+# --- Realtime tick for 10 seconds ---
+print(f"\n--- Realtime price feed for {symbol} (10s) ---")
+start_time = time.time()
 
-# Thiết lập trục x (thời gian)
-graph.setLabel('bottom', 'Time')
-graph.getAxis('bottom').setTicks([[(i, dates[i].strftime('%H:%M\n%d/%m')) for i in range(len(dates))]])
+while time.time() - start_time < 10:
+    tick = mt5.symbol_info_tick(symbol)
+    if tick:
+        print(f"[{time.strftime('%H:%M:%S')}] Ask: {tick.ask:.5f} | Bid: {tick.bid:.5f}")
+    else:
+        print("No tick data...")
+    time.sleep(0.1)
 
-# Thiết lập trục y (giá)
-graph.setLabel('left', 'Price')
-
-# Hiển thị cửa sổ
-window.show()
-sys.exit(app.exec_())
-
-# Đóng MT5 sau khi xong
+# --- Shutdown ---
 mt5.shutdown()
+print("MT5 connection closed.")

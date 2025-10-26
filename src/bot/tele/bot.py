@@ -29,7 +29,7 @@ def bot_tele(message: str, silent: bool = False, bot_token: str = None, chat_id:
     payload = {
         "chat_id": chat_id,
         "text": message,
-        "parse_mode": "Markdown"  # Hỗ trợ định dạng Markdown
+        "parse_mode": "Markdown"  
     }
     try:
         response = requests.post(url, data=payload)

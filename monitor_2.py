@@ -1,4 +1,13 @@
+import sys
+import os
+import numpy as np
+import json
 
+ROOT = "/home/hoang-pham/Documents/bot_v2/src"  
+sys.path.append(ROOT)
+
+print("ROOT:", ROOT)
+print("Folders:", os.listdir(ROOT))  
 
 import pandas as pd
 import pandas_ta as ta
