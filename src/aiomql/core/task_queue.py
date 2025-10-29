@@ -132,8 +132,8 @@ class TaskQueue:
                 self.check_timeout()
 
                 if self.stop and (self.on_exit == 'cancel') and not self.queue_cancelled:
-                    self.cancel()
-
+                    # self.cancel()
+                    self.stop_queue()
                 if not self.stop and self.mode == 'infinite' and self.queue.qsize() <= 1:
                     self.add_dummy_task()
 
@@ -234,7 +234,8 @@ class TaskQueue:
                     return
             else:
                 return
-        self.cancel()
+        # self.cancel()
+        self.stop_queue()
 
     async def run(self, queue_timeout: int = None):
         """Run the queue until all tasks are completed or the timeout is reached.
@@ -277,11 +278,41 @@ class TaskQueue:
         """Cancel all workers and stop queue."""
         try:
             self.stop = True
-            self.queue.shutdown(immediate=True)
+            
+            # ✅ Clear queue manually - KHÔNG dùng shutdown()
+            while not self.queue.empty():
+                try:
+                    self.queue.get_nowait()
+                    self.queue.task_done()
+                except asyncio.QueueEmpty:
+                    break
+            
             self.queue_cancelled = True
             self.cancel_all_workers()
-        except asyncio.CancelledError as _:
-            ...
+            
+        except asyncio.CancelledError:
+            pass
         except Exception as err:
             logger.error("%s: Error occurred in cancelling queue", err)
 
+
+
+    def stop_queue(self):
+        """Stop the queue and cancel all workers."""
+        try:
+            self.stop = True
+            
+            # Clear queue
+            while not self.queue.empty():
+                try:
+                    self.queue.get_nowait()
+                    self.queue.task_done()
+                except asyncio.QueueEmpty:
+                    break
+            
+            self.queue_cancelled = True
+            self.cancel_all_workers()
+        except asyncio.CancelledError:
+            pass
+        except Exception as err:
+            logger.error("%s: Error occurred in stopping queue", err)

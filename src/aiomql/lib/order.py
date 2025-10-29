@@ -12,20 +12,41 @@ logger = getLogger(__name__)
 class Order(_Base, TradeRequest):
     """Trade order related functions and properties. Subclass of TradeRequest."""
     def __init__(self, **kwargs):
-        """Initialize the order object with keyword arguments, symbol must be provided.
-        Provide default values for action, type_time and type_filling if not provided.
-
-        Args:
-            **kwargs: Keyword arguments must match the attributes of TradeRequest as well as the attributes of
-             Order class as specified in the annotations in the class definition.
-
-        Default Values:
-            action (TradeAction.DEAL): Trade action
-            type_time (OrderTime.DAY): Order time
-            type_filling (OrderFilling.FOK): Order filling
         """
-        kwargs = {"action": TradeAction.DEAL, "type_time": OrderTime.DAY, "type_filling": OrderFilling.FOK, **kwargs}
+        Initialize the order object with keyword arguments.
+        Auto-detect the correct filling mode for the symbol to avoid 'Unsupported filling mode' errors.
+        """
+        from MetaTrader5 import symbol_info, ORDER_FILLING_FOK, ORDER_FILLING_IOC, ORDER_FILLING_RETURN
+
+        symbol_name = kwargs.get("symbol")
+        default_filling = ORDER_FILLING_RETURN  # fallback mặc định
+
+        # 🔍 Auto detect filling mode từ MT5
+        if symbol_name:
+            info = symbol_info(symbol_name)
+            if info and hasattr(info, "filling_mode"):
+                filling_mode = info.filling_mode
+                print(f">>> Symbol {symbol_name} supports filling_mode: {filling_mode}")
+                
+                # Chọn filling mode theo thứ tự ưu tiên: FOK > IOC > RETURN
+                if filling_mode & 1:  # Bit 0: FOK
+                    default_filling = ORDER_FILLING_FOK
+                    print(f"    ✅ Using ORDER_FILLING_FOK")
+                elif filling_mode & 2:  # Bit 1: IOC
+                    default_filling = ORDER_FILLING_IOC
+                    print(f"    ✅ Using ORDER_FILLING_IOC")
+                else:  # Bit 2: RETURN
+                    default_filling = ORDER_FILLING_RETURN
+                    print(f"    ✅ Using ORDER_FILLING_RETURN")
+
+        # ⚙️ Gán cấu hình mặc định
+        kwargs.setdefault("action", TradeAction.DEAL)
+        kwargs.setdefault("type_time", OrderTime.DAY)
+        kwargs.setdefault("type_filling", default_filling)
+
         super().__init__(**kwargs)
+
+
 
     def modify(self, **kwargs):
         """Modify the order object with keyword arguments.
@@ -150,8 +171,17 @@ class Order(_Base, TradeRequest):
 
     @property
     def request(self) -> dict:
-        """Return the order request as a dictionary."""
-        return {key: value for key, value in self.dict.items() if key in self.mt5.TradeRequest.__match_args__}
+        """Return the order request as a dictionary, ensuring type_filling is always included."""
+        req = self.dict.copy()
+
+        # 🔧 Đảm bảo có type_filling trong request
+        if "type_filling" not in req or req["type_filling"] is None:
+            from MetaTrader5 import ORDER_FILLING_RETURN
+            req["type_filling"] = ORDER_FILLING_RETURN
+
+        # Không lọc bằng __match_args__ nữa — tránh mất field quan trọng
+        return req
+
 
     @classmethod
     async def profit_to_price(cls, *, profit: float, order_type: OrderType, volume: float, symbol: str, price_open: float):

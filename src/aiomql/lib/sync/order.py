@@ -28,8 +28,30 @@ class Order(_Base, TradeRequest):
             type_time (OrderTime.DAY): Order time
             type_filling (OrderFilling.FOK): Order filling
         """
-        kwargs = {"action": TradeAction.DEAL, "type_time": OrderTime.DAY, "type_filling": OrderFilling.FOK, **kwargs}
-        super().__init__(**kwargs)
+        from MetaTrader5 import symbol_info, ORDER_FILLING_FOK, ORDER_FILLING_IOC, ORDER_FILLING_RETURN
+
+        symbol_name = kwargs.get("symbol")
+        default_filling = ORDER_FILLING_RETURN  # safest fallback
+
+        # Try to get the filling mode supported by the broker for that symbol
+        if symbol_name:
+            info = symbol_info(symbol_name)
+            print(">>> Symbol filling info:", info, getattr(info, "filling_mode", None))
+            if info is not None and info.filling_mode in (
+                ORDER_FILLING_FOK,
+                ORDER_FILLING_IOC,
+                ORDER_FILLING_RETURN,
+            ):
+                default_filling = info.filling_mode
+
+        kwargs = {
+            "action": TradeAction.DEAL,
+            "type_time": OrderTime.DAY,
+            "type_filling": default_filling,  # ✅ dynamic filling mode
+        **kwargs,
+     }
+
+        super().__init__(**kwargs)  
 
     def modify(self, **kwargs):
         """Modify the order object with keyword arguments.

@@ -1,10 +1,15 @@
 import requests
 import os
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
-def bot_tele(message: str, silent: bool = False, bot_token: str = None, chat_id: str = None) -> bool:
+def escape_markdown(text: str) -> str:
+    escape_chars = r'_*[]()~`>#+-=|{}.!'
+    return re.sub(f"([{re.escape(escape_chars)}])", r"\\\1", text)
+
+def bot_tele(message: str, silent: bool = False, bot_token: str = None, chat_id: str = None, parse_mode: str = "MarkdownV2" ) -> bool:
     """Gửi thông báo qua Telegram Bot.
 
     Parameters:
@@ -22,18 +27,23 @@ def bot_tele(message: str, silent: bool = False, bot_token: str = None, chat_id:
 
     if not bot_token or not chat_id:
         if not silent:
-            print("❌ Lỗi: BOT_TOKEN hoặc CHAT_ID không được định nghĩa trong .env hoặc tham số")
+            print("❌ Lỗi: BOT_TOKEN hoặc CHAT_ID không được định nghĩa")
         return False
+
+    # Escape nếu dùng MarkdownV2
+    if parse_mode == "MarkdownV2":
+        message = escape_markdown(message)
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = {
         "chat_id": chat_id,
         "text": message,
-        "parse_mode": "Markdown"  
+        "parse_mode": parse_mode
     }
+
     try:
         response = requests.post(url, data=payload)
-        response.raise_for_status()  # Kiểm tra lỗi HTTP
+        response.raise_for_status()
         if not silent:
             print(f"✅ Telegram: {message}")
         return True

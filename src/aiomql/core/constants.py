@@ -64,7 +64,7 @@ class OrderFilling(Repr, IntEnum):
     __enum_name__ = "ORDER_FILLING"
     FOK = mt5.ORDER_FILLING_FOK
     IOC = mt5.ORDER_FILLING_IOC
-    RETURN = mt5.ORDER_FILLING_RETURN
+    # RETURN = mt5.ORDER_FILLING_RETURN
 
 
 class OrderTime(Repr, IntEnum):

@@ -13,6 +13,8 @@ import pandas_ta as ta
 import pyqtgraph as pg
 from pyqtgraph.Qt import QtCore, QtWidgets
 
+
+
 # === Load data ===
 df = pd.read_csv("./data/EURUSD_M5_48-1_reversed.csv", sep=';')
 df["time"] = pd.to_datetime(df["time"], format="%Y.%m.%d %H:%M")
