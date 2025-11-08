@@ -30,7 +30,7 @@ def adx(
     amount of movement in a single direction.
 
     Sources:
-        * [tradingtechnologies](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/average-directional-movement-adx/)
+        * [tradingtechnologies](https://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp/)
 
     Parameters:
         high (pd.Series): ```high``` Series

@@ -1,0 +1,50 @@
+{
+    "mt5": {
+        "login": 52575885,
+        "password": "@q30SMKYhawwOa",
+        "server": "ICMarketsSC-Demo",
+        "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
+    },
+    "strategy": {
+        "macd": {
+            "fast": 12,
+            "slow": 26,
+            "signal": 9
+        },
+        "timeframes": {
+            "ltf": "M1",
+            "htf": "M15"
+        },
+        "candles": {
+            "m1": 200,
+            "m5": 100
+        },
+        "risk_management": {
+            "tp_pips": 20,
+            "sl_pips": 10,
+            "lot_size": 0.01
+        },
+        "volatility_filter": {
+            "enabled": true,
+            "atr_length": 14,
+            "multiplier": 2.0,
+            "tp_factor": 2.5,
+            "sl_factor": 2.0,
+            "adx_threshold": 25
+        },
+        "execution": {
+            "max_open_signals": 15,
+            "interval_seconds": 120,
+            "min_signal_gap_minutes": 15
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "bot_logs.log",
+        "max_bytes": 10485760,
+        "backup_count": 5
+    },
+    "monitoring": {
+        "interval_seconds": 300
+    }
+}

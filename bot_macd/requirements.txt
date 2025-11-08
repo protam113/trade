@@ -1,0 +1,7 @@
+ccxt==4.2.25
+pandas>=2.2.0
+numpy>=1.26.0
+pandas-ta==0.3.14b0
+python-dotenv==1.0.0
+MetaTrader5==5.0.45
+

@@ -17,7 +17,7 @@ def ichimoku(
     A forecasting model used in Japaese financial markets Pre WWII.
 
     Sources:
-        * [tradingtechnologies](https://www.tradingtechnologies.com/help/x-study/technical-indicator-definitions/ichimoku-ich/)
+        * [tradingtechnologies](https://library.tradingtechnologies.com/trade/chrt-ti-ichimoku-clouds.html/)
 
     Parameters:
         high (pd.Series): ```high``` Series

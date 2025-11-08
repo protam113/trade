@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "BTC",
+    "description": "Bitcoin vs US Dollar",
+    "spread": 16,
+    "digits": 3,
+    "point": 0.001,
+    "pip": 0.001,
+    "volume_min": 0.01,
+    "contract_size": 1.0,
+    "category": "Crypto"
+  },
+  {
+    "symbol": "ETH",
+    "description": "Ethereum vs US Dollar",
+    "spread": 10,
+    "digits": 2,
+    "point": 0.01,
+    "pip": 0.01,
+    "volume_min": 0.01,
+    "contract_size": 1.0,
+    "category": "Crypto"
+  },
+  {
+    "symbol": "BTCUSD",
+    "description": "Bitcoin vs US Dollar",
+    "spread": 16,
+    "digits": 3,
+    "point": 0.001,
+    "pip": 0.001,
+    "volume_min": 0.01,
+    "contract_size": 1.0,
+    "category": "Crypto"
+  },
+  {
+    "symbol": "ETHUSD",
+    "description": "Ethereum vs US Dollar",
+    "spread": 10,
+    "digits": 2,
+    "point": 0.01,
+    "pip": 0.01,
+    "volume_min": 0.01,
+    "contract_size": 1.0,
+    "category": "Crypto"
+  }
+]

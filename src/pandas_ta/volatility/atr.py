@@ -29,7 +29,7 @@ def atr(
     limit moves.
 
     Sources:
-        * [tradingview](https://www.tradingview.com/wiki/Average_True_Range_(ATR))
+        * [tradingview](https://www.tradingview.com/support/solutions/43000501823-average-true-range-atr/)
 
     Parameters:
         high (pd.Series): ```high``` Series

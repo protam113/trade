@@ -2,6 +2,8 @@ import os
 import sys
 import logging
 import asyncio
+from datetime import datetime
+import pandas as pd
 import MetaTrader5 as mt5
 
 # --- Setup path ---
@@ -19,13 +21,13 @@ from aiomql.contrib.symbols import ForexSymbol
 
 
 # ============================================
-# 💤 Background coroutine (demo task)
+# ⚙️ Cấu hình chế độ chạy
 # ============================================
-async def sleep_run():
-    while True:
-        print("Sleeping for 5 seconds...")
-        await asyncio.sleep(5)
-        print("Hello World!")
+MODE = "backtest"  # "realtime" hoặc "backtest"
+SYMBOL = "EURUSD"
+TIMEFRAME = mt5.TIMEFRAME_M5
+START_DATE = datetime(2025, 6, 1)
+END_DATE = datetime(2025, 10, 1)
 
 
 # ============================================
@@ -57,13 +59,37 @@ def check_mt5_env(login: int, password: str, server: str, path: str):
 
 
 # ============================================
-# 🤖 Bot demo
+# 💤 Background coroutine (demo task)
 # ============================================
-def sample_bot():
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
+async def sleep_run():
+    while True:
+        print("Sleeping for 5 seconds...")
+        await asyncio.sleep(5)
+        print("Hello World!")
+
+
+# ============================================
+# 📊 Hàm tải dữ liệu MT5 (cho backtest)
+# ============================================
+def load_mt5_data(symbol: str, timeframe, start: datetime, end: datetime) -> pd.DataFrame:
+    """Lấy dữ liệu lịch sử từ MT5"""
+    print(f"\n📥 Đang tải dữ liệu {symbol} từ {start} đến {end}...")
+    rates = mt5.copy_rates_range(symbol, timeframe, start, end)
+
+    if rates is None or len(rates) == 0:
+        raise RuntimeError(f"❌ Không thể lấy dữ liệu {symbol}")
+
+    df = pd.DataFrame(rates)
+    df["time"] = pd.to_datetime(df["time"], unit="s")
+    print(f"✅ Đã tải {len(df)} cây nến {symbol}")
+    return df
+
+
+# ============================================
+# 🤖 Bot chạy realtime (online)
+# ============================================
+def run_realtime_bot():
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
     # --- Login info ---
     login = 52575885
@@ -75,22 +101,14 @@ def sample_bot():
     check_mt5_env(login, password, server, path)
 
     # --- Ensure symbol availability ---
-    symbols_to_load = ["EURUSD"]
-    for sym in symbols_to_load:
-        if not mt5.symbol_select(sym, True):
-            print(f"⚠️ Failed to select symbol: {sym}")
-        else:
-            print(f"✅ Symbol {sym} loaded successfully!")
-
-        info = mt5.symbol_info(sym)
-        if info:
-            print(f"👉 Symbol filling_mode for {sym}: {info.filling_mode}")
-        else:
-            print(f"⚠️ Could not retrieve symbol info for {sym}")
+    if not mt5.symbol_select(SYMBOL, True):
+        print(f"⚠️ Failed to select symbol: {SYMBOL}")
+    else:
+        print(f"✅ Symbol {SYMBOL} loaded successfully!")
 
     # --- Define strategies ---
-    symbols = [ForexSymbol(name=sym) for sym in symbols_to_load]
-    # strategies = [FingerTrap(symbol=symbol) for symbol in symbols]
+    symbol_obj = ForexSymbol(name=SYMBOL)
+    strategies = [Chaos(symbol=symbol_obj)]
 
     # --- Create bot ---
     bot = Bot()
@@ -98,10 +116,9 @@ def sample_bot():
     bot.config.password = password
     bot.config.server = server
 
-    # --- Add coroutine & strategies ---
     bot.executor.timeout = 10
     bot.add_coroutine(coroutine=sleep_run)
-    # bot.add_strategies(strategies=strategies)
+    bot.add_strategies(strategies=strategies)
 
     # --- Run bot ---
     try:
@@ -112,7 +129,49 @@ def sample_bot():
 
 
 # ============================================
-# 🚀 Run main
+# 🧪 Backtest bot (offline)
+# ============================================
+async def run_backtest():
+    # --- Kết nối MT5 ---
+    if not mt5.initialize():
+        raise RuntimeError("❌ Không thể khởi tạo MT5")
+
+    df = load_mt5_data(SYMBOL, TIMEFRAME, START_DATE, END_DATE)
+
+    # --- Setup chiến lược ---
+    symbol_obj = ForexSymbol(name=SYMBOL)
+    strategy = FingerTrap(symbol=symbol_obj)
+
+    print("\n🚀 Bắt đầu mô phỏng chiến lược FingerTrap...\n")
+    print(f"{'='*80}")
+    print(f"{'Time':<20} | {'Signal':<6} | {'Price':<10} | {'SL':<10}")
+    print(f"{'='*80}")
+
+    trade_count = 0
+    
+    # QUAN TRỌNG: Indentation phải đúng!
+    for _, row in df.iterrows():
+        tick = {"time": row["time"], "bid": row["close"], "ask": row["close"]}
+        signal = await strategy.on_tick(tick)
+
+        # In tín hiệu nếu có (phải nằm TRONG vòng lặp for)
+        if signal:
+            trade_count += 1
+            print(f"{signal['time']} | {signal['type']:<6} | {signal['price']:<10.5f} | {signal['sl']:<10.5f}")
+
+        await asyncio.sleep(0.001)  # Cũng phải nằm TRONG vòng lặp
+
+    print(f"{'='*80}")
+    print(f"\n✅ Backtest hoàn tất! Tổng số tín hiệu: {trade_count}")
+    
+    mt5.shutdown()
+
+
+# ============================================
+# 🚀 MAIN ENTRY
 # ============================================
 if __name__ == "__main__":
-    sample_bot()
+    if MODE == "realtime":
+        run_realtime_bot()
+    else:
+        asyncio.run(run_backtest())

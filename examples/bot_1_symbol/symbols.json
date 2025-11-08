@@ -1,0 +1,24 @@
+[
+    {
+        "symbol": "EURUSD",
+        "description": "Euro vs US Dollar",
+        "spread": 8,
+        "digits": 5,
+        "point": 1e-05,
+        "pip": 0.0001,
+        "volume_min": 0.01,
+        "contract_size": 100000.0,
+        "category": "Forex"
+    },
+    {
+        "symbol": "GBPUSD",
+        "description": "Great Britain Pound vs US Dollar",
+        "spread": 8,
+        "digits": 5,
+        "point": 1e-05,
+        "pip": 0.0001,
+        "volume_min": 0.01,
+        "contract_size": 100000.0,
+        "category": "Forex"
+    }
+]

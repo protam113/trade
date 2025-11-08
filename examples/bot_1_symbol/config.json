@@ -1,0 +1,62 @@
+{
+    "mt5": {
+        "login": 52575885,
+        "password": "@q30SMKYhawwOa",
+        "server": "ICMarketsSC-Demo",
+        "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
+    },
+    "strategy": {
+        "macd": {
+            "fast": 6,
+            "slow": 13,
+            "signal": 5
+        },
+        "timeframes": {
+            "etf": "M1",
+            "ltf": "M5",
+            "htf": "M15",
+            "ctf": "M15"
+        },
+        "candles": {
+            "m1": 100,
+            "m5": 100,
+            "m15": 100,
+            "h1": 72
+        },
+        "risk_management": {
+            "lot_size": 0.02,
+            "max_drawdown_pct": 2.5,
+            "emergency_exit_enabled": true,
+            "max_spread_pips": 1.5
+        },
+        "volatility_filter": {
+            "enabled": true,
+            "atr_length": 14,
+            "multiplier": 1.2,
+            "tp_factor": 2.0,
+            "sl_factor": 1.2,
+            "adx_threshold": 15
+        },
+        "execution": {
+            "max_open_signals": 2,
+            "interval_seconds": 20
+        },
+        "trailing": {
+            "enabled": true,
+            "etf": "M1",
+            "ltf": "M5",
+            "htf": "M15",
+            "trail_activation": 0.15
+        },
+        "bypass_spread_check": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "bot_logs.log",
+        "max_bytes": 10485760,
+        "backup_count": 5
+    },
+    "monitoring": {
+        "interval_seconds": 180
+    }
+}

@@ -1,0 +1,40 @@
+Chiến lược: MACD_Strategy
+Loại: class
+Độ dài code: 23177 ký tự
+
+--- Preview ---
+class MACD_Strategy(Strategy):
+    """MACD Strategy with volatility filter, continuous loop, and position limit."""
+
+    ltf: TimeFrame
+    htf: TimeFrame
+    lcc: int
+    hcc: int
+    fast_macd: int
+    slow_macd: int
+    signal_macd: int
+    tp_pips: float
+    sl_pips: float
+    lot_size: float
+    tracker: Tracker
+    interval: int
+    vol_multiplier: float
+    vol_tp_factor: float
+    vol_sl_factor: float
+    adx_threshold: float
+    use_volatility_filter: bool
+    max_open_signals: int
+    atr_length: int
+
+    parameters = {}  # Will be set from config
+
+    def __init__(self, *, symbol: ForexSymbol, config: dict, params: dict = None, sessions=None, name="MACD_Volatility_Strategy"):
+        """
+        Initialize strategy with config from JSON
+        
+        Args:
+            symbol: ForexSymbol object
+            config: Dictionary loaded from config.json
+            params: Additional parameters (optional, overrides config)
+            sessions: Trading sessions
+            nam

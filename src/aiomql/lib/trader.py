@@ -187,6 +187,92 @@ class Trader(ABC):
             logger.warning("Unable to place order for %s due to %s", self.symbol, result.comment)
             return result
         return result
+    
+    async def create_order_fixed_lot(
+        self, *, order_type: OrderType, volume: float, sl: float = None, tp: float = None
+    ):
+        """
+        Create an order using a fixed lot size (no RAM/risk calculation).
+
+        Args:
+            order_type (OrderType): BUY or SELL
+            volume (float): Fixed lot size (e.g. 0.01)
+            sl (float): Optional stop loss price
+            tp (float): Optional take profit price
+        """
+        tick = await self.symbol.info_tick()
+        price = tick.ask if order_type == OrderType.BUY else tick.bid
+
+        # Gán
+        self.order.type = order_type
+        self.order.price = round(price, self.symbol.digits)
+        self.order.volume = volume
+
+        if sl is not None:
+            self.order.sl = round(sl, self.symbol.digits)
+        if tp is not None:
+            self.order.tp = round(tp, self.symbol.digits)
+
+        logger.debug(
+            f"Created fixed order {self.symbol.name} {order_type} vol={volume} price={self.order.price} sl={self.order.sl} tp={self.order.tp}"
+        )
+
+    async def has_open_position(self) -> bool:
+        """
+        Kiểm tra xem symbol này có position mở không.
+        Trả về True nếu đang có position (long/short) cho self.symbol.
+        """
+        try:
+            # Nếu symbol cung cấp API async để lấy positions
+            # giả sử self.symbol.positions() trả list hoặc None
+            positions = await getattr(self.symbol, "positions", lambda: [])()
+        except Exception:
+            # fallback: dùng info từ order / mt5 nếu có
+            try:
+                info = await self.symbol.positions_total()  # nếu có method
+                return info > 0
+            except Exception:
+                return False
+
+        # Nếu positions là list các dict/obj, check tên symbol
+        if not positions:
+            return False
+
+        for p in positions:
+            # p có thể là dict hoặc object, check tên ticket/symbol
+            sym = p.get("symbol") if isinstance(p, dict) else getattr(p, "symbol", None)
+            if sym == getattr(self.symbol, "name", None):
+                return True
+        return False
+    
+    async def count_open_positions(self) -> int:
+        """
+        Đếm số position đang mở của symbol này.
+        Trả về số lượng (int).
+        """
+        try:
+            # Nếu symbol cung cấp API async để lấy positions
+            positions = await getattr(self.symbol, "positions", lambda: [])()
+        except Exception:
+            try:
+                # fallback: nếu có method positions_total
+                info = await self.symbol.positions_total()
+                return info
+            except Exception:
+                return 0
+
+        if not positions:
+            return 0
+
+        count = 0
+        for p in positions:
+            # p có thể là dict hoặc object, check tên symbol
+            sym = p.get("symbol") if isinstance(p, dict) else getattr(p, "symbol", None)
+            if sym == getattr(self.symbol, "name", None):
+                count += 1
+        return count
+
+
 
     @error_handler
     async def record_trade(self, *, result: OrderSendResult, parameters: dict = None, name: str = ""):

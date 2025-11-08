@@ -11,6 +11,7 @@ from pandas_ta.performance import *
 from pandas_ta.statistics import *
 from pandas_ta.trend import *
 from pandas_ta.volatility import *
+from pandas_ta.trailing import *
 from pandas_ta.volume import *
 from pandas_ta.candle import __all__ as candle_all
 from pandas_ta.cycle import __all__ as cycle_all
@@ -20,6 +21,7 @@ from pandas_ta.performance import __all__ as performance_all
 from pandas_ta.statistics import __all__ as statistics_all
 from pandas_ta.trend import __all__ as trend_all
 from pandas_ta.volatility import __all__ as volatility_all
+from pandas_ta.trailing import __all__ as trailing_all
 from pandas_ta.volume import __all__ as volume_all
 
 # Common Averages useful for Indicators
@@ -56,5 +58,6 @@ __all__ += [
     + statistics_all
     + trend_all
     + volatility_all
+    + trailing_all
     + volume_all
 ]

@@ -1,0 +1,2023 @@
+﻿symbol,description,path,trade_mode,digits,spread,trade_contract_size,trade_currency,quote_currency,margin_currency,is_visible
+XAGEUR,Silver vs Euro,Commodities\Metals\XAGEUR,4,3,0,1000.0,XAG,EUR,XAG,False
+XAGUSD,Silver vs US Dollar,Commodities\Metals\XAGUSD,4,3,0,1000.0,XAG,USD,XAG,False
+XAUEUR,Gold vs Euro,Commodities\Metals\XAUEUR,4,2,0,100.0,XAU,EUR,XAU,False
+XAUUSD,Gold vs US Dollar,Commodities\Metals\XAUUSD,4,2,22,100.0,XAU,USD,XAU,True
+XPDUSD,Palladium vs US Dollar,Commodities\Metals\XPDUSD,4,2,0,100.0,XPD,USD,XPD,False
+XPTUSD,Platinum vs US Dollar,Commodities\Metals\XPTUSD,4,2,0,100.0,XPT,USD,XPT,False
+XAUAUD,Gold vs Australian Dollar,Commodities\Metals\XAUAUD,4,2,0,100.0,XAU,AUD,XAU,False
+XAUJPY,Gold vs Japanese Yen,Commodities\Metals\XAUJPY,4,0,0,100.0,XAU,JPY,XAU,False
+XAUCHF,Gold vs Swiss Franc,Commodities\Metals\XAUCHF,4,2,0,100.0,XAU,CHF,XAU,False
+XAUGBP,Gold vs Great Britain Pound,Commodities\Metals\XAUGBP,4,2,0,100.0,XAU,GBP,XAU,False
+XAGAUD,Silver vs Australian Dollar,Commodities\Metals\XAGAUD,4,3,0,1000.0,XAG,AUD,XAG,False
+AUS200,Australia 200 Index,Indices\Indices Spot\Major Spot Indices\AUS200,4,2,0,1.0,USD,AUD,AUD,False
+CHINA50,FTSE China A50 Index,Indices\Indices Spot\Minor Spot Indices\CHINA50,4,2,0,1.0,USD,USD,USD,False
+ES35,Spain 35 Index,Indices\Indices Spot\Minor Spot Indices\ES35,4,2,0,1.0,USD,EUR,EUR,False
+STOXX50,EU Stocks 50 Index,Indices\Indices Spot\Major Spot Indices\STOXX50,4,2,0,1.0,USD,EUR,EUR,False
+F40,France 40 Index,Indices\Indices Spot\Major Spot Indices\F40,4,2,0,1.0,USD,EUR,EUR,False
+HK50,Hong Kong 50 Index,Indices\Indices Spot\Minor Spot Indices\HK50,4,2,0,1.0,USD,HKD,HKD,False
+IT40,Italy 40 Index,Indices\Indices Spot\Minor Spot Indices\IT40,4,2,0,1.0,USD,EUR,EUR,False
+JP225,Japan 225 Index,Indices\Indices Spot\Major Spot Indices\JP225,4,2,0,1.0,USD,JPY,JPY,False
+UK100,UK 100 Index,Indices\Indices Spot\Major Spot Indices\UK100,4,2,0,1.0,USD,GBP,GBP,False
+US2000,US Small Cap 2000 Index,Indices\Indices Spot\Minor Spot Indices\US2000,4,2,0,1.0,USD,USD,USD,False
+US30,US Wall Street 30 Index,Indices\Indices Spot\Major Spot Indices\US30,4,2,120,1.0,USD,USD,USD,True
+US500,US SPX 500 Index,Indices\Indices Spot\Major Spot Indices\US500,4,2,0,1.0,USD,USD,USD,False
+USTEC,US Tech 100 Index,Indices\Indices Spot\Major Spot Indices\USTEC,4,2,0,1.0,USD,USD,USD,False
+CA60,Canada 60 Index,Indices\Indices Spot\Minor Spot Indices\CA60,4,2,0,1.0,CAD,CAD,CAD,False
+NETH25,Netherlands 25 Index,Indices\Indices Spot\Minor Spot Indices\NETH25,4,2,0,1.0,EUR,EUR,EUR,False
+SE30,Sweden 30 Index,Indices\Indices Spot\Minor Spot Indices\SE30,4,2,0,1.0,SEK,SEK,SEK,False
+SWI20,Switzerland 20 Index,Indices\Indices Spot\Minor Spot Indices\SWI20,4,2,0,1.0,CHF,CHF,CHF,False
+CHINAH,Hong Kong China H-shares Index,Indices\Indices Spot\Minor Spot Indices\CHINAH,4,2,0,1.0,HKD,HKD,HKD,False
+SA40,South Africa 40 Index,Indices\Indices Spot\Minor Spot Indices\SA40,4,2,0,1.0,ZAR,ZAR,ZAR,False
+NOR25,Norway 25 Index,Indices\Indices Spot\Minor Spot Indices\NOR25,4,2,0,1.0,NOK,NOK,NOK,False
+TecDE30,Germany Tech 30 Index,Indices\Indices Spot\Minor Spot Indices\TecDE30,4,2,0,1.0,EUR,EUR,EUR,False
+MidDE60,Germany Mid 60 Index,Indices\Indices Spot\Minor Spot Indices\MidDE60,3,2,0,1.0,EUR,EUR,EUR,False
+DE40,Germany 40 Index,Indices\Indices Spot\Major Spot Indices\DE40,4,2,0,1.0,USD,EUR,EUR,False
+MidDE50,Germany Mid 50 Index,Indices\Indices Spot\Minor Spot Indices\MidDE50,4,2,0,1.0,EUR,EUR,EUR,False
+VIX_X5,Volatility Index - November 25 CFD,Indices\Indices Futures\VIX_X5,4,2,0,1.0,USD,USD,USD,False
+VIX_Z5,Volatility Index - December 25 CFD,Indices\Indices Futures\VIX_Z5,0,2,0,1.0,USD,USD,USD,False
+DXY_Z5,US Dollar Index -December 25 CFD,Indices\Indices Futures\DXY_Z5,4,3,30,100.0,USD,USD,USD,True
+XBRUSD,Brent Oil vs US Dollar,Commodities\Energies\Energies Spot\XBRUSD,4,2,0,100.0,XBR,USD,XBR,False
+XNGUSD,Natural Gas vs US Dollar,Commodities\Energies\Energies Spot\XNGUSD,4,4,0,10000.0,XNG,USD,XNG,False
+XTIUSD,Crude Oil vs US Dollar,Commodities\Energies\Energies Spot\XTIUSD,4,2,0,100.0,XTI,USD,XTI,False
+WTI_V5,US Crude Oil -October 25 CFD,Commodities\Energies\Energies Futures\WTI_V5,0,2,0,100.0,USD,USD,USD,False
+WTI_Z5,US Crude Oil -December 25 CFD,Commodities\Energies\Energies Futures\WTI_Z5,4,2,0,100.0,USD,USD,USD,False
+BRENT_F6,Crude Oil Brent -January 26 CFD,Commodities\Energies\Energies Futures\BRENT_F6,4,2,0,100.0,USD,USD,USD,False
+BRENT_G6,Crude Oil Brent -February 26 CFD,Commodities\Energies\BRENT_G6,0,2,0,100.0,USD,USD,USD,False
+WTI_F6,US Crude Oil -January 26 CFD,Commodities\Energies\WTI_F6,0,2,0,100.0,USD,USD,USD,False
+Wheat_Z5,Wheat -December 25 CFD,Commodities\Softs\Wheat_Z5,4,2,0,4.0,USD,USD,USD,False
+Cocoa_Z5,Cocoa -December 25 CFD,Commodities\Softs\Cocoa_Z5,3,0,0,1.0,USD,USD,USD,False
+Corn_Z5,Corn -December 25 CFD,Commodities\Softs\Corn_Z5,4,2,0,4.0,USD,USD,USD,False
+Coffee_Z5,Coffee C -December 25 CFD,Commodities\Softs\Coffee_Z5,3,2,0,10.0,USD,USD,USD,False
+Wheat_H6,Wheat -March 26 CFD,Commodities\Softs\Wheat_H6,0,2,0,4.0,USD,USD,USD,False
+Sugar_H6,Sugar -March 26 CFD,Commodities\Softs\Sugar_H6,4,2,0,100.0,USD,USD,USD,False
+Cocoa_H6,Cocoa -March 26 CFD,Commodities\Softs\Cocoa_H6,4,0,0,1.0,USD,USD,USD,False
+Cotton_H6,Cotton No 2 -March 26 CFD,Commodities\Softs\Cotton_H6,4,2,0,100.0,USD,USD,USD,False
+Sbean_F6,Soybean -January 26 CFD,Commodities\Softs\Sbean_F6,4,2,0,4.0,USD,USD,USD,False
+Corn_H6,Corn -March 26 CFD,Commodities\Softs\Corn_H6,0,2,0,4.0,USD,USD,USD,False
+OJ_F6,Orange Juice -January 26 CFD,Commodities\Softs\OJ_F6,4,2,0,20.0,USD,USD,USD,False
+Coffee_H6,Coffee C -March 26 CFD,Commodities\Softs\Coffee_H6,4,2,0,10.0,USD,USD,USD,False
+BTCUSD,Bitcoin (USD),Crypto\BTCUSD,4,2,1200,1.0,USD,USD,USD,True
+BCHUSD,Bitcoin Cash US Dollar,Crypto\BCHUSD,4,2,0,1.0,USD,USD,USD,False
+ETHUSD,Ethereum (USD),Crypto\ETHUSD,4,2,0,1.0,USD,USD,USD,False
+LTCUSD,Litecoin US Dollar,Crypto\LTCUSD,4,2,0,1.0,USD,USD,USD,False
+XRPUSD,Ripple US Dollar,Crypto\XRPUSD,4,4,0,1.0,USD,USD,USD,False
+XLMUSD,XLM vs US Dollar,Crypto\XLMUSD,4,5,0,1.0,USD,USD,USD,False
+ADAUSD,Cardano (USD),Crypto\ADAUSD,4,5,0,10.0,USD,USD,USD,False
+XTZUSD,Tezos (USD),Crypto\XTZUSD,4,5,0,10.0,USD,USD,USD,False
+DOGUSD,Dogecoin USD,Crypto\DOGUSD,4,5,0,100.0,USD,USD,USD,False
+UNIUSD,Uniswap (USD),Crypto\UNIUSD,4,4,0,1.0,USD,USD,USD,False
+BNBUSD,Binance Coin (USD),Crypto\BNBUSD,4,3,0,1.0,USD,USD,USD,False
+DOTUSD,DOT vs US Dollar,Crypto\DOTUSD,4,3,0,1.0,USD,USD,USD,False
+LNKUSD,LNK vs US Dollar,Crypto\LNKUSD,4,3,0,1.0,USD,USD,USD,False
+SOLUSD,Solana vs US Dollar,Crypto\SOLUSD,4,4,0,1.0,USD,USD,USD,False
+AVXUSD,Avalanche vs US Dollar,Crypto\AVXUSD,4,4,0,1.0,USD,USD,USD,False
+KSMUSD,Kusama vs US Dollar,Crypto\KSMUSD,4,3,0,1.0,USD,USD,USD,False
+GLMUSD,Moonbeam vs US Dollar,Crypto\GLMUSD,3,5,0,10.0,USD,USD,USD,False
+POLUSD,Polygon Matic vs US Dollar,Crypto\POLUSD,3,5,0,100.0,USD,USD,USD,False
+EURBBL_Z5,Euro Bobl -December 25 CFD,Bonds CFDs\EURBBL_Z5,4,2,0,100.0,USD,EUR,EUR,False
+EURSCA_Z5,Euro Schatz -December 25 CFD,Bonds CFDs\EURSCA_Z5,4,2,0,100.0,USD,EUR,EUR,False
+UST10Y_Z5,US T-Note 10 YR-December 25 CFD,Bonds CFDs\UST10Y_Z5,4,3,0,200.0,USD,USD,USD,False
+UKGB_Z5,UK Long Gilt -December 25 CFD,Bonds CFDs\UKGB_Z5,4,2,0,100.0,USD,GBP,GBP,False
+ITB10Y_Z5,Euro BTP Italian 10 YR -December 25 CFD,Bonds CFDs\ITB10Y_Z5,4,2,0,100.0,USD,EUR,EUR,False
+UST30Y_Z5,US T-Bond 30 YR-December 25 CFD,Bonds CFDs\UST30Y_Z5,4,2,0,100.0,USD,USD,USD,False
+UST05Y_Z5,US T-Note 5 YR-December 25 CFD,Bonds CFDs\UST05Y_Z5,4,3,0,200.0,USD,USD,USD,False
+EURBND_Z5,Euro Bund -December 25 CFD,Bonds CFDs\EURBND_Z5,4,2,0,100.0,USD,EUR,EUR,False
+UST10Y_H6,US T-Note 10 YR-March 26 CFD,Bonds CFDs\UST10Y_H6,0,3,0,200.0,USD,USD,USD,False
+UST30Y_H6,US T-Bond 30 YR-March 26 CFD,Bonds CFDs\UST30Y_H6,0,2,0,100.0,USD,USD,USD,False
+UST05Y_H6,US T-Note 5 YR-March 26 CFD,Bonds CFDs\UST05Y_H6,0,3,0,200.0,USD,USD,USD,False
+ABBV.NYSE,AbbVie Inc CFD,Stock CFD's\NYSE\ABBV.NYSE,3,3,0,1.0,USD,USD,USD,False
+ABT.NYSE,Abbott Labs CFD,Stock CFD's\NYSE\ABT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ACB.NYSE,Aurora Cannabis Inc. CFD,Stock CFD's\NYSE\ACB.NYSE,4,2,0,1.0,USD,USD,USD,False
+AXP.NYSE,American Express CFD,Stock CFD's\NYSE\AXP.NYSE,4,4,0,1.0,USD,USD,USD,False
+BA.NYSE,Boeing Co CFD,Stock CFD's\NYSE\BA.NYSE,4,3,0,1.0,USD,USD,USD,False
+BAC.NYSE,Bank Of America CFD,Stock CFD's\NYSE\BAC.NYSE,4,3,0,1.0,USD,USD,USD,False
+BLK.NYSE,Blackrock Inc CFD,Stock CFD's\NYSE\BLK.NYSE,4,3,0,1.0,USD,USD,USD,False
+BMY.NYSE,Bristol Myers Sq CFD,Stock CFD's\NYSE\BMY.NYSE,4,3,0,1.0,USD,USD,USD,False
+C.NYSE,Citigroup CFD,Stock CFD's\NYSE\C.NYSE,4,3,0,1.0,USD,USD,USD,False
+CGC.NYSE,Canopy Growth Corp. CFD,Stock CFD's\NYSE\CGC.NYSE,3,2,0,1.0,USD,USD,USD,False
+CVS.NYSE,CVS Health Corp CFD,Stock CFD's\NYSE\CVS.NYSE,4,2,0,1.0,USD,USD,USD,False
+CVX.NYSE,Chevron Corp CFD,Stock CFD's\NYSE\CVX.NYSE,3,2,0,1.0,USD,USD,USD,False
+DD.NYSE,DuPont de Nemours Inc CFD,Stock CFD's\NYSE\DD.NYSE,4,2,0,1.0,USD,USD,USD,False
+DIS.NYSE,Walt Disney Co CFD,Stock CFD's\NYSE\DIS.NYSE,4,2,0,1.0,USD,USD,USD,False
+DWDP.NYSE,DowDuPont Inc CFD,Stock CFD's\NYSE\DWDP.NYSE,4,2,0,1.0,USD,USD,USD,False
+DOW.NYSE,Dow Inc.,Stock CFD's\NYSE\DOW.NYSE,4,3,0,1.0,USD,USD,USD,False
+GE.NYSE,General Elec Co CFD,Stock CFD's\NYSE\GE.NYSE,4,4,0,1.0,USD,USD,USD,False
+GS.NYSE,Goldman Sachs CFD,Stock CFD's\NYSE\GS.NYSE,4,2,0,1.0,USD,USD,USD,False
+HD.NYSE,Home Depot CFD,Stock CFD's\NYSE\HD.NYSE,4,2,0,1.0,USD,USD,USD,False
+HON.NYSE,Honeywell International Inc CFD,Stock CFD's\NYSE\HON.NYSE,3,2,0,1.0,USD,USD,USD,False
+IBM.NYSE,IBM CFD,Stock CFD's\NYSE\IBM.NYSE,4,2,0,1.0,USD,USD,USD,False
+JNJ.NYSE,Johnson and Johnson CFD,Stock CFD's\NYSE\JNJ.NYSE,4,2,0,1.0,USD,USD,USD,False
+JPM.NYSE,J.P. Morgan Chase CFD,Stock CFD's\NYSE\JPM.NYSE,4,2,0,1.0,USD,USD,USD,False
+KO.NYSE,Coca Cola Co CFD,Stock CFD's\NYSE\KO.NYSE,4,4,0,1.0,USD,USD,USD,False
+LLY.NYSE,Eli Lilly CFD,Stock CFD's\NYSE\LLY.NYSE,4,2,0,1.0,USD,USD,USD,False
+LMT.NYSE,Lockheed Martin CFD,Stock CFD's\NYSE\LMT.NYSE,4,2,0,1.0,USD,USD,USD,False
+MA.NYSE,Mastercard CFD,Stock CFD's\NYSE\MA.NYSE,4,2,0,1.0,USD,USD,USD,False
+MCD.NYSE,McDonald's Corp CFD,Stock CFD's\NYSE\MCD.NYSE,4,2,0,1.0,USD,USD,USD,False
+MMM.NYSE,3M Company CFD,Stock CFD's\NYSE\MMM.NYSE,4,2,0,1.0,USD,USD,USD,False
+MO.NYSE,Altria Group Inc CFD,Stock CFD's\NYSE\MO.NYSE,4,2,0,1.0,USD,USD,USD,False
+MRK.NYSE,Merck and Co CFD,Stock CFD's\NYSE\MRK.NYSE,4,4,0,1.0,USD,USD,USD,False
+MS.NYSE,Morgan Stanley CFD,Stock CFD's\NYSE\MS.NYSE,4,2,0,1.0,USD,USD,USD,False
+NKE.NYSE,Nike CL B CFD,Stock CFD's\NYSE\NKE.NYSE,4,2,0,1.0,USD,USD,USD,False
+ORCL.NYSE,Oracle CFD,Stock CFD's\NYSE\ORCL.NYSE,4,2,0,1.0,USD,USD,USD,False
+PFE.NYSE,Pfizer CFD,Stock CFD's\NYSE\PFE.NYSE,4,2,0,1.0,USD,USD,USD,False
+PG.NYSE,Procter and Gamble CFD,Stock CFD's\NYSE\PG.NYSE,4,2,0,1.0,USD,USD,USD,False
+PM.NYSE,Philip Morris CFD,Stock CFD's\NYSE\PM.NYSE,4,2,0,1.0,USD,USD,USD,False
+SLB.NYSE,Schlumberger CFD,Stock CFD's\NYSE\SLB.NYSE,4,2,0,1.0,USD,USD,USD,False
+SPOT.NYSE,Spotify Technology SA CFD,Stock CFD's\NYSE\SPOT.NYSE,4,2,0,1.0,USD,USD,USD,False
+T.NYSE,AT and T CFD,Stock CFD's\NYSE\T.NYSE,4,2,0,1.0,USD,USD,USD,False
+TWX.NYSE,Time Warner CFD,Stock CFD's\NYSE\TWX.NYSE,4,2,0,1.0,USD,USD,USD,False
+UNH.NYSE,UnitedHealth Group CFD,Stock CFD's\NYSE\UNH.NYSE,4,2,0,1.0,USD,USD,USD,False
+UNP.NYSE,Union Pacific Cp CFD,Stock CFD's\NYSE\UNP.NYSE,4,2,0,1.0,USD,USD,USD,False
+UPS.NYSE,United Parcel Services CFD,Stock CFD's\NYSE\UPS.NYSE,4,2,0,1.0,USD,USD,USD,False
+USB.NYSE,US Bancorp CFD,Stock CFD's\NYSE\USB.NYSE,4,2,0,1.0,USD,USD,USD,False
+V.NYSE,Visa CFD,Stock CFD's\NYSE\V.NYSE,4,2,0,1.0,USD,USD,USD,False
+VZ.NYSE,Verizon Communications Inc CFD,Stock CFD's\NYSE\VZ.NYSE,4,2,0,1.0,USD,USD,USD,False
+WFC.NYSE,Wells Fargo and Co CFD,Stock CFD's\NYSE\WFC.NYSE,4,2,0,1.0,USD,USD,USD,False
+WMT.NYSE,Wal-Mart Stores CFD,Stock CFD's\NYSE\WMT.NYSE,3,2,0,1.0,USD,USD,USD,False
+XOM.NYSE,Exxon Mobil CFD,Stock CFD's\NYSE\XOM.NYSE,3,2,0,1.0,USD,USD,USD,False
+DBA.NYSE,Invesco DB Agriculture ETF CFD,Stock CFD's\NYSE\ETF\DBA.NYSE,4,2,0,1.0,USD,USD,USD,False
+EEM.NYSE,Shares MSCI Emerging Markets ETF CFD,Stock CFD's\NYSE\ETF\EEM.NYSE,4,2,0,1.0,USD,USD,USD,False
+EWH.NYSE,iShares MSCI Hong Kong ETF CFD,Stock CFD's\NYSE\ETF\EWH.NYSE,4,2,0,1.0,USD,USD,USD,False
+EWW.NYSE,iShares MSCI Mexico Capped ETF CFD,Stock CFD's\NYSE\ETF\EWW.NYSE,1,2,0,1.0,USD,USD,USD,False
+EWZ.NYSE,iShares MSCI Brazil Capped ETF CFD,Stock CFD's\NYSE\ETF\EWZ.NYSE,4,2,0,1.0,USD,USD,USD,False
+FXI.NYSE,iShares China Large-Cap ETF CFD,Stock CFD's\NYSE\ETF\FXI.NYSE,4,2,0,1.0,USD,USD,USD,False
+GDX.NYSE,Vaneck Vectors Gold Miners ETF CFD,Stock CFD's\NYSE\ETF\GDX.NYSE,4,2,0,1.0,USD,USD,USD,False
+GDXJ.NYSE,VanEck Vectors Junior Gold Miners ETF CFD,Stock CFD's\NYSE\ETF\GDXJ.NYSE,4,2,0,1.0,USD,USD,USD,False
+IEMG.NYSE,iShares Core MSCI Emerging Markets ETF CFD,Stock CFD's\NYSE\ETF\IEMG.NYSE,4,2,0,1.0,USD,USD,USD,False
+LQD.NYSE,iShares iBoxx $ Invmt Grade Corp Bd ETF CFD,Stock CFD's\NYSE\ETF\LQD.NYSE,4,2,0,1.0,USD,USD,USD,False
+MOO.NYSE,VanEck Vectors Agribusiness ETF CFD,Stock CFD's\NYSE\ETF\MOO.NYSE,4,2,0,1.0,USD,USD,USD,False
+MJ.NYSE,ETFMG Alternative Harvest ETF CFD,Stock CFD's\NYSE\ETF\MJ.NYSE,4,2,0,1.0,USD,USD,USD,False
+RSX.NYSE,VanEck Vectors Russia ETF CFD,Stock CFD's\NYSE\ETF\RSX.NYSE,0,2,0,1.0,USD,USD,USD,False
+SIL.NYSE,Global X Silver Miners ETF CFD,Stock CFD's\NYSE\ETF\SIL.NYSE,4,2,0,1.0,USD,USD,USD,False
+UNG.NYSE,United States Natural Gas ETF CFD,Stock CFD's\NYSE\ETF\UNG.NYSE,4,2,0,1.0,USD,USD,USD,False
+URA.NYSE,Global X Uranium ETF CFD,Stock CFD's\NYSE\ETF\URA.NYSE,4,2,0,1.0,USD,USD,USD,False
+USO.NYSE,United States Oil ETF CFD,Stock CFD's\NYSE\ETF\USO.NYSE,1,2,0,1.0,USD,USD,USD,False
+VXX.NYSE,iPath S&P 500 VIX ST Futures ETN CFD,Stock CFD's\NYSE\ETF\VXX.NYSE,0,2,0,1.0,USD,USD,USD,False
+VXXB.NYSE,iPath B S&P 500 VIX S/T Futs ETN,Stock CFD's\NYSE\ETF\VXXB.NYSE,0,2,0,1.0,USD,USD,USD,False
+VYM.NYSE,Vanguard High Dividend Yield ETF CFD,Stock CFD's\NYSE\ETF\VYM.NYSE,4,2,0,1.0,USD,USD,USD,False
+XLE.NYSE,Energy Select Sector SPDR ETF CFD,Stock CFD's\NYSE\ETF\XLE.NYSE,4,2,0,1.0,USD,USD,USD,False
+XLF.NYSE,Financial Select Sector SPDR ETF CFD,Stock CFD's\NYSE\ETF\XLF.NYSE,4,2,0,1.0,USD,USD,USD,False
+XLI.NYSE,Industrial Select Sector SPDR ETF CFD,Stock CFD's\NYSE\ETF\XLI.NYSE,1,2,0,1.0,USD,USD,USD,False
+XLP.NYSE,Consumer Staples Select Sector SPDR ETF CFD,Stock CFD's\NYSE\ETF\XLP.NYSE,4,2,0,1.0,USD,USD,USD,False
+XLU.NYSE,Utilities Select Sector SPDR ETF CFD,Stock CFD's\NYSE\ETF\XLU.NYSE,4,2,0,1.0,USD,USD,USD,False
+XOP.NYSE,SPDR S&P Oil & Gas Explor & Prodtn ETF CFD,Stock CFD's\NYSE\ETF\XOP.NYSE,1,2,0,1.0,USD,USD,USD,False
+DEO.NYSE,Diageo plc CFD,Stock CFD's\NYSE\DEO.NYSE,4,2,0,1.0,USD,USD,USD,False
+NEE.NYSE,"NextEra Energy, Inc. CFD",Stock CFD's\NYSE\NEE.NYSE,4,2,0,1.0,USD,USD,USD,False
+AMT.NYSE,American Tower Corporation (REIT) CFD,Stock CFD's\NYSE\AMT.NYSE,4,2,0,1.0,USD,USD,USD,False
+BABA.NYSE,Alibaba Group Holding Limited CFD,Stock CFD's\NYSE\BABA.NYSE,4,2,0,1.0,USD,USD,USD,False
+BRK-B.NYSE,Berkshire Hathaway Inc - B Shares CFD,Stock CFD's\NYSE\BRK-B.NYSE,3,2,0,1.0,USD,USD,USD,False
+TMO.NYSE,Thermo Fisher Scientific Inc. CFD,Stock CFD's\NYSE\TMO.NYSE,4,2,0,1.0,USD,USD,USD,False
+TM.NYSE,Toyota Motor Corporation CFD,Stock CFD's\NYSE\TM.NYSE,3,2,0,1.0,USD,USD,USD,False
+UBER.NYSE,Uber Technologies Inc CFD,Stock CFD's\NYSE\UBER.NYSE,4,2,0,1.0,USD,USD,USD,False
+PINS.NYSE,Pinterest Inc CFD,Stock CFD's\NYSE\PINS.NYSE,4,2,0,1.0,USD,USD,USD,False
+AAP.NYSE,Advance Auto Parts,Stock CFD's\NYSE\AAP.NYSE,4,3,0,1.0,USD,USD,USD,False
+AES.NYSE,AES Corp CFD,Stock CFD's\NYSE\AES.NYSE,4,3,0,1.0,USD,USD,USD,False
+AFL.NYSE,AFLAC Inc CFD,Stock CFD's\NYSE\AFL.NYSE,4,3,0,1.0,USD,USD,USD,False
+A.NYSE,Agilent Technologies Inc CFD,Stock CFD's\NYSE\A.NYSE,4,3,0,1.0,USD,USD,USD,False
+APD.NYSE,Air Products & Chemicals Inc CFD,Stock CFD's\NYSE\APD.NYSE,3,3,0,1.0,USD,USD,USD,False
+ALK.NYSE,Alaska Air Group Inc CFD,Stock CFD's\NYSE\ALK.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALB.NYSE,Albemarle Corp,Stock CFD's\NYSE\ALB.NYSE,3,3,0,1.0,USD,USD,USD,False
+ARE.NYSE,Alexandria Real Estate Equities CFD,Stock CFD's\NYSE\ARE.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALLE.NYSE,Allegion CFD,Stock CFD's\NYSE\ALLE.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALL.NYSE,Allstate Corp CFD,Stock CFD's\NYSE\ALL.NYSE,3,3,0,1.0,USD,USD,USD,False
+AMCR.NYSE,Amcor plc CFD,Stock CFD's\NYSE\AMCR.NYSE,4,3,0,1.0,USD,USD,USD,False
+AEE.NYSE,Ameren Corp CFD,Stock CFD's\NYSE\AEE.NYSE,3,3,0,1.0,USD,USD,USD,False
+AIG.NYSE,American International Group CFD,Stock CFD's\NYSE\AIG.NYSE,4,3,0,1.0,USD,USD,USD,False
+AWK.NYSE,American Water Works Company Inc,Stock CFD's\NYSE\AWK.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMP.NYSE,Ameriprise Financial CFD,Stock CFD's\NYSE\AMP.NYSE,4,3,0,1.0,USD,USD,USD,False
+AME.NYSE,AMETEK Inc. CFD,Stock CFD's\NYSE\AME.NYSE,4,3,0,1.0,USD,USD,USD,False
+APH.NYSE,Amphenol Corp CFD,Stock CFD's\NYSE\APH.NYSE,4,3,0,1.0,USD,USD,USD,False
+AON.NYSE,Aon plc,Stock CFD's\NYSE\AON.NYSE,4,3,0,1.0,USD,USD,USD,False
+AOS.NYSE,A.O. Smith Corp CFD,Stock CFD's\NYSE\AOS.NYSE,4,3,0,1.0,USD,USD,USD,False
+APTV.NYSE,Aptiv PLC,Stock CFD's\NYSE\APTV.NYSE,4,3,0,1.0,USD,USD,USD,False
+ADM.NYSE,Archer-Daniels-Midland Co CFD,Stock CFD's\NYSE\ADM.NYSE,4,3,0,1.0,USD,USD,USD,False
+ANET.NYSE,Arista Networks,Stock CFD's\NYSE\ANET.NYSE,4,3,0,1.0,USD,USD,USD,False
+AJG.NYSE,Arthur J. Gallagher & Co. CFD,Stock CFD's\NYSE\AJG.NYSE,4,3,0,1.0,USD,USD,USD,False
+AIZ.NYSE,Assurant CFD,Stock CFD's\NYSE\AIZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+ATO.NYSE,Atmos Energy CFD,Stock CFD's\NYSE\ATO.NYSE,3,3,0,1.0,USD,USD,USD,False
+AZO.NYSE,AutoZone Inc CFD,Stock CFD's\NYSE\AZO.NYSE,4,3,0,1.0,USD,USD,USD,False
+AVB.NYSE,AvalonBay Communities CFD,Stock CFD's\NYSE\AVB.NYSE,4,3,0,1.0,USD,USD,USD,False
+AVY.NYSE,Avery Dennison Corp CFD,Stock CFD's\NYSE\AVY.NYSE,4,3,0,1.0,USD,USD,USD,False
+BKR.NYSE,Baker Hughes Co CFD,Stock CFD's\NYSE\BKR.NYSE,4,3,0,1.0,USD,USD,USD,False
+BLL.NYSE,Ball Corp,Stock CFD's\NYSE\BLL.NYSE,0,3,0,1.0,USD,USD,USD,False
+BK.NYSE,The Bank of New York Mellon CFD,Stock CFD's\NYSE\BK.NYSE,4,3,0,1.0,USD,USD,USD,False
+BAX.NYSE,Baxter International Inc. CFD,Stock CFD's\NYSE\BAX.NYSE,4,3,0,1.0,USD,USD,USD,False
+BDX.NYSE,Becton Dickinson CFD,Stock CFD's\NYSE\BDX.NYSE,3,3,0,1.0,USD,USD,USD,False
+BBY.NYSE,Best Buy Co. Inc. CFD,Stock CFD's\NYSE\BBY.NYSE,4,3,0,1.0,USD,USD,USD,False
+BIO.NYSE,Bio-Rad Laboratories,Stock CFD's\NYSE\BIO.NYSE,4,3,0,1.0,USD,USD,USD,False
+BWA.NYSE,BorgWarner CFD,Stock CFD's\NYSE\BWA.NYSE,4,3,0,1.0,USD,USD,USD,False
+BXP.NYSE,Boston Properties CFD,Stock CFD's\NYSE\BXP.NYSE,4,3,0,1.0,USD,USD,USD,False
+BSX.NYSE,Boston Scientific CFD,Stock CFD's\NYSE\BSX.NYSE,4,3,0,1.0,USD,USD,USD,False
+BR.NYSE,Broadridge Financial Solutions CFD,Stock CFD's\NYSE\BR.NYSE,4,3,0,1.0,USD,USD,USD,False
+COF.NYSE,Capital One Financial CFD,Stock CFD's\NYSE\COF.NYSE,4,3,0,1.0,USD,USD,USD,False
+CAH.NYSE,Cardinal Health Inc. CFD,Stock CFD's\NYSE\CAH.NYSE,4,3,0,1.0,USD,USD,USD,False
+KMX.NYSE,Carmax Inc CFD,Stock CFD's\NYSE\KMX.NYSE,4,3,0,1.0,USD,USD,USD,False
+CCL.NYSE,Carnival Corp. CFD,Stock CFD's\NYSE\CCL.NYSE,4,3,0,1.0,USD,USD,USD,False
+CARR.NYSE,Carrier Global,Stock CFD's\NYSE\CARR.NYSE,4,3,0,1.0,USD,USD,USD,False
+CAT.NYSE,Caterpillar Inc. CFD,Stock CFD's\NYSE\CAT.NYSE,4,3,0,1.0,USD,USD,USD,False
+CBRE.NYSE,CBRE Group,Stock CFD's\NYSE\CBRE.NYSE,4,3,0,1.0,USD,USD,USD,False
+CE.NYSE,Celanese CFD,Stock CFD's\NYSE\CE.NYSE,3,3,0,1.0,USD,USD,USD,False
+CNC.NYSE,Centene Corporation,Stock CFD's\NYSE\CNC.NYSE,4,3,0,1.0,USD,USD,USD,False
+CNP.NYSE,CenterPoint Energy CFD,Stock CFD's\NYSE\CNP.NYSE,4,3,0,1.0,USD,USD,USD,False
+CF.NYSE,CF Industries Holdings Inc CFD,Stock CFD's\NYSE\CF.NYSE,3,3,0,1.0,USD,USD,USD,False
+SCHW.NYSE,Charles Schwab Corporation CFD,Stock CFD's\NYSE\SCHW.NYSE,4,3,0,1.0,USD,USD,USD,False
+CMG.NYSE,Chipotle Mexican Grill CFD,Stock CFD's\NYSE\CMG.NYSE,4,3,0,1.0,USD,USD,USD,False
+CB.NYSE,Chubb Ltd CFD,Stock CFD's\NYSE\CB.NYSE,4,3,0,1.0,USD,USD,USD,False
+CHD.NYSE,Church & Dwight,Stock CFD's\NYSE\CHD.NYSE,3,3,0,1.0,USD,USD,USD,False
+CI.NYSE,CIGNA Corp. CFD,Stock CFD's\NYSE\CI.NYSE,4,3,0,1.0,USD,USD,USD,False
+CFG.NYSE,Citizens Financial Group CFD,Stock CFD's\NYSE\CFG.NYSE,4,3,0,1.0,USD,USD,USD,False
+CLX.NYSE,The Clorox Company CFD,Stock CFD's\NYSE\CLX.NYSE,4,3,0,1.0,USD,USD,USD,False
+CMS.NYSE,CMS Energy CFD,Stock CFD's\NYSE\CMS.NYSE,4,3,0,1.0,USD,USD,USD,False
+CL.NYSE,Colgate-Palmolive CFD,Stock CFD's\NYSE\CL.NYSE,3,3,0,1.0,USD,USD,USD,False
+CMA.NYSE,Comerica Inc. CFD,Stock CFD's\NYSE\CMA.NYSE,4,3,0,1.0,USD,USD,USD,False
+CAG.NYSE,Conagra Brands CFD,Stock CFD's\NYSE\CAG.NYSE,3,3,0,1.0,USD,USD,USD,False
+COP.NYSE,ConocoPhillips CFD,Stock CFD's\NYSE\COP.NYSE,3,3,0,1.0,USD,USD,USD,False
+ED.NYSE,Consolidated Edison CFD,Stock CFD's\NYSE\ED.NYSE,3,3,0,1.0,USD,USD,USD,False
+STZ.NYSE,Constellation Brands CFD,Stock CFD's\NYSE\STZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+GLW.NYSE,Corning Inc. CFD,Stock CFD's\NYSE\GLW.NYSE,4,3,0,1.0,USD,USD,USD,False
+CTVA.NYSE,Corteva CFD,Stock CFD's\NYSE\CTVA.NYSE,4,3,0,1.0,USD,USD,USD,False
+CCI.NYSE,Crown Castle International Corp. CFD,Stock CFD's\NYSE\CCI.NYSE,4,3,0,1.0,USD,USD,USD,False
+CMI.NYSE,Cummins Inc. CFD,Stock CFD's\NYSE\CMI.NYSE,3,3,0,1.0,USD,USD,USD,False
+DHI.NYSE,D. R. Horton CFD,Stock CFD's\NYSE\DHI.NYSE,4,3,0,1.0,USD,USD,USD,False
+DHR.NYSE,Danaher Corp. CFD,Stock CFD's\NYSE\DHR.NYSE,4,3,0,1.0,USD,USD,USD,False
+DRI.NYSE,Darden Restaurants CFD,Stock CFD's\NYSE\DRI.NYSE,4,3,0,1.0,USD,USD,USD,False
+DVA.NYSE,DaVita Inc.,Stock CFD's\NYSE\DVA.NYSE,4,3,0,1.0,USD,USD,USD,False
+DE.NYSE,Deere & Co. CFD,Stock CFD's\NYSE\DE.NYSE,4,3,0,1.0,USD,USD,USD,False
+BFB.NYSE,Brown-Forman Corp.,Stock CFD's\NYSE\BFB.NYSE,4,3,0,1.0,USD,USD,USD,False
+ACN.NYSE,Accenture plc CFD,Stock CFD's\NYSE\ACN.NYSE,4,3,0,1.0,USD,USD,USD,False
+BF/B.NYSE,Brown-Forman Corp. CFD,Stock CFD's\NYSE\BF/B.NYSE,4,3,0,1.0,USD,USD,USD,False
+DAL.NYSE,Delta Air Lines Inc.,Stock CFD's\NYSE\DAL.NYSE,4,3,0,1.0,USD,USD,USD,False
+DVN.NYSE,Devon Energy,Stock CFD's\NYSE\DVN.NYSE,3,3,0,1.0,USD,USD,USD,False
+DLR.NYSE,Digital Realty Trust Inc,Stock CFD's\NYSE\DLR.NYSE,4,3,0,1.0,USD,USD,USD,False
+DG.NYSE,Dollar General,Stock CFD's\NYSE\DG.NYSE,4,3,0,1.0,USD,USD,USD,False
+D.NYSE,Dominion Energy,Stock CFD's\NYSE\D.NYSE,3,3,0,1.0,USD,USD,USD,False
+DPZ.NYSE,Domino's Pizza,Stock CFD's\NYSE\DPZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+DOV.NYSE,Dover Corporation,Stock CFD's\NYSE\DOV.NYSE,4,3,0,1.0,USD,USD,USD,False
+DTE.NYSE,DTE Energy Co.,Stock CFD's\NYSE\DTE.NYSE,4,3,0,1.0,USD,USD,USD,False
+DUK.NYSE,Duke Energy,Stock CFD's\NYSE\DUK.NYSE,3,3,0,1.0,USD,USD,USD,False
+DXC.NYSE,DXC Technology,Stock CFD's\NYSE\DXC.NYSE,4,3,0,1.0,USD,USD,USD,False
+EMN.NYSE,Eastman Chemical,Stock CFD's\NYSE\EMN.NYSE,4,3,0,1.0,USD,USD,USD,False
+ETN.NYSE,Eaton Corporation,Stock CFD's\NYSE\ETN.NYSE,4,3,0,1.0,USD,USD,USD,False
+ECL.NYSE,Ecolab Inc.,Stock CFD's\NYSE\ECL.NYSE,4,3,0,1.0,USD,USD,USD,False
+EIX.NYSE,Edison Int'l,Stock CFD's\NYSE\EIX.NYSE,4,3,0,1.0,USD,USD,USD,False
+EW.NYSE,Edwards Lifesciences,Stock CFD's\NYSE\EW.NYSE,4,3,0,1.0,USD,USD,USD,False
+EMR.NYSE,Emerson Electric Company,Stock CFD's\NYSE\EMR.NYSE,4,3,0,1.0,USD,USD,USD,False
+ETR.NYSE,Entergy Corp.,Stock CFD's\NYSE\ETR.NYSE,4,3,0,1.0,USD,USD,USD,False
+EOG.NYSE,EOG Resources,Stock CFD's\NYSE\EOG.NYSE,3,3,0,1.0,USD,USD,USD,False
+EFX.NYSE,Equifax Inc.,Stock CFD's\NYSE\EFX.NYSE,4,3,0,1.0,USD,USD,USD,False
+EQR.NYSE,Equity Residential,Stock CFD's\NYSE\EQR.NYSE,4,3,0,1.0,USD,USD,USD,False
+ESS.NYSE,"Essex Property Trust, Inc.",Stock CFD's\NYSE\ESS.NYSE,4,3,0,1.0,USD,USD,USD,False
+EL.NYSE,Estée Lauder Companies,Stock CFD's\NYSE\EL.NYSE,4,3,0,1.0,USD,USD,USD,False
+ES.NYSE,Eversource Energy,Stock CFD's\NYSE\ES.NYSE,4,3,0,1.0,USD,USD,USD,False
+EXR.NYSE,Extra Space Storage,Stock CFD's\NYSE\EXR.NYSE,4,3,0,1.0,USD,USD,USD,False
+FRT.NYSE,Federal Realty Investment Trust,Stock CFD's\NYSE\FRT.NYSE,4,3,0,1.0,USD,USD,USD,False
+FDX.NYSE,FedEx Corporation,Stock CFD's\NYSE\FDX.NYSE,4,3,0,1.0,USD,USD,USD,False
+FIS.NYSE,Fidelity National Information Services,Stock CFD's\NYSE\FIS.NYSE,3,3,0,1.0,USD,USD,USD,False
+FE.NYSE,FirstEnergy Corp,Stock CFD's\NYSE\FE.NYSE,4,3,0,1.0,USD,USD,USD,False
+FLS.NYSE,Flowserve Corporation,Stock CFD's\NYSE\FLS.NYSE,4,3,0,1.0,USD,USD,USD,False
+FMC.NYSE,FMC Corporation,Stock CFD's\NYSE\FMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+F.NYSE,Ford Motor Company,Stock CFD's\NYSE\F.NYSE,4,3,0,1.0,USD,USD,USD,False
+FTV.NYSE,Fortive Corp,Stock CFD's\NYSE\FTV.NYSE,4,3,0,1.0,USD,USD,USD,False
+FBHS.NYSE,Fortune Brands Home & Security,Stock CFD's\NYSE\FBHS.NYSE,4,3,0,1.0,USD,USD,USD,False
+FCX.NYSE,Freeport-McMoRan Inc.,Stock CFD's\NYSE\FCX.NYSE,4,3,0,1.0,USD,USD,USD,False
+IT.NYSE,Gartner Inc,Stock CFD's\NYSE\IT.NYSE,4,3,0,1.0,USD,USD,USD,False
+BEN.NYSE,Franklin Resources,Stock CFD's\NYSE\BEN.NYSE,3,3,0,1.0,USD,USD,USD,False
+GD.NYSE,General Dynamics,Stock CFD's\NYSE\GD.NYSE,4,3,0,1.0,USD,USD,USD,False
+GIS.NYSE,General Mills,Stock CFD's\NYSE\GIS.NYSE,4,3,0,1.0,USD,USD,USD,False
+GM.NYSE,General Motors,Stock CFD's\NYSE\GM.NYSE,4,3,0,1.0,USD,USD,USD,False
+GL.NYSE,Globe Life Inc.,Stock CFD's\NYSE\GL.NYSE,4,3,0,1.0,USD,USD,USD,False
+GPN.NYSE,Global Payments Inc.,Stock CFD's\NYSE\GPN.NYSE,4,3,0,1.0,USD,USD,USD,False
+GWW.NYSE,Grainger (W.W.) Inc.,Stock CFD's\NYSE\GWW.NYSE,3,3,0,1.0,USD,USD,USD,False
+HAL.NYSE,Halliburton Co.,Stock CFD's\NYSE\HAL.NYSE,4,3,0,1.0,USD,USD,USD,False
+HBI.NYSE,Hanesbrands Inc,Stock CFD's\NYSE\HBI.NYSE,3,3,0,1.0,USD,USD,USD,False
+HIG.NYSE,Hartford Financial Svc.Gp.,Stock CFD's\NYSE\HIG.NYSE,4,3,0,1.0,USD,USD,USD,False
+HCA.NYSE,HCA Healthcare,Stock CFD's\NYSE\HCA.NYSE,4,3,0,1.0,USD,USD,USD,False
+HSY.NYSE,The Hershey Company,Stock CFD's\NYSE\HSY.NYSE,4,3,0,1.0,USD,USD,USD,False
+HPE.NYSE,Hewlett Packard Enterprise,Stock CFD's\NYSE\HPE.NYSE,4,3,0,1.0,USD,USD,USD,False
+HLT.NYSE,Hilton Worldwide Holdings Inc,Stock CFD's\NYSE\HLT.NYSE,4,3,0,1.0,USD,USD,USD,False
+HRL.NYSE,Hormel Foods Corp.,Stock CFD's\NYSE\HRL.NYSE,4,3,0,1.0,USD,USD,USD,False
+HWM.NYSE,Howmet Aerospace,Stock CFD's\NYSE\HWM.NYSE,4,3,0,1.0,USD,USD,USD,False
+HPQ.NYSE,HP Inc.,Stock CFD's\NYSE\HPQ.NYSE,4,3,0,1.0,USD,USD,USD,False
+HUM.NYSE,Humana Inc.,Stock CFD's\NYSE\HUM.NYSE,4,3,0,1.0,USD,USD,USD,False
+HII.NYSE,Huntington Ingalls Industries,Stock CFD's\NYSE\HII.NYSE,4,3,0,1.0,USD,USD,USD,False
+IEX.NYSE,IDEX Corporation,Stock CFD's\NYSE\IEX.NYSE,4,3,0,1.0,USD,USD,USD,False
+ITW.NYSE,Illinois Tool Works,Stock CFD's\NYSE\ITW.NYSE,4,3,0,1.0,USD,USD,USD,False
+IR.NYSE,Ingersoll Rand,Stock CFD's\NYSE\IR.NYSE,4,3,0,1.0,USD,USD,USD,False
+ICE.NYSE,Intercontinental Exchange,Stock CFD's\NYSE\ICE.NYSE,4,3,0,1.0,USD,USD,USD,False
+IP.NYSE,International Paper,Stock CFD's\NYSE\IP.NYSE,4,3,0,1.0,USD,USD,USD,False
+IPG.NYSE,Interpublic Group,Stock CFD's\NYSE\IPG.NYSE,4,3,0,1.0,USD,USD,USD,False
+IFF.NYSE,International Flavors & Fragrances,Stock CFD's\NYSE\IFF.NYSE,4,3,0,1.0,USD,USD,USD,False
+IVZ.NYSE,Invesco Ltd.,Stock CFD's\NYSE\IVZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+NI.NYSE,NiSource Inc.,Stock CFD's\NYSE\NI.NYSE,4,3,0,1.0,USD,USD,USD,False
+IQV.NYSE,IQVIA Holdings Inc.,Stock CFD's\NYSE\IQV.NYSE,4,3,0,1.0,USD,USD,USD,False
+IRM.NYSE,Iron Mountain Incorporated,Stock CFD's\NYSE\IRM.NYSE,4,3,0,1.0,USD,USD,USD,False
+J.NYSE,Jacobs Engineering Group,Stock CFD's\NYSE\J.NYSE,4,3,0,1.0,USD,USD,USD,False
+SJM.NYSE,JM Smucker,Stock CFD's\NYSE\SJM.NYSE,4,3,0,1.0,USD,USD,USD,False
+JCI.NYSE,Johnson Controls International,Stock CFD's\NYSE\JCI.NYSE,3,3,0,1.0,USD,USD,USD,False
+K.NYSE,Kellogg Co.,Stock CFD's\NYSE\K.NYSE,4,3,0,1.0,USD,USD,USD,False
+KEY.NYSE,KeyCorp,Stock CFD's\NYSE\KEY.NYSE,4,3,0,1.0,USD,USD,USD,False
+KEYS.NYSE,Keysight Technologies,Stock CFD's\NYSE\KEYS.NYSE,4,3,0,1.0,USD,USD,USD,False
+KIM.NYSE,Kimco Realty,Stock CFD's\NYSE\KIM.NYSE,4,3,0,1.0,USD,USD,USD,False
+KMI.NYSE,Kinder Morgan,Stock CFD's\NYSE\KMI.NYSE,4,3,0,1.0,USD,USD,USD,False
+KR.NYSE,Kroger Co.,Stock CFD's\NYSE\KR.NYSE,4,3,0,1.0,USD,USD,USD,False
+LB.NYSE,L Brands Inc.,Stock CFD's\NYSE\LB.NYSE,0,3,0,1.0,USD,USD,USD,False
+LHX.NYSE,L3Harris Technologies,Stock CFD's\NYSE\LHX.NYSE,4,3,0,1.0,USD,USD,USD,False
+LH.NYSE,Laboratory Corp. of America Holding,Stock CFD's\NYSE\LH.NYSE,4,3,0,1.0,USD,USD,USD,False
+LW.NYSE,Lamb Weston Holdings Inc,Stock CFD's\NYSE\LW.NYSE,4,3,0,1.0,USD,USD,USD,False
+LVS.NYSE,Las Vegas Sands,Stock CFD's\NYSE\LVS.NYSE,4,3,0,1.0,USD,USD,USD,False
+LEG.NYSE,Leggett & Platt,Stock CFD's\NYSE\LEG.NYSE,4,3,0,1.0,USD,USD,USD,False
+LDOS.NYSE,Leidos Holdings,Stock CFD's\NYSE\LDOS.NYSE,4,3,0,1.0,USD,USD,USD,False
+LEN.NYSE,Lennar Corp.,Stock CFD's\NYSE\LEN.NYSE,4,3,0,1.0,USD,USD,USD,False
+LNC.NYSE,Lincoln National,Stock CFD's\NYSE\LNC.NYSE,4,3,0,1.0,USD,USD,USD,False
+LYV.NYSE,Live Nation Entertainment,Stock CFD's\NYSE\LYV.NYSE,4,3,0,1.0,USD,USD,USD,False
+L.NYSE,Loews Corp.,Stock CFD's\NYSE\L.NYSE,4,3,0,1.0,USD,USD,USD,False
+LOW.NYSE,Lowe's Cos.,Stock CFD's\NYSE\LOW.NYSE,4,3,0,1.0,USD,USD,USD,False
+LUMN.NYSE,Lumen Technologies,Stock CFD's\NYSE\LUMN.NYSE,4,3,0,1.0,USD,USD,USD,False
+LYB.NYSE,LyondellBasell,Stock CFD's\NYSE\LYB.NYSE,4,3,0,1.0,USD,USD,USD,False
+MTB.NYSE,M&T Bank Corp.,Stock CFD's\NYSE\MTB.NYSE,4,3,0,1.0,USD,USD,USD,False
+MPC.NYSE,Marathon Petroleum,Stock CFD's\NYSE\MPC.NYSE,4,3,0,1.0,USD,USD,USD,False
+MMC.NYSE,Marsh & McLennan,Stock CFD's\NYSE\MMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+MLM.NYSE,Martin Marietta Materials,Stock CFD's\NYSE\MLM.NYSE,4,3,0,1.0,USD,USD,USD,False
+MAS.NYSE,Masco Corp.,Stock CFD's\NYSE\MAS.NYSE,4,3,0,1.0,USD,USD,USD,False
+MKC.NYSE,McCormick & Co.,Stock CFD's\NYSE\MKC.NYSE,4,3,0,1.0,USD,USD,USD,False
+MCK.NYSE,McKesson Corp.,Stock CFD's\NYSE\MCK.NYSE,3,3,0,1.0,USD,USD,USD,False
+MDT.NYSE,Medtronic plc,Stock CFD's\NYSE\MDT.NYSE,4,3,0,1.0,USD,USD,USD,False
+MET.NYSE,MetLife Inc.,Stock CFD's\NYSE\MET.NYSE,3,3,0,1.0,USD,USD,USD,False
+MTD.NYSE,Mettler Toledo,Stock CFD's\NYSE\MTD.NYSE,3,3,0,1.0,USD,USD,USD,False
+MGM.NYSE,MGM Resorts International,Stock CFD's\NYSE\MGM.NYSE,4,3,0,1.0,USD,USD,USD,False
+MAA.NYSE,Mid-America Apartments,Stock CFD's\NYSE\MAA.NYSE,4,3,0,1.0,USD,USD,USD,False
+MHK.NYSE,Mohawk Industries,Stock CFD's\NYSE\MHK.NYSE,4,3,0,1.0,USD,USD,USD,False
+TAP.NYSE,Molson Coors Beverage Company,Stock CFD's\NYSE\TAP.NYSE,4,3,0,1.0,USD,USD,USD,False
+MCO.NYSE,Moody's Corp,Stock CFD's\NYSE\MCO.NYSE,4,3,0,1.0,USD,USD,USD,False
+MOS.NYSE,The Mosaic Company,Stock CFD's\NYSE\MOS.NYSE,4,3,0,1.0,USD,USD,USD,False
+MSI.NYSE,Motorola Solutions Inc.,Stock CFD's\NYSE\MSI.NYSE,4,3,0,1.0,USD,USD,USD,False
+MSCI.NYSE,MSCI Inc,Stock CFD's\NYSE\MSCI.NYSE,4,3,0,1.0,USD,USD,USD,False
+NEM.NYSE,Newmont Corporation,Stock CFD's\NYSE\NEM.NYSE,4,3,0,1.0,USD,USD,USD,False
+NSC.NYSE,Norfolk Southern Corp.,Stock CFD's\NYSE\NSC.NYSE,4,3,0,1.0,USD,USD,USD,False
+NOC.NYSE,Northrop Grumman,Stock CFD's\NYSE\NOC.NYSE,4,3,0,1.0,USD,USD,USD,False
+NCLH.NYSE,Norwegian Cruise Line Holdings,Stock CFD's\NYSE\NCLH.NYSE,4,3,0,1.0,USD,USD,USD,False
+NOV.NYSE,NOV Inc.,Stock CFD's\NYSE\NOV.NYSE,4,3,0,1.0,USD,USD,USD,False
+NRG.NYSE,NRG Energy,Stock CFD's\NYSE\NRG.NYSE,3,3,0,1.0,USD,USD,USD,False
+NUE.NYSE,Nucor Corp.,Stock CFD's\NYSE\NUE.NYSE,4,3,0,1.0,USD,USD,USD,False
+NVR.NYSE,"NVR, Inc.",Stock CFD's\NYSE\NVR.NYSE,4,3,0,1.0,USD,USD,USD,False
+OXY.NYSE,Occidental Petroleum,Stock CFD's\NYSE\OXY.NYSE,4,3,0,1.0,USD,USD,USD,False
+OMC.NYSE,Omnicom Group,Stock CFD's\NYSE\OMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+OKE.NYSE,ONEOK,Stock CFD's\NYSE\OKE.NYSE,4,3,0,1.0,USD,USD,USD,False
+OTIS.NYSE,Otis Worldwide,Stock CFD's\NYSE\OTIS.NYSE,4,3,0,1.0,USD,USD,USD,False
+PKG.NYSE,Packaging Corporation of America,Stock CFD's\NYSE\PKG.NYSE,4,3,0,1.0,USD,USD,USD,False
+PH.NYSE,Parker-Hannifin,Stock CFD's\NYSE\PH.NYSE,3,3,0,1.0,USD,USD,USD,False
+PAYC.NYSE,Paycom,Stock CFD's\NYSE\PAYC.NYSE,3,3,0,1.0,USD,USD,USD,False
+PNR.NYSE,Pentair plc,Stock CFD's\NYSE\PNR.NYSE,4,3,0,1.0,USD,USD,USD,False
+PRGO.NYSE,Perrigo,Stock CFD's\NYSE\PRGO.NYSE,4,3,0,1.0,USD,USD,USD,False
+PSX.NYSE,Phillips 66,Stock CFD's\NYSE\PSX.NYSE,4,3,0,1.0,USD,USD,USD,False
+PNW.NYSE,Pinnacle West Capital,Stock CFD's\NYSE\PNW.NYSE,4,3,0,1.0,USD,USD,USD,False
+PNC.NYSE,PNC Financial Services,Stock CFD's\NYSE\PNC.NYSE,4,3,0,1.0,USD,USD,USD,False
+PPG.NYSE,PPG Industries,Stock CFD's\NYSE\PPG.NYSE,4,3,0,1.0,USD,USD,USD,False
+PPL.NYSE,PPL Corp.,Stock CFD's\NYSE\PPL.NYSE,4,3,0,1.0,USD,USD,USD,False
+PGR.NYSE,Progressive Corp.,Stock CFD's\NYSE\PGR.NYSE,4,3,0,1.0,USD,USD,USD,False
+PLD.NYSE,Prologis,Stock CFD's\NYSE\PLD.NYSE,4,3,0,1.0,USD,USD,USD,False
+PRU.NYSE,Prudential Financial,Stock CFD's\NYSE\PRU.NYSE,4,3,0,1.0,USD,USD,USD,False
+PEG.NYSE,Public Service Enterprise Group (PSEG),Stock CFD's\NYSE\PEG.NYSE,4,3,0,1.0,USD,USD,USD,False
+PSA.NYSE,Public Storage,Stock CFD's\NYSE\PSA.NYSE,4,3,0,1.0,USD,USD,USD,False
+PHM.NYSE,PulteGroup,Stock CFD's\NYSE\PHM.NYSE,4,3,0,1.0,USD,USD,USD,False
+PVH.NYSE,PVH Corp.,Stock CFD's\NYSE\PVH.NYSE,4,3,0,1.0,USD,USD,USD,False
+PWR.NYSE,Quanta Services Inc.,Stock CFD's\NYSE\PWR.NYSE,4,3,0,1.0,USD,USD,USD,False
+DGX.NYSE,Quest Diagnostics,Stock CFD's\NYSE\DGX.NYSE,4,3,0,1.0,USD,USD,USD,False
+RJF.NYSE,"Raymond James Financial, Inc.",Stock CFD's\NYSE\RJF.NYSE,4,3,0,1.0,USD,USD,USD,False
+RYN.NYSE,Rayonier Inc.,Stock CFD's\NYSE\RYN.NYSE,3,3,0,1.0,USD,USD,USD,False
+O.NYSE,Realty Income Corporation,Stock CFD's\NYSE\O.NYSE,4,3,0,1.0,USD,USD,USD,False
+RF.NYSE,Regions Financial Corp.,Stock CFD's\NYSE\RF.NYSE,4,3,0,1.0,USD,USD,USD,False
+RSG.NYSE,Republic Services Inc,Stock CFD's\NYSE\RSG.NYSE,4,3,0,1.0,USD,USD,USD,False
+RMD.NYSE,ResMed,Stock CFD's\NYSE\RMD.NYSE,4,3,0,1.0,USD,USD,USD,False
+RHI.NYSE,Robert Half International,Stock CFD's\NYSE\RHI.NYSE,4,3,0,1.0,USD,USD,USD,False
+ROK.NYSE,Rockwell Automation Inc.,Stock CFD's\NYSE\ROK.NYSE,3,3,0,1.0,USD,USD,USD,False
+ROL.NYSE,"Rollins, Inc.",Stock CFD's\NYSE\ROL.NYSE,4,3,0,1.0,USD,USD,USD,False
+ROP.NYSE,Roper Technologies,Stock CFD's\NYSE\ROP.NYSE,4,3,0,1.0,USD,USD,USD,False
+RCL.NYSE,Royal Caribbean Group,Stock CFD's\NYSE\RCL.NYSE,4,3,0,1.0,USD,USD,USD,False
+SPGI.NYSE,S&P Global Inc.,Stock CFD's\NYSE\SPGI.NYSE,4,3,0,1.0,USD,USD,USD,False
+CRM.NYSE,Salesforce.com,Stock CFD's\NYSE\CRM.NYSE,4,3,0,1.0,USD,USD,USD,False
+SEE.NYSE,Sealed Air,Stock CFD's\NYSE\SEE.NYSE,4,3,0,1.0,USD,USD,USD,False
+SRE.NYSE,Sempra Energy,Stock CFD's\NYSE\SRE.NYSE,4,3,0,1.0,USD,USD,USD,False
+NOW.NYSE,ServiceNow,Stock CFD's\NYSE\NOW.NYSE,4,3,0,1.0,USD,USD,USD,False
+SPG.NYSE,Simon Property Group Inc,Stock CFD's\NYSE\SPG.NYSE,4,3,0,1.0,USD,USD,USD,False
+SLG.NYSE,SL Green Realty,Stock CFD's\NYSE\SLG.NYSE,4,3,0,1.0,USD,USD,USD,False
+SNA.NYSE,Snap-on,Stock CFD's\NYSE\SNA.NYSE,4,3,0,1.0,USD,USD,USD,False
+SO.NYSE,Southern Company,Stock CFD's\NYSE\SO.NYSE,4,3,0,1.0,USD,USD,USD,False
+LUV.NYSE,Southwest Airlines,Stock CFD's\NYSE\LUV.NYSE,4,3,0,1.0,USD,USD,USD,False
+SWK.NYSE,Stanley Black & Decker,Stock CFD's\NYSE\SWK.NYSE,4,3,0,1.0,USD,USD,USD,False
+STT.NYSE,State Street Corp.,Stock CFD's\NYSE\STT.NYSE,4,3,0,1.0,USD,USD,USD,False
+STE.NYSE,STERIS plc,Stock CFD's\NYSE\STE.NYSE,3,3,0,1.0,USD,USD,USD,False
+SYK.NYSE,Stryker Corp.,Stock CFD's\NYSE\SYK.NYSE,4,3,0,1.0,USD,USD,USD,False
+SYF.NYSE,Synchrony Financial,Stock CFD's\NYSE\SYF.NYSE,4,3,0,1.0,USD,USD,USD,False
+SYY.NYSE,Sysco Corp.,Stock CFD's\NYSE\SYY.NYSE,4,3,0,1.0,USD,USD,USD,False
+TPR.NYSE,"Tapestry, Inc.",Stock CFD's\NYSE\TPR.NYSE,3,3,0,1.0,USD,USD,USD,False
+TGT.NYSE,Target Corp.,Stock CFD's\NYSE\TGT.NYSE,4,3,0,1.0,USD,USD,USD,False
+TEL.NYSE,TE Connectivity Ltd.,Stock CFD's\NYSE\TEL.NYSE,4,3,0,1.0,USD,USD,USD,False
+FTI.NYSE,TechnipFMC,Stock CFD's\NYSE\FTI.NYSE,4,3,0,1.0,USD,USD,USD,False
+TDY.NYSE,Teledyne Technologies,Stock CFD's\NYSE\TDY.NYSE,4,3,0,1.0,USD,USD,USD,False
+TFX.NYSE,Teleflex,Stock CFD's\NYSE\TFX.NYSE,3,3,0,1.0,USD,USD,USD,False
+TXT.NYSE,Textron Inc.,Stock CFD's\NYSE\TXT.NYSE,4,3,0,1.0,USD,USD,USD,False
+TJX.NYSE,TJX Companies Inc.,Stock CFD's\NYSE\TJX.NYSE,4,3,0,1.0,USD,USD,USD,False
+TT.NYSE,Trane Technologies plc,Stock CFD's\NYSE\TT.NYSE,4,3,0,1.0,USD,USD,USD,False
+TDG.NYSE,TransDigm Group,Stock CFD's\NYSE\TDG.NYSE,3,3,0,1.0,USD,USD,USD,False
+TRV.NYSE,The Travelers Companies Inc.,Stock CFD's\NYSE\TRV.NYSE,4,3,0,1.0,USD,USD,USD,False
+TFC.NYSE,Truist Financial,Stock CFD's\NYSE\TFC.NYSE,4,3,0,1.0,USD,USD,USD,False
+TYL.NYSE,Tyler Technologies,Stock CFD's\NYSE\TYL.NYSE,4,3,0,1.0,USD,USD,USD,False
+TSN.NYSE,Tyson Foods,Stock CFD's\NYSE\TSN.NYSE,4,3,0,1.0,USD,USD,USD,False
+UDR.NYSE,"UDR, Inc.",Stock CFD's\NYSE\UDR.NYSE,4,3,0,1.0,USD,USD,USD,False
+UAA.NYSE,Under Armour (Class A),Stock CFD's\NYSE\UAA.NYSE,3,3,0,1.0,USD,USD,USD,False
+UA.NYSE,Under Armour (Class C),Stock CFD's\NYSE\UA.NYSE,4,3,0,1.0,USD,USD,USD,False
+URI.NYSE,"United Rentals, Inc.",Stock CFD's\NYSE\URI.NYSE,4,3,0,1.0,USD,USD,USD,False
+UHS.NYSE,Universal Health Services,Stock CFD's\NYSE\UHS.NYSE,4,3,0,1.0,USD,USD,USD,False
+UNM.NYSE,Unum Group,Stock CFD's\NYSE\UNM.NYSE,4,3,0,1.0,USD,USD,USD,False
+VLO.NYSE,Valero Energy,Stock CFD's\NYSE\VLO.NYSE,4,3,0,1.0,USD,USD,USD,False
+VTR.NYSE,Ventas Inc,Stock CFD's\NYSE\VTR.NYSE,4,3,0,1.0,USD,USD,USD,False
+VFC.NYSE,VF Corporation,Stock CFD's\NYSE\VFC.NYSE,4,3,0,1.0,USD,USD,USD,False
+VNO.NYSE,Vornado Realty Trust,Stock CFD's\NYSE\VNO.NYSE,4,3,0,1.0,USD,USD,USD,False
+VMC.NYSE,Vulcan Materials,Stock CFD's\NYSE\VMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+WRB.NYSE,W. R. Berkley Corporation,Stock CFD's\NYSE\WRB.NYSE,4,3,0,1.0,USD,USD,USD,False
+WAB.NYSE,Westinghouse Air Brake Technologies Corp,Stock CFD's\NYSE\WAB.NYSE,4,3,0,1.0,USD,USD,USD,False
+WM.NYSE,Waste Management Inc.,Stock CFD's\NYSE\WM.NYSE,4,3,0,1.0,USD,USD,USD,False
+WAT.NYSE,Waters Corporation,Stock CFD's\NYSE\WAT.NYSE,4,3,0,1.0,USD,USD,USD,False
+WEC.NYSE,WEC Energy Group,Stock CFD's\NYSE\WEC.NYSE,4,3,0,1.0,USD,USD,USD,False
+WELL.NYSE,Welltower Inc.,Stock CFD's\NYSE\WELL.NYSE,4,3,0,1.0,USD,USD,USD,False
+WST.NYSE,West Pharmaceutical Services,Stock CFD's\NYSE\WST.NYSE,4,3,0,1.0,USD,USD,USD,False
+WU.NYSE,Western Union Co,Stock CFD's\NYSE\WU.NYSE,4,3,0,1.0,USD,USD,USD,False
+WY.NYSE,Weyerhaeuser,Stock CFD's\NYSE\WY.NYSE,4,3,0,1.0,USD,USD,USD,False
+WHR.NYSE,Whirlpool Corp.,Stock CFD's\NYSE\WHR.NYSE,4,3,0,1.0,USD,USD,USD,False
+WMB.NYSE,Williams Companies,Stock CFD's\NYSE\WMB.NYSE,4,3,0,1.0,USD,USD,USD,False
+XYL.NYSE,Xylem Inc.,Stock CFD's\NYSE\XYL.NYSE,4,3,0,1.0,USD,USD,USD,False
+YUM.NYSE,Yum! Brands Inc,Stock CFD's\NYSE\YUM.NYSE,4,3,0,1.0,USD,USD,USD,False
+ZBH.NYSE,Zimmer Biomet Inc.,Stock CFD's\NYSE\ZBH.NYSE,4,3,0,1.0,USD,USD,USD,False
+ZTS.NYSE,Zoetis Inc.,Stock CFD's\NYSE\ZTS.NYSE,4,3,0,1.0,USD,USD,USD,False
+SE.NYSE,Sea Limited American Depositary Shares,Stock CFD's\NYSE\SE.NYSE,4,3,0,1.0,USD,USD,USD,False
+SQ.NYSE,Square Inc. Class A Common Stock,Stock CFD's\NYSE\SQ.NYSE,3,3,0,1.0,USD,USD,USD,False
+RTX.NYSE,Raytheon Technologies Corporation Common Stock,Stock CFD's\NYSE\RTX.NYSE,4,3,0,1.0,USD,USD,USD,False
+SNAP.NYSE,Snap Inc. Class A Common Stock,Stock CFD's\NYSE\SNAP.NYSE,3,3,0,1.0,USD,USD,USD,False
+SNOW.NYSE,Snowflake Inc. Class A Common Stock,Stock CFD's\NYSE\SNOW.NYSE,4,3,0,1.0,USD,USD,USD,False
+SCCO.NYSE,Southern Copper Corporation Common Stock,Stock CFD's\NYSE\SCCO.NYSE,4,3,0,1.0,USD,USD,USD,False
+CVNA.NYSE,Carvana Co. Class A Common Stock,Stock CFD's\NYSE\CVNA.NYSE,4,3,0,1.0,USD,USD,USD,False
+BX.NYSE,The Blackstone Group Inc. Class A Common Stock,Stock CFD's\NYSE\BX.NYSE,4,3,0,1.0,USD,USD,USD,False
+EPD.NYSE,Enterprise Products Partners L.P. Common Stock,Stock CFD's\NYSE\EPD.NYSE,4,3,0,1.0,USD,USD,USD,False
+TDOC.NYSE,Teladoc Health Inc. Common Stock,Stock CFD's\NYSE\TDOC.NYSE,4,3,0,1.0,USD,USD,USD,False
+RKT.NYSE,Rocket Companies Inc. Class A Common Stock,Stock CFD's\NYSE\RKT.NYSE,4,3,0,1.0,USD,USD,USD,False
+PANW.NYSE,Palo Alto Networks Inc. Common Stock,Stock CFD's\NYSE\PANW.NYSE,4,3,0,1.0,USD,USD,USD,False
+W.NYSE,Wayfair Inc. Class A Common Stock,Stock CFD's\NYSE\W.NYSE,4,3,0,1.0,USD,USD,USD,False
+KKR.NYSE,KKR & Co. Inc. Common Stock,Stock CFD's\NYSE\KKR.NYSE,3,3,0,1.0,USD,USD,USD,False
+NET.NYSE,Cloudflare Inc. Class A Common Stock,Stock CFD's\NYSE\NET.NYSE,4,3,0,1.0,USD,USD,USD,False
+YUMC.NYSE,Yum China Holdings Inc. Common Stock,Stock CFD's\NYSE\YUMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+MPLX.NYSE,MPLX LP Common Units Representing Limited Partner Interests,Stock CFD's\NYSE\MPLX.NYSE,4,3,0,1.0,USD,USD,USD,False
+PCG.NYSE,Pacific Gas & Electric Co. Common Stock,Stock CFD's\NYSE\PCG.NYSE,4,3,0,1.0,USD,USD,USD,False
+HUBS.NYSE,HubSpot Inc. Common Stock,Stock CFD's\NYSE\HUBS.NYSE,3,3,0,1.0,USD,USD,USD,False
+EPAM.NYSE,EPAM Systems Inc. Common Stock,Stock CFD's\NYSE\EPAM.NYSE,3,3,0,1.0,USD,USD,USD,False
+UI.NYSE,Ubiquiti Inc. Common Stock,Stock CFD's\NYSE\UI.NYSE,3,3,0,1.0,USD,USD,USD,False
+GNRC.NYSE,Generac Holdlings Inc. Common Stock,Stock CFD's\NYSE\GNRC.NYSE,4,3,0,1.0,USD,USD,USD,False
+QS.NYSE,QuantumScape Corporation Class A Common Stock,Stock CFD's\NYSE\QS.NYSE,4,3,0,1.0,USD,USD,USD,False
+CUK.NYSE,Carnival Plc ADS ADS,Stock CFD's\NYSE\CUK.NYSE,4,3,0,1.0,USD,USD,USD,False
+ATUS.NYSE,Altice USA Inc. Class A Common Stock,Stock CFD's\NYSE\ATUS.NYSE,3,3,0,1.0,USD,USD,USD,False
+ET.NYSE,Energy Transfer LP Common Units,Stock CFD's\NYSE\ET.NYSE,3,3,0,1.0,USD,USD,USD,False
+TRU.NYSE,TransUnion Common Stock,Stock CFD's\NYSE\TRU.NYSE,4,3,0,1.0,USD,USD,USD,False
+HEI.NYSE,Heico Corporation Common Stock,Stock CFD's\NYSE\HEI.NYSE,4,3,0,1.0,USD,USD,USD,False
+INVH.NYSE,Invitation Homes Inc. Common Stock,Stock CFD's\NYSE\INVH.NYSE,4,3,0,1.0,USD,USD,USD,False
+SUI.NYSE,Sun Communities Inc. Common Stock,Stock CFD's\NYSE\SUI.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALLY.NYSE,Ally Financial Inc. Common Stock,Stock CFD's\NYSE\ALLY.NYSE,4,3,0,1.0,USD,USD,USD,False
+MKL.NYSE,Markel Corporation Common Stock,Stock CFD's\NYSE\MKL.NYSE,4,3,0,1.0,USD,USD,USD,False
+DT.NYSE,Dynatrace Inc. Common Stock,Stock CFD's\NYSE\DT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ESTC.NYSE,Elastic N.V. Ordinary Shares,Stock CFD's\NYSE\ESTC.NYSE,4,3,0,1.0,USD,USD,USD,False
+CRL.NYSE,Charles River Laboratories International Inc. Common Stock,Stock CFD's\NYSE\CRL.NYSE,3,3,0,1.0,USD,USD,USD,False
+GDDY.NYSE,GoDaddy Inc. Class A Common Stock,Stock CFD's\NYSE\GDDY.NYSE,4,3,0,1.0,USD,USD,USD,False
+SAM.NYSE,Boston Beer Company Inc. (The) Common Stock,Stock CFD's\NYSE\SAM.NYSE,4,3,0,1.0,USD,USD,USD,False
+ELAN.NYSE,Elanco Animal Health Incorporated Common Stock,Stock CFD's\NYSE\ELAN.NYSE,4,3,0,1.0,USD,USD,USD,False
+FICO.NYSE,Fair Isaac Corproration Common Stock,Stock CFD's\NYSE\FICO.NYSE,3,3,0,1.0,USD,USD,USD,False
+SMG.NYSE,Scotts Miracle-Gro Company (The) Common Stock,Stock CFD's\NYSE\SMG.NYSE,3,3,0,1.0,USD,USD,USD,False
+CCK.NYSE,Crown Holdings Inc.,Stock CFD's\NYSE\CCK.NYSE,4,3,0,1.0,USD,USD,USD,False
+MPW.NYSE,Medical Properties Trust Inc. common stock,Stock CFD's\NYSE\MPW.NYSE,4,3,0,1.0,USD,USD,USD,False
+MOH.NYSE,Molina Healthcare Inc Common Stock,Stock CFD's\NYSE\MOH.NYSE,4,3,0,1.0,USD,USD,USD,False
+BRO.NYSE,Brown & Brown Inc. Common Stock,Stock CFD's\NYSE\BRO.NYSE,4,3,0,1.0,USD,USD,USD,False
+WPC.NYSE,W. P. Carey Inc. REIT,Stock CFD's\NYSE\WPC.NYSE,4,3,0,1.0,USD,USD,USD,False
+TREX.NYSE,Trex Company Inc. Common Stock,Stock CFD's\NYSE\TREX.NYSE,4,3,0,1.0,USD,USD,USD,False
+EQH.NYSE,Equitable Holdings Inc. Common Stock,Stock CFD's\NYSE\EQH.NYSE,4,3,0,1.0,USD,USD,USD,False
+FDS.NYSE,FactSet Research Systems Inc. Common Stock,Stock CFD's\NYSE\FDS.NYSE,4,3,0,1.0,USD,USD,USD,False
+NLY.NYSE,Annaly Capital Management Inc Common Stock,Stock CFD's\NYSE\NLY.NYSE,4,3,0,1.0,USD,USD,USD,False
+FNF.NYSE,FNF Group of Fidelity National Financial Inc. Common Stock,Stock CFD's\NYSE\FNF.NYSE,3,3,0,1.0,USD,USD,USD,False
+MTN.NYSE,Vail Resorts Inc. Common Stock,Stock CFD's\NYSE\MTN.NYSE,4,3,0,1.0,USD,USD,USD,False
+APO.NYSE,Apollo Global Management Inc.,Stock CFD's\NYSE\APO.NYSE,4,3,0,1.0,USD,USD,USD,False
+WTRG.NYSE,Essential Utilities Inc. Common Stock,Stock CFD's\NYSE\WTRG.NYSE,4,3,0,1.0,USD,USD,USD,False
+ELS.NYSE,Equity Lifestyle Properties Inc. Common Stock,Stock CFD's\NYSE\ELS.NYSE,4,3,0,1.0,USD,USD,USD,False
+BAH.NYSE,Booz Allen Hamilton Holding Corporation Common Stock,Stock CFD's\NYSE\BAH.NYSE,4,3,0,1.0,USD,USD,USD,False
+RPM.NYSE,RPM International Inc. Common Stock,Stock CFD's\NYSE\RPM.NYSE,3,3,0,1.0,USD,USD,USD,False
+LII.NYSE,Lennox International Inc. Common Stock,Stock CFD's\NYSE\LII.NYSE,4,3,0,1.0,USD,USD,USD,False
+DAR.NYSE,Darling Ingredients Inc. Common Stock,Stock CFD's\NYSE\DAR.NYSE,4,3,0,1.0,USD,USD,USD,False
+WLK.NYSE,Westlake Chemical Corporation Common Stock,Stock CFD's\NYSE\WLK.NYSE,4,3,0,1.0,USD,USD,USD,False
+TTC.NYSE,Toro Company (The) Common Stock,Stock CFD's\NYSE\TTC.NYSE,4,3,0,1.0,USD,USD,USD,False
+BG.NYSE,Bunge Limited Bunge Limited,Stock CFD's\NYSE\BG.NYSE,4,3,0,1.0,USD,USD,USD,False
+BFAM.NYSE,Bright Horizons Family Solutions Inc. Common Stock,Stock CFD's\NYSE\BFAM.NYSE,4,3,0,1.0,USD,USD,USD,False
+GWRE.NYSE,Guidewire Software Inc. Common Stock,Stock CFD's\NYSE\GWRE.NYSE,4,3,0,1.0,USD,USD,USD,False
+CPT.NYSE,Camden Property Trust Common Stock,Stock CFD's\NYSE\CPT.NYSE,3,3,0,1.0,USD,USD,USD,False
+CCIV.NYSE,Churchill Capital Corp IV Class A Common Stock,Stock CFD's\NYSE\CCIV.NYSE,1,3,0,1.0,USD,USD,USD,False
+LAD.NYSE,Lithia Motors Inc. Common Stock,Stock CFD's\NYSE\LAD.NYSE,4,3,0,1.0,USD,USD,USD,False
+RH.NYSE,RH Common Stock,Stock CFD's\NYSE\RH.NYSE,4,3,0,1.0,USD,USD,USD,False
+TWLO.NYSE,Twilio Inc. Class A Common Stock,Stock CFD's\NYSE\TWLO.NYSE,4,3,0,1.0,USD,USD,USD,False
+MUX.NYSE,McEwen Mining Inc,Stock CFD's\NYSE\MUX.NYSE,3,3,0,1.0,USD,USD,USD,False
+QD.NYSE,Qudian Inc,Stock CFD's\NYSE\QD.NYSE,4,3,0,1.0,USD,USD,USD,False
+CIG.NYSE,Companhia Energetica De Minas Gerais Cemig,Stock CFD's\NYSE\CIG.NYSE,4,3,0,1.0,USD,USD,USD,False
+LYG.NYSE,Lloyds Banking Group PLC,Stock CFD's\NYSE\LYG.NYSE,4,3,0,1.0,USD,USD,USD,False
+TTI.NYSE,TETRA Technologies Inc,Stock CFD's\NYSE\TTI.NYSE,4,5,0,1.0,USD,USD,USD,False
+ABEV.NYSE,Ambev ADR Representing One Ord Shs,Stock CFD's\NYSE\ABEV.NYSE,4,3,0,1.0,USD,USD,USD,False
+BBAR.NYSE,BBVA Argentina SA,Stock CFD's\NYSE\BBAR.NYSE,3,3,0,1.0,USD,USD,USD,False
+KOS.NYSE,Kosmos Energy Ltd,Stock CFD's\NYSE\KOS.NYSE,4,5,0,1.0,USD,USD,USD,False
+GNW.NYSE,Genworth Financial,Stock CFD's\NYSE\GNW.NYSE,3,3,0,1.0,USD,USD,USD,False
+RIG.NYSE,Transocean (US),Stock CFD's\NYSE\RIG.NYSE,4,3,0,1.0,USD,USD,USD,False
+NAT.NYSE,Nordic American Tanker Shipping,Stock CFD's\NYSE\NAT.NYSE,4,3,0,1.0,USD,USD,USD,False
+SAN.NYSE,Banco Santander SA - ADR,Stock CFD's\NYSE\SAN.NYSE,4,3,0,1.0,USD,USD,USD,False
+WTI.NYSE,W&T Offshore Inc,Stock CFD's\NYSE\WTI.NYSE,3,3,0,1.0,USD,USD,USD,False
+NOK.NYSE,Nokia (US),Stock CFD's\NYSE\NOK.NYSE,4,3,0,1.0,USD,USD,USD,False
+MITT.NYSE,AG Mortgage Investment Trust Inc,Stock CFD's\NYSE\MITT.NYSE,4,3,0,1.0,USD,USD,USD,False
+IVR.NYSE,Invesco Mortgage Capital Inc,Stock CFD's\NYSE\IVR.NYSE,4,3,0,1.0,USD,USD,USD,False
+MFA.NYSE,MFA Financial Inc,Stock CFD's\NYSE\MFA.NYSE,3,3,0,1.0,USD,USD,USD,False
+BBD.NYSE,Banco Bradesco,Stock CFD's\NYSE\BBD.NYSE,4,3,0,1.0,USD,USD,USD,False
+SWN.NYSE,Southwestern Energy,Stock CFD's\NYSE\SWN.NYSE,4,3,0,1.0,USD,USD,USD,False
+TEF.NYSE,Telefonica SA - ADR,Stock CFD's\NYSE\TEF.NYSE,4,3,0,1.0,USD,USD,USD,False
+ITUB.NYSE,Itau Unibanco Holding SA,Stock CFD's\NYSE\ITUB.NYSE,4,3,0,1.0,USD,USD,USD,False
+HMY.NYSE,Harmony Gold Mining Co Ltd,Stock CFD's\NYSE\HMY.NYSE,4,3,0,1.0,USD,USD,USD,False
+HLX.NYSE,Helix Energy Solutions Group I,Stock CFD's\NYSE\HLX.NYSE,4,3,0,1.0,USD,USD,USD,False
+EXK.NYSE,Endeavour Silver Corp (US),Stock CFD's\NYSE\EXK.NYSE,3,3,0,1.0,USD,USD,USD,False
+GCI.NYSE,Gannett Co Inc,Stock CFD's\NYSE\GCI.NYSE,4,3,0,1.0,USD,USD,USD,False
+ARCO.NYSE,Arcos Dorados Holdings Inc,Stock CFD's\NYSE\ARCO.NYSE,4,3,0,1.0,USD,USD,USD,False
+CRK.NYSE,Comstock Resources Inc,Stock CFD's\NYSE\CRK.NYSE,4,4,0,1.0,USD,USD,USD,False
+GGB.NYSE,Gerdau,Stock CFD's\NYSE\GGB.NYSE,4,3,0,1.0,USD,USD,USD,False
+GEO.NYSE,Geo Group Inc/The,Stock CFD's\NYSE\GEO.NYSE,3,3,0,1.0,USD,USD,USD,False
+DHT.NYSE,DHT Holdings Inc,Stock CFD's\NYSE\DHT.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMRX.NYSE,Amneal Pharmaceuticals,Stock CFD's\NYSE\AMRX.NYSE,4,2,0,1.0,USD,USD,USD,False
+AIV.NYSE,Apartment Investment & Management,Stock CFD's\NYSE\AIV.NYSE,3,3,0,1.0,USD,USD,USD,False
+BKD.NYSE,Brookdale Senior Living Inc,Stock CFD's\NYSE\BKD.NYSE,3,3,0,1.0,USD,USD,USD,False
+PHK.NYSE,PIMCO High Income Fund,Stock CFD's\NYSE\PHK.NYSE,4,3,0,1.0,USD,USD,USD,False
+FSM.NYSE,Fortuna Silver Mines Inc (US),Stock CFD's\NYSE\FSM.NYSE,3,3,0,1.0,USD,USD,USD,False
+CX.NYSE,CEMEX,Stock CFD's\NYSE\CX.NYSE,4,3,0,1.0,USD,USD,USD,False
+KGC.NYSE,Kinross Gold Corp (US),Stock CFD's\NYSE\KGC.NYSE,4,3,0,1.0,USD,USD,USD,False
+TWO.NYSE,Two Harbors Investment Corp,Stock CFD's\NYSE\TWO.NYSE,4,3,0,1.0,USD,USD,USD,False
+SBS.NYSE,Cia de Saneamento Basico do Estado de Sao Paulo,Stock CFD's\NYSE\SBS.NYSE,4,3,0,1.0,USD,USD,USD,False
+AGRO.NYSE,Adecoagro SA,Stock CFD's\NYSE\AGRO.NYSE,4,3,0,1.0,USD,USD,USD,False
+PBI.NYSE,Pitney Bowes,Stock CFD's\NYSE\PBI.NYSE,4,3,0,1.0,USD,USD,USD,False
+PBR.NYSE,Petroleo Brasileiro ADR Reptg 2,Stock CFD's\NYSE\PBR.NYSE,3,3,0,1.0,USD,USD,USD,False
+COTY.NYSE,Coty Inc,Stock CFD's\NYSE\COTY.NYSE,3,3,0,1.0,USD,USD,USD,False
+BW.NYSE,Babcock & Wilcox Enterprises Inc,Stock CFD's\NYSE\BW.NYSE,4,3,0,1.0,USD,USD,USD,False
+AM.NYSE,Antero Midstream Partners LP,Stock CFD's\NYSE\AM.NYSE,4,3,0,1.0,USD,USD,USD,False
+ADT.NYSE,ADT Inc.,Stock CFD's\NYSE\ADT.NYSE,4,3,0,1.0,USD,USD,USD,False
+UMC.NYSE,United Microelectronics Corp,Stock CFD's\NYSE\UMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+NVGS.NYSE,Navigator Holdings Ltd,Stock CFD's\NYSE\NVGS.NYSE,4,3,0,1.0,USD,USD,USD,False
+BB.NYSE,Blackberry,Stock CFD's\NYSE\BB.NYSE,4,3,0,1.0,USD,USD,USD,False
+CDE.NYSE,Coeur d'Alene Mines Corp,Stock CFD's\NYSE\CDE.NYSE,4,3,0,1.0,USD,USD,USD,False
+GEL.NYSE,Genesis Energy LP,Stock CFD's\NYSE\GEL.NYSE,4,3,0,1.0,USD,USD,USD,False
+BDJ.NYSE,BlackRock Enhanced Equity Dividend Trust,Stock CFD's\NYSE\BDJ.NYSE,4,3,0,1.0,USD,USD,USD,False
+AXL.NYSE,American Axle & Manufacturing,Stock CFD's\NYSE\AXL.NYSE,3,3,0,1.0,USD,USD,USD,False
+AROC.NYSE,Archrock Inc,Stock CFD's\NYSE\AROC.NYSE,4,3,0,1.0,USD,USD,USD,False
+TV.NYSE,Grupo Televisa,Stock CFD's\NYSE\TV.NYSE,4,3,0,1.0,USD,USD,USD,False
+TWI.NYSE,Titan International Inc,Stock CFD's\NYSE\TWI.NYSE,3,3,0,1.0,USD,USD,USD,False
+CMRE.NYSE,Costamare Inc,Stock CFD's\NYSE\CMRE.NYSE,4,3,0,1.0,USD,USD,USD,False
+DNOW.NYSE,NOW Inc,Stock CFD's\NYSE\DNOW.NYSE,3,3,0,1.0,USD,USD,USD,False
+RYAM.NYSE,Rayonier Advanced Materials Inc,Stock CFD's\NYSE\RYAM.NYSE,4,3,0,1.0,USD,USD,USD,False
+RRC.NYSE,Range Resources,Stock CFD's\NYSE\RRC.NYSE,4,3,0,1.0,USD,USD,USD,False
+GFI.NYSE,Gold Fields Ltd (US),Stock CFD's\NYSE\GFI.NYSE,4,3,0,1.0,USD,USD,USD,False
+PGRE.NYSE,Paramount Group Inc,Stock CFD's\NYSE\PGRE.NYSE,4,3,0,1.0,USD,USD,USD,False
+AR.NYSE,Antero Resources Corp,Stock CFD's\NYSE\AR.NYSE,4,3,0,1.0,USD,USD,USD,False
+INN.NYSE,Summit Hotel Properties Inc,Stock CFD's\NYSE\INN.NYSE,4,3,0,1.0,USD,USD,USD,False
+DRH.NYSE,DiamondRock Hospitality Co,Stock CFD's\NYSE\DRH.NYSE,3,3,0,1.0,USD,USD,USD,False
+BCS.NYSE,Barclays PLC,Stock CFD's\NYSE\BCS.NYSE,4,3,0,1.0,USD,USD,USD,False
+RWT.NYSE,Redwood Trust Inc,Stock CFD's\NYSE\RWT.NYSE,4,3,0,1.0,USD,USD,USD,False
+PUMP.NYSE,ProPetro Holding Corp,Stock CFD's\NYSE\PUMP.NYSE,4,3,0,1.0,USD,USD,USD,False
+SOL.NYSE,ReneSola Ltd,Stock CFD's\NYSE\SOL.NYSE,4,3,0,1.0,USD,USD,USD,False
+RPAI.NYSE,Retail Properties of America I,Stock CFD's\NYSE\RPAI.NYSE,0,3,0,1.0,USD,USD,USD,False
+EGO.NYSE,Eldorado Gold Corp (US),Stock CFD's\NYSE\EGO.NYSE,4,3,0,1.0,USD,USD,USD,False
+FBP.NYSE,First BanCorp/Puerto Rico,Stock CFD's\NYSE\FBP.NYSE,4,3,0,1.0,USD,USD,USD,False
+ESRT.NYSE,Empire State Realty Trust Inc,Stock CFD's\NYSE\ESRT.NYSE,4,3,0,1.0,USD,USD,USD,False
+FPI.NYSE,Farmland Partners Inc,Stock CFD's\NYSE\FPI.NYSE,4,3,0,1.0,USD,USD,USD,False
+TEVA.NYSE,Teva Depository Receipt,Stock CFD's\NYSE\TEVA.NYSE,3,3,0,1.0,USD,USD,USD,False
+LXP.NYSE,Lexington Realty Trust,Stock CFD's\NYSE\LXP.NYSE,4,3,0,1.0,USD,USD,USD,False
+LBRT.NYSE,Liberty Oilfield Services Inc,Stock CFD's\NYSE\LBRT.NYSE,4,3,0,1.0,USD,USD,USD,False
+HYLN.NYSE,Hyliion Holdings Corp,Stock CFD's\NYSE\HYLN.NYSE,3,3,0,1.0,USD,USD,USD,False
+MGY.NYSE,Magnolia Oil & Gas Corp,Stock CFD's\NYSE\MGY.NYSE,4,3,0,1.0,USD,USD,USD,False
+HYT.NYSE,BlackRock Corporate High Yield Fund Inc,Stock CFD's\NYSE\HYT.NYSE,4,3,0,1.0,USD,USD,USD,False
+TALO.NYSE,Talos Energy Inc,Stock CFD's\NYSE\TALO.NYSE,3,3,0,1.0,USD,USD,USD,False
+ARR.NYSE,ARMOUR Residential REIT Inc,Stock CFD's\NYSE\ARR.NYSE,4,3,0,1.0,USD,USD,USD,False
+CYH.NYSE,Community Health Systems Inc,Stock CFD's\NYSE\CYH.NYSE,4,3,0,1.0,USD,USD,USD,False
+DB.NYSE,Deutsche Bank AG (US),Stock CFD's\NYSE\DB.NYSE,4,3,0,1.0,USD,USD,USD,False
+ING.NYSE,ING Groep NV - ADR,Stock CFD's\NYSE\ING.NYSE,4,3,0,1.0,USD,USD,USD,False
+SHO.NYSE,Sunstone Hotel Investors Inc,Stock CFD's\NYSE\SHO.NYSE,3,3,0,1.0,USD,USD,USD,False
+EC.NYSE,Ecopetrol SA,Stock CFD's\NYSE\EC.NYSE,3,3,0,1.0,USD,USD,USD,False
+CIM.NYSE,Chimera Investment Corp,Stock CFD's\NYSE\CIM.NYSE,3,3,0,1.0,USD,USD,USD,False
+BDN.NYSE,Brandywine Realty Trust,Stock CFD's\NYSE\BDN.NYSE,4,3,0,1.0,USD,USD,USD,False
+SCM.NYSE,Stellus Capital Investment Corp,Stock CFD's\NYSE\SCM.NYSE,3,3,0,1.0,USD,USD,USD,False
+CARS.NYSE,Cars.com Inc.,Stock CFD's\NYSE\CARS.NYSE,3,3,0,1.0,USD,USD,USD,False
+CLDT.NYSE,Chatham Lodging Trust,Stock CFD's\NYSE\CLDT.NYSE,4,3,0,1.0,USD,USD,USD,False
+SITC.NYSE,SITE Centers Corp,Stock CFD's\NYSE\SITC.NYSE,3,3,0,1.0,USD,USD,USD,False
+AMX.NYSE,America Movil,Stock CFD's\NYSE\AMX.NYSE,4,3,0,1.0,USD,USD,USD,False
+MWA.NYSE,Mueller Water Products Inc,Stock CFD's\NYSE\MWA.NYSE,3,3,0,1.0,USD,USD,USD,False
+SCS.NYSE,Steelcase Inc,Stock CFD's\NYSE\SCS.NYSE,4,3,0,1.0,USD,USD,USD,False
+EVRI.NYSE,Everi Holdings Inc,Stock CFD's\NYSE\EVRI.NYSE,4,3,0,1.0,USD,USD,USD,False
+PBF.NYSE,PBF Energy Inc,Stock CFD's\NYSE\PBF.NYSE,4,3,0,1.0,USD,USD,USD,False
+EDU.NYSE,New Oriental Education & Techn,Stock CFD's\NYSE\EDU.NYSE,4,3,0,1.0,USD,USD,USD,False
+OI.NYSE,O-I Glass Inc,Stock CFD's\NYSE\OI.NYSE,4,3,0,1.0,USD,USD,USD,False
+CNX.NYSE,CNX Resources Corp,Stock CFD's\NYSE\CNX.NYSE,4,3,0,1.0,USD,USD,USD,False
+YEXT.NYSE,Yext Inc,Stock CFD's\NYSE\YEXT.NYSE,4,3,0,1.0,USD,USD,USD,False
+KAR.NYSE,KAR Auction Services Inc,Stock CFD's\NYSE\KAR.NYSE,4,3,0,1.0,USD,USD,USD,False
+VLRS.NYSE,Controladora Vuela Co Avcn SA CV,Stock CFD's\NYSE\VLRS.NYSE,4,3,0,1.0,USD,USD,USD,False
+USAC.NYSE,USA Compression Partners LP,Stock CFD's\NYSE\USAC.NYSE,4,3,0,1.0,USD,USD,USD,False
+IRT.NYSE,Independence Realty Trust Inc,Stock CFD's\NYSE\IRT.NYSE,4,3,0,1.0,USD,USD,USD,False
+RLJ.NYSE,RLJ Lodging Trust,Stock CFD's\NYSE\RLJ.NYSE,3,3,0,1.0,USD,USD,USD,False
+M.NYSE,Macy's,Stock CFD's\NYSE\M.NYSE,4,3,0,1.0,USD,USD,USD,False
+ABR.NYSE,Arbor Realty Trust Inc,Stock CFD's\NYSE\ABR.NYSE,3,3,0,1.0,USD,USD,USD,False
+KRO.NYSE,Kronos Worldwide Inc,Stock CFD's\NYSE\KRO.NYSE,3,3,0,1.0,USD,USD,USD,False
+IGT.NYSE,International Game Technology,Stock CFD's\NYSE\IGT.NYSE,3,3,0,1.0,USD,USD,USD,False
+MUR.NYSE,Murphy Oil,Stock CFD's\NYSE\MUR.NYSE,3,3,0,1.0,USD,USD,USD,False
+HTGC.NYSE,Hercules Technology Growth Capital Inc,Stock CFD's\NYSE\HTGC.NYSE,4,3,0,1.0,USD,USD,USD,False
+AG.NYSE,First Majestic Silver Corp (US),Stock CFD's\NYSE\AG.NYSE,4,3,0,1.0,USD,USD,USD,False
+UE.NYSE,Urban Edge Properties,Stock CFD's\NYSE\UE.NYSE,4,3,0,1.0,USD,USD,USD,False
+MANU.NYSE,Manchester United Plc,Stock CFD's\NYSE\MANU.NYSE,3,3,0,1.0,USD,USD,USD,False
+SA.NYSE,Seabridge Gold Inc,Stock CFD's\NYSE\SA.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMWL.NYSE,American Well Corp,Stock CFD's\NYSE\AMWL.NYSE,4,3,0,1.0,USD,USD,USD,False
+CCJ.NYSE,Cameco Corp,Stock CFD's\NYSE\CCJ.NYSE,4,3,0,1.0,USD,USD,USD,False
+TAK.NYSE,Takeda Pharmaceutical Company Limited,Stock CFD's\NYSE\TAK.NYSE,4,3,0,1.0,USD,USD,USD,False
+PDM.NYSE,Piedmont Office Realty Trust I,Stock CFD's\NYSE\PDM.NYSE,4,3,0,1.0,USD,USD,USD,False
+SM.NYSE,SM Energy Co,Stock CFD's\NYSE\SM.NYSE,4,3,0,1.0,USD,USD,USD,False
+VST.NYSE,Vistra Energy Corp,Stock CFD's\NYSE\VST.NYSE,3,3,0,1.0,USD,USD,USD,False
+DBI.NYSE,Designer Brands Inc,Stock CFD's\NYSE\DBI.NYSE,4,3,0,1.0,USD,USD,USD,False
+EQT.NYSE,EQT,Stock CFD's\NYSE\EQT.NYSE,4,3,0,1.0,USD,USD,USD,False
+CCU.NYSE,Cia Cervecerias Unidas SA,Stock CFD's\NYSE\CCU.NYSE,3,3,0,1.0,USD,USD,USD,False
+CLF.NYSE,Cleveland-Cliffs Inc.,Stock CFD's\NYSE\CLF.NYSE,4,3,0,1.0,USD,USD,USD,False
+TPC.NYSE,Tutor Perini Corp,Stock CFD's\NYSE\TPC.NYSE,3,3,0,1.0,USD,USD,USD,False
+STNG.NYSE,Scorpio Tankers Inc,Stock CFD's\NYSE\STNG.NYSE,4,3,0,1.0,USD,USD,USD,False
+VALE.NYSE,Vale SA,Stock CFD's\NYSE\VALE.NYSE,4,3,0,1.0,USD,USD,USD,False
+PTY.NYSE,PIMCO Corporate & Income Opportunity Fund,Stock CFD's\NYSE\PTY.NYSE,4,3,0,1.0,USD,USD,USD,False
+SBSW.NYSE,Sibanye Stillwater Ltd - ADR,Stock CFD's\NYSE\SBSW.NYSE,4,3,0,1.0,USD,USD,USD,False
+GPK.NYSE,Graphic Packaging Holding Co,Stock CFD's\NYSE\GPK.NYSE,4,3,0,1.0,USD,USD,USD,False
+GNL.NYSE,Global Net Lease Inc,Stock CFD's\NYSE\GNL.NYSE,3,3,0,1.0,USD,USD,USD,False
+SRG.NYSE,Seritage Growth Properties,Stock CFD's\NYSE\SRG.NYSE,4,3,0,1.0,USD,USD,USD,False
+DX.NYSE,Dynex Capital Inc,Stock CFD's\NYSE\DX.NYSE,4,3,0,1.0,USD,USD,USD,False
+INFY.NYSE,Infosys Technologies,Stock CFD's\NYSE\INFY.NYSE,4,3,0,1.0,USD,USD,USD,False
+GTN.NYSE,Gray Television Inc,Stock CFD's\NYSE\GTN.NYSE,3,3,0,1.0,USD,USD,USD,False
+CVI.NYSE,CVR Energy Inc,Stock CFD's\NYSE\CVI.NYSE,4,3,0,1.0,USD,USD,USD,False
+AKR.NYSE,Acadia Realty Trust,Stock CFD's\NYSE\AKR.NYSE,4,3,0,1.0,USD,USD,USD,False
+EQNR.NYSE,Equinor ASA - ADR,Stock CFD's\NYSE\EQNR.NYSE,4,3,0,1.0,USD,USD,USD,False
+SBH.NYSE,Sally Beauty Holdings Inc,Stock CFD's\NYSE\SBH.NYSE,4,3,0,1.0,USD,USD,USD,False
+TME.NYSE,Tencent Music Entertainment,Stock CFD's\NYSE\TME.NYSE,4,3,0,1.0,USD,USD,USD,False
+TECK.NYSE,Teck Resources Ltd (US),Stock CFD's\NYSE\TECK.NYSE,4,3,0,1.0,USD,USD,USD,False
+TGNA.NYSE,Tegna Inc,Stock CFD's\NYSE\TGNA.NYSE,3,3,0,1.0,USD,USD,USD,False
+TROX.NYSE,Tronox Ltd,Stock CFD's\NYSE\TROX.NYSE,3,3,0,1.0,USD,USD,USD,False
+BRX.NYSE,Brixmor Property Group Inc,Stock CFD's\NYSE\BRX.NYSE,4,3,0,1.0,USD,USD,USD,False
+KW.NYSE,Kennedy-Wilson Holdings Inc,Stock CFD's\NYSE\KW.NYSE,3,3,0,1.0,USD,USD,USD,False
+CAL.NYSE,Caleres Inc,Stock CFD's\NYSE\CAL.NYSE,4,3,0,1.0,USD,USD,USD,False
+FSK.NYSE,FS KKR Capital Corp,Stock CFD's\NYSE\FSK.NYSE,3,3,0,1.0,USD,USD,USD,False
+MTW.NYSE,Manitowoc,Stock CFD's\NYSE\MTW.NYSE,3,3,0,1.0,USD,USD,USD,False
+CADE.NYSE,Cadence Bancorp,Stock CFD's\NYSE\CADE.NYSE,4,3,0,1.0,USD,USD,USD,False
+TPH.NYSE,TRI Pointe Homes Inc,Stock CFD's\NYSE\TPH.NYSE,4,3,0,1.0,USD,USD,USD,False
+PSTG.NYSE,Pure Storage Inc,Stock CFD's\NYSE\PSTG.NYSE,4,3,0,1.0,USD,USD,USD,False
+PK.NYSE,Park Hotels and Resorts Inc,Stock CFD's\NYSE\PK.NYSE,4,3,0,1.0,USD,USD,USD,False
+IMAX.NYSE,IMAX Corp (US),Stock CFD's\NYSE\IMAX.NYSE,4,3,0,1.0,USD,USD,USD,False
+FLR.NYSE,Fluor Corporation,Stock CFD's\NYSE\FLR.NYSE,3,3,0,1.0,USD,USD,USD,False
+OUT.NYSE,Outfront Media Inc,Stock CFD's\NYSE\OUT.NYSE,3,3,0,1.0,USD,USD,USD,False
+AU.NYSE,AngloGold Ashanti Limited,Stock CFD's\NYSE\AU.NYSE,4,3,0,1.0,USD,USD,USD,False
+ATI.NYSE,Allegheny Technologies,Stock CFD's\NYSE\ATI.NYSE,4,3,0,1.0,USD,USD,USD,False
+DK.NYSE,Delek US Holdings Inc,Stock CFD's\NYSE\DK.NYSE,3,3,0,1.0,USD,USD,USD,False
+HRB.NYSE,H&R Block,Stock CFD's\NYSE\HRB.NYSE,3,3,0,1.0,USD,USD,USD,False
+CNK.NYSE,Cinemark Holdings Inc,Stock CFD's\NYSE\CNK.NYSE,4,3,0,1.0,USD,USD,USD,False
+ORI.NYSE,Old Republic International Cor,Stock CFD's\NYSE\ORI.NYSE,4,3,0,1.0,USD,USD,USD,False
+RDN.NYSE,Radian Group Inc,Stock CFD's\NYSE\RDN.NYSE,4,3,0,1.0,USD,USD,USD,False
+EPRT.NYSE,Essential Properties Realty Trust Inc,Stock CFD's\NYSE\EPRT.NYSE,4,3,0,1.0,USD,USD,USD,False
+EB.NYSE,"Eventbrite, Inc.",Stock CFD's\NYSE\EB.NYSE,3,3,0,1.0,USD,USD,USD,False
+BOX.NYSE,Box Inc,Stock CFD's\NYSE\BOX.NYSE,4,3,0,1.0,USD,USD,USD,False
+MTDR.NYSE,Matador Resources Co,Stock CFD's\NYSE\MTDR.NYSE,4,3,0,1.0,USD,USD,USD,False
+PEB.NYSE,Pebblebrook Hotel Trust,Stock CFD's\NYSE\PEB.NYSE,3,3,0,1.0,USD,USD,USD,False
+FLO.NYSE,Flowers Foods Inc,Stock CFD's\NYSE\FLO.NYSE,3,3,0,1.0,USD,USD,USD,False
+DAN.NYSE,Dana Holding Corp,Stock CFD's\NYSE\DAN.NYSE,4,3,0,1.0,USD,USD,USD,False
+BSAC.NYSE,Banco Santander Chile,Stock CFD's\NYSE\BSAC.NYSE,4,3,0,1.0,USD,USD,USD,False
+STWD.NYSE,Starwood Property Trust Inc,Stock CFD's\NYSE\STWD.NYSE,4,3,0,1.0,USD,USD,USD,False
+LEVI.NYSE,Levi Strauss & Co.,Stock CFD's\NYSE\LEVI.NYSE,4,3,0,1.0,USD,USD,USD,False
+MD.NYSE,MEDNAX Inc,Stock CFD's\NYSE\MD.NYSE,4,3,0,1.0,USD,USD,USD,False
+CNO.NYSE,CNO Financial Group Inc,Stock CFD's\NYSE\CNO.NYSE,4,3,0,1.0,USD,USD,USD,False
+DDD.NYSE,3D Systems Corp,Stock CFD's\NYSE\DDD.NYSE,4,3,0,1.0,USD,USD,USD,False
+BE.NYSE,Bloom Energy Corp,Stock CFD's\NYSE\BE.NYSE,4,3,0,1.0,USD,USD,USD,False
+HOME.NYSE,At Home Group Inc,Stock CFD's\NYSE\HOME.NYSE,4,3,0,1.0,USD,USD,USD,False
+MX.NYSE,Magnachip Semiconductor Corp,Stock CFD's\NYSE\MX.NYSE,4,3,0,1.0,USD,USD,USD,False
+HP.NYSE,Helmerich,Stock CFD's\NYSE\HP.NYSE,4,3,0,1.0,USD,USD,USD,False
+ELF.NYSE,e.l.f. Beauty Inc,Stock CFD's\NYSE\ELF.NYSE,3,3,0,1.0,USD,USD,USD,False
+SKM.NYSE,SK Telecom Co Ltd,Stock CFD's\NYSE\SKM.NYSE,4,3,0,1.0,USD,USD,USD,False
+HPP.NYSE,Hudson Pacific Properties Inc,Stock CFD's\NYSE\HPP.NYSE,3,3,0,1.0,USD,USD,USD,False
+NOMD.NYSE,Nomad Foods,Stock CFD's\NYSE\NOMD.NYSE,3,3,0,1.0,USD,USD,USD,False
+FCPT.NYSE,Four Corners Property Trust,Stock CFD's\NYSE\FCPT.NYSE,4,3,0,1.0,USD,USD,USD,False
+CWEN.NYSE,Clearway Energy Inc,Stock CFD's\NYSE\CWEN.NYSE,4,3,0,1.0,USD,USD,USD,False
+HUN.NYSE,Huntsman,Stock CFD's\NYSE\HUN.NYSE,3,3,0,1.0,USD,USD,USD,False
+ZTO.NYSE,ZTO Express (Cayman) Inc,Stock CFD's\NYSE\ZTO.NYSE,4,3,0,1.0,USD,USD,USD,False
+CC.NYSE,Chemours Co,Stock CFD's\NYSE\CC.NYSE,3,3,0,1.0,USD,USD,USD,False
+PBA.NYSE,Pembina Pipeline Corp (US),Stock CFD's\NYSE\PBA.NYSE,3,3,0,1.0,USD,USD,USD,False
+GTY.NYSE,Getty Realty Corp,Stock CFD's\NYSE\GTY.NYSE,4,3,0,1.0,USD,USD,USD,False
+SPCE.NYSE,Virgin Galactic Holdings Inc,Stock CFD's\NYSE\SPCE.NYSE,4,3,0,1.0,USD,USD,USD,False
+HMC.NYSE,Honda Motor Co Ltd,Stock CFD's\NYSE\HMC.NYSE,3,3,0,1.0,USD,USD,USD,False
+HSBC.NYSE,HSBC Holdings plc,Stock CFD's\NYSE\HSBC.NYSE,4,3,0,1.0,USD,USD,USD,False
+AXTA.NYSE,Axalta Coating Systems Ltd,Stock CFD's\NYSE\AXTA.NYSE,4,3,0,1.0,USD,USD,USD,False
+VIPS.NYSE,Vipshop Holdings Ltd,Stock CFD's\NYSE\VIPS.NYSE,4,3,0,1.0,USD,USD,USD,False
+AVTR.NYSE,"Avantor, Inc",Stock CFD's\NYSE\AVTR.NYSE,4,3,0,1.0,USD,USD,USD,False
+JEF.NYSE,Jefferies Financial Group Inc,Stock CFD's\NYSE\JEF.NYSE,4,3,0,1.0,USD,USD,USD,False
+AEO.NYSE,American Eagle Outfitters,Stock CFD's\NYSE\AEO.NYSE,4,3,0,1.0,USD,USD,USD,False
+HR.NYSE,Healthcare Realty Trust Inc,Stock CFD's\NYSE\HR.NYSE,4,3,0,1.0,USD,USD,USD,False
+CMC.NYSE,Commercial Metals Co,Stock CFD's\NYSE\CMC.NYSE,4,3,0,1.0,USD,USD,USD,False
+BXMT.NYSE,Blackstone Mortgage Trust Inc,Stock CFD's\NYSE\BXMT.NYSE,4,3,0,1.0,USD,USD,USD,False
+TRGP.NYSE,Targa Resources Corp,Stock CFD's\NYSE\TRGP.NYSE,4,3,0,1.0,USD,USD,USD,False
+AA.NYSE,Alcoa Corp,Stock CFD's\NYSE\AA.NYSE,4,3,0,1.0,USD,USD,USD,False
+TMHC.NYSE,Taylor Morrison Home Corp,Stock CFD's\NYSE\TMHC.NYSE,4,3,0,1.0,USD,USD,USD,False
+LRN.NYSE,Stride Inc,Stock CFD's\NYSE\LRN.NYSE,4,3,0,1.0,USD,USD,USD,False
+JBGS.NYSE,JBG SMITH Properties,Stock CFD's\NYSE\JBGS.NYSE,4,3,0,1.0,USD,USD,USD,False
+DEI.NYSE,Douglas Emmett Inc,Stock CFD's\NYSE\DEI.NYSE,4,3,0,1.0,USD,USD,USD,False
+AAT.NYSE,American Assets Trust Inc,Stock CFD's\NYSE\AAT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ASAN.NYSE,Asana Inc,Stock CFD's\NYSE\ASAN.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMH.NYSE,American Homes 4 Rent,Stock CFD's\NYSE\AMH.NYSE,4,3,0,1.0,USD,USD,USD,False
+MMI.NYSE,Marcus & Millichap Inc,Stock CFD's\NYSE\MMI.NYSE,3,3,0,1.0,USD,USD,USD,False
+STAG.NYSE,STAG Industrial Inc,Stock CFD's\NYSE\STAG.NYSE,4,3,0,1.0,USD,USD,USD,False
+CUZ.NYSE,Cousins Properties Inc,Stock CFD's\NYSE\CUZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+UNFI.NYSE,United Natural Foods Inc,Stock CFD's\NYSE\UNFI.NYSE,4,2,0,1.0,USD,USD,USD,False
+ANF.NYSE,Abercrombie,Stock CFD's\NYSE\ANF.NYSE,4,3,0,1.0,USD,USD,USD,False
+JMIA.NYSE,Jumia Technologies AG,Stock CFD's\NYSE\JMIA.NYSE,4,3,0,1.0,USD,USD,USD,False
+KBR.NYSE,KBR Inc,Stock CFD's\NYSE\KBR.NYSE,4,3,0,1.0,USD,USD,USD,False
+OMI.NYSE,Owens & Minor Inc,Stock CFD's\NYSE\OMI.NYSE,4,3,0,1.0,USD,USD,USD,False
+HGV.NYSE,Hilton Grand Vacations,Stock CFD's\NYSE\HGV.NYSE,4,3,0,1.0,USD,USD,USD,False
+PLT.NYSE,Plantronics Inc,Stock CFD's\NYSE\PLT.NYSE,4,3,0,1.0,USD,USD,USD,False
+NIO.NYSE,NIO Inc.,Stock CFD's\NYSE\NIO.NYSE,4,3,0,1.0,USD,USD,USD,False
+BTI.NYSE,British American Tobacco PLC,Stock CFD's\NYSE\BTI.NYSE,4,3,0,1.0,USD,USD,USD,False
+USFD.NYSE,US Foods Holding Corp,Stock CFD's\NYSE\USFD.NYSE,3,3,0,1.0,USD,USD,USD,False
+OHI.NYSE,Omega Healthcare Investors Inc,Stock CFD's\NYSE\OHI.NYSE,4,3,0,1.0,USD,USD,USD,False
+NCR.NYSE,NCR,Stock CFD's\NYSE\NCR.NYSE,3,3,0,1.0,USD,USD,USD,False
+ARMK.NYSE,Aramark Corp,Stock CFD's\NYSE\ARMK.NYSE,4,3,0,1.0,USD,USD,USD,False
+GVA.NYSE,Granite Construction Inc,Stock CFD's\NYSE\GVA.NYSE,3,3,0,1.0,USD,USD,USD,False
+EPC.NYSE,Edgewell Personal Care Co,Stock CFD's\NYSE\EPC.NYSE,4,3,0,1.0,USD,USD,USD,False
+CUBE.NYSE,CubeSmart,Stock CFD's\NYSE\CUBE.NYSE,4,3,0,1.0,USD,USD,USD,False
+COLD.NYSE,AmeriCold Realty Trust,Stock CFD's\NYSE\COLD.NYSE,3,3,0,1.0,USD,USD,USD,False
+TX.NYSE,Ternium SA,Stock CFD's\NYSE\TX.NYSE,4,3,0,1.0,USD,USD,USD,False
+OLN.NYSE,Olin Corp,Stock CFD's\NYSE\OLN.NYSE,4,3,0,1.0,USD,USD,USD,False
+ATGE.NYSE,Adtalem Global Education Inc,Stock CFD's\NYSE\ATGE.NYSE,4,3,0,1.0,USD,USD,USD,False
+TDC.NYSE,Teradata,Stock CFD's\NYSE\TDC.NYSE,4,3,0,1.0,USD,USD,USD,False
+YELP.NYSE,Yelp,Stock CFD's\NYSE\YELP.NYSE,3,3,0,1.0,USD,USD,USD,False
+HOG.NYSE,Harley Davidson,Stock CFD's\NYSE\HOG.NYSE,4,3,0,1.0,USD,USD,USD,False
+NSA.NYSE,National Storage Affiliates Trust,Stock CFD's\NYSE\NSA.NYSE,4,3,0,1.0,USD,USD,USD,False
+MAIN.NYSE,Main Street Capital Corp,Stock CFD's\NYSE\MAIN.NYSE,3,3,0,1.0,USD,USD,USD,False
+RMAX.NYSE,RE/MAX Holdings Inc,Stock CFD's\NYSE\RMAX.NYSE,4,3,0,1.0,USD,USD,USD,False
+PD.NYSE,PagerDuty Inc,Stock CFD's\NYSE\PD.NYSE,4,3,0,1.0,USD,USD,USD,False
+UGI.NYSE,UGI Corp,Stock CFD's\NYSE\UGI.NYSE,4,3,0,1.0,USD,USD,USD,False
+KMT.NYSE,Kennametal Inc,Stock CFD's\NYSE\KMT.NYSE,4,3,0,1.0,USD,USD,USD,False
+VVI.NYSE,Viad Corp,Stock CFD's\NYSE\VVI.NYSE,4,3,0,1.0,USD,USD,USD,False
+JOE.NYSE,St Joe Co/The,Stock CFD's\NYSE\JOE.NYSE,4,3,0,1.0,USD,USD,USD,False
+PRG.NYSE,PROG Holdings Inc,Stock CFD's\NYSE\PRG.NYSE,4,3,0,1.0,USD,USD,USD,False
+HIW.NYSE,Highwoods Properties Inc,Stock CFD's\NYSE\HIW.NYSE,4,3,0,1.0,USD,USD,USD,False
+LTC.NYSE,LTC Properties Inc,Stock CFD's\NYSE\LTC.NYSE,4,3,0,1.0,USD,USD,USD,False
+BDC.NYSE,Belden Inc,Stock CFD's\NYSE\BDC.NYSE,4,3,0,1.0,USD,USD,USD,False
+HLF.NYSE,Herbalife Ltd,Stock CFD's\NYSE\HLF.NYSE,3,3,0,1.0,USD,USD,USD,False
+BAM.NYSE,Brookfield Asset Management Inc,Stock CFD's\NYSE\BAM.NYSE,3,3,0,1.0,USD,USD,USD,False
+NNN.NYSE,National Retail Properties Inc,Stock CFD's\NYSE\NNN.NYSE,4,3,0,1.0,USD,USD,USD,False
+BJ.NYSE,"BJ's Wholesale Club Holdings, Inc.",Stock CFD's\NYSE\BJ.NYSE,4,3,0,1.0,USD,USD,USD,False
+LAZ.NYSE,Lazard Ltd,Stock CFD's\NYSE\LAZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+FR.NYSE,First Industrial Realty Trust,Stock CFD's\NYSE\FR.NYSE,4,3,0,1.0,USD,USD,USD,False
+AJRD.NYSE,Aerojet Rocketdyne Holdings Inc,Stock CFD's\NYSE\AJRD.NYSE,4,3,0,1.0,USD,USD,USD,False
+ENR.NYSE,Energizer Holdings Inc,Stock CFD's\NYSE\ENR.NYSE,4,3,0,1.0,USD,USD,USD,False
+RVLV.NYSE,Revolve Group Inc,Stock CFD's\NYSE\RVLV.NYSE,4,3,0,1.0,USD,USD,USD,False
+GDOT.NYSE,Green Dot Corp,Stock CFD's\NYSE\GDOT.NYSE,4,3,0,1.0,USD,USD,USD,False
+PAGS.NYSE,Pagseguro Digital LTD,Stock CFD's\NYSE\PAGS.NYSE,4,3,0,1.0,USD,USD,USD,False
+ESNT.NYSE,Essent Group Ltd,Stock CFD's\NYSE\ESNT.NYSE,3,3,0,1.0,USD,USD,USD,False
+AMRC.NYSE,Ameresco Inc,Stock CFD's\NYSE\AMRC.NYSE,4,3,0,1.0,USD,USD,USD,False
+SPR.NYSE,Spirit Aerosystems Holdings In,Stock CFD's\NYSE\SPR.NYSE,3,3,0,1.0,USD,USD,USD,False
+KBH.NYSE,KB Home,Stock CFD's\NYSE\KBH.NYSE,4,3,0,1.0,USD,USD,USD,False
+EPR.NYSE,EPR Properties,Stock CFD's\NYSE\EPR.NYSE,4,3,0,1.0,USD,USD,USD,False
+NYT.NYSE,New York Times,Stock CFD's\NYSE\NYT.NYSE,3,3,0,1.0,USD,USD,USD,False
+SAH.NYSE,Sonic Automotive Inc,Stock CFD's\NYSE\SAH.NYSE,4,3,0,1.0,USD,USD,USD,False
+KNX.NYSE,Knight-Swift Transportation Co,Stock CFD's\NYSE\KNX.NYSE,4,3,0,1.0,USD,USD,USD,False
+CPRI.NYSE,Capri Holdings Ltd,Stock CFD's\NYSE\CPRI.NYSE,4,3,0,1.0,USD,USD,USD,False
+THC.NYSE,Tenet Healthcare,Stock CFD's\NYSE\THC.NYSE,4,3,0,1.0,USD,USD,USD,False
+ABM.NYSE,ABM Industries Inc,Stock CFD's\NYSE\ABM.NYSE,4,3,0,1.0,USD,USD,USD,False
+SCI.NYSE,Service Corp International/US,Stock CFD's\NYSE\SCI.NYSE,4,3,0,1.0,USD,USD,USD,False
+NUS.NYSE,Nu Skin Enterprises Inc,Stock CFD's\NYSE\NUS.NYSE,3,3,0,1.0,USD,USD,USD,False
+REXR.NYSE,Rexford Industrial Realty Inc,Stock CFD's\NYSE\REXR.NYSE,4,3,0,1.0,USD,USD,USD,False
+THS.NYSE,TreeHouse Foods Inc,Stock CFD's\NYSE\THS.NYSE,4,3,0,1.0,USD,USD,USD,False
+JBL.NYSE,Jabil Circuit,Stock CFD's\NYSE\JBL.NYSE,4,3,0,1.0,USD,USD,USD,False
+HASI.NYSE,Hannon Armstrong Sustainable Infrastructure Capital Inc,Stock CFD's\NYSE\HASI.NYSE,3,3,0,1.0,USD,USD,USD,False
+BIP.NYSE,Brookfield Infrastructure Partners LP (US),Stock CFD's\NYSE\BIP.NYSE,3,3,0,1.0,USD,USD,USD,False
+CIEN.NYSE,Ciena,Stock CFD's\NYSE\CIEN.NYSE,4,3,0,1.0,USD,USD,USD,False
+HXL.NYSE,Hexcel Corp,Stock CFD's\NYSE\HXL.NYSE,4,3,0,1.0,USD,USD,USD,False
+GEF.NYSE,Greif Inc - A,Stock CFD's\NYSE\GEF.NYSE,3,3,0,1.0,USD,USD,USD,False
+PFGC.NYSE,Performance Food Group Co,Stock CFD's\NYSE\PFGC.NYSE,4,3,0,1.0,USD,USD,USD,False
+FAF.NYSE,First American Financial Corp,Stock CFD's\NYSE\FAF.NYSE,4,3,0,1.0,USD,USD,USD,False
+DCI.NYSE,Donaldson Co Inc,Stock CFD's\NYSE\DCI.NYSE,4,3,0,1.0,USD,USD,USD,False
+UVV.NYSE,Universal Corp/VA,Stock CFD's\NYSE\UVV.NYSE,4,3,0,1.0,USD,USD,USD,False
+TOL.NYSE,Toll Brothers Inc,Stock CFD's\NYSE\TOL.NYSE,4,3,0,1.0,USD,USD,USD,False
+AER.NYSE,AerCap Holdings NV,Stock CFD's\NYSE\AER.NYSE,4,3,0,1.0,USD,USD,USD,False
+LPX.NYSE,Louisiana-Pacific Corp,Stock CFD's\NYSE\LPX.NYSE,4,3,0,1.0,USD,USD,USD,False
+TRNO.NYSE,Terreno Realty Corp,Stock CFD's\NYSE\TRNO.NYSE,3,3,0,1.0,USD,USD,USD,False
+KSS.NYSE,Kohl's Corporation,Stock CFD's\NYSE\KSS.NYSE,1,3,0,1.0,USD,USD,USD,False
+XEC.NYSE,Cimarex Energy Co,Stock CFD's\NYSE\XEC.NYSE,3,3,0,1.0,USD,USD,USD,False
+BYD.NYSE,Boyd Gaming Corp,Stock CFD's\NYSE\BYD.NYSE,4,3,0,1.0,USD,USD,USD,False
+GMED.NYSE,Globus Medical Inc,Stock CFD's\NYSE\GMED.NYSE,3,3,0,1.0,USD,USD,USD,False
+BUD.NYSE,Anheuser Busch Inbev SA,Stock CFD's\NYSE\BUD.NYSE,4,3,0,1.0,USD,USD,USD,False
+SON.NYSE,Sonoco Products Co,Stock CFD's\NYSE\SON.NYSE,4,3,0,1.0,USD,USD,USD,False
+BOOT.NYSE,Boot Barn Holdings,Stock CFD's\NYSE\BOOT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ACM.NYSE,AECOM Technology Corp,Stock CFD's\NYSE\ACM.NYSE,4,3,0,1.0,USD,USD,USD,False
+KRC.NYSE,Kilroy Realty Corp,Stock CFD's\NYSE\KRC.NYSE,4,3,0,1.0,USD,USD,USD,False
+ADC.NYSE,Agree Realty Corp,Stock CFD's\NYSE\ADC.NYSE,4,3,0,1.0,USD,USD,USD,False
+EAT.NYSE,Brinker International Inc,Stock CFD's\NYSE\EAT.NYSE,4,3,0,1.0,USD,USD,USD,False
+UHT.NYSE,Universal Health Realty Income,Stock CFD's\NYSE\UHT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ONTO.NYSE,ONTO Innovation Inc,Stock CFD's\NYSE\ONTO.NYSE,3,3,0,1.0,USD,USD,USD,False
+CUB.NYSE,Cubic Corp,Stock CFD's\NYSE\CUB.NYSE,4,3,0,1.0,USD,USD,USD,False
+YETI.NYSE,YETI Holdings Inc,Stock CFD's\NYSE\YETI.NYSE,3,3,0,1.0,USD,USD,USD,False
+ORA.NYSE,Ormat Technologies Inc,Stock CFD's\NYSE\ORA.NYSE,4,3,0,1.0,USD,USD,USD,False
+R.NYSE,Ryder System Inc,Stock CFD's\NYSE\R.NYSE,4,3,0,1.0,USD,USD,USD,False
+SXT.NYSE,Sensient Technologies Corp,Stock CFD's\NYSE\SXT.NYSE,3,3,0,1.0,USD,USD,USD,False
+GKOS.NYSE,Glaukos Corp,Stock CFD's\NYSE\GKOS.NYSE,4,3,0,1.0,USD,USD,USD,False
+BCO.NYSE,Brink's Co/The,Stock CFD's\NYSE\BCO.NYSE,4,3,0,1.0,USD,USD,USD,False
+PAG.NYSE,Penske Automotive Group Inc,Stock CFD's\NYSE\PAG.NYSE,4,3,0,1.0,USD,USD,USD,False
+EHC.NYSE,Encompass Health Corp,Stock CFD's\NYSE\EHC.NYSE,4,3,0,1.0,USD,USD,USD,False
+DKS.NYSE,Dick's Sporting Goods Inc,Stock CFD's\NYSE\DKS.NYSE,4,3,0,1.0,USD,USD,USD,False
+EBS.NYSE,Emergent Biosolutions Inc,Stock CFD's\NYSE\EBS.NYSE,4,3,0,1.0,USD,USD,USD,False
+CHWY.NYSE,"Chewy, Inc.",Stock CFD's\NYSE\CHWY.NYSE,4,3,0,1.0,USD,USD,USD,False
+WGO.NYSE,Winnebago Industries Inc,Stock CFD's\NYSE\WGO.NYSE,4,3,0,1.0,USD,USD,USD,False
+CPA.NYSE,Copa Holdings SA,Stock CFD's\NYSE\CPA.NYSE,4,3,0,1.0,USD,USD,USD,False
+PLNT.NYSE,Planet Fitness Inc,Stock CFD's\NYSE\PLNT.NYSE,3,3,0,1.0,USD,USD,USD,False
+GIB.NYSE,CGI Group Inc (US),Stock CFD's\NYSE\GIB.NYSE,4,3,0,1.0,USD,USD,USD,False
+NSP.NYSE,Insperity Inc,Stock CFD's\NYSE\NSP.NYSE,4,3,0,1.0,USD,USD,USD,False
+H.NYSE,Hyatt Hotels,Stock CFD's\NYSE\H.NYSE,3,3,0,1.0,USD,USD,USD,False
+AIN.NYSE,Albany International Corp,Stock CFD's\NYSE\AIN.NYSE,3,3,0,1.0,USD,USD,USD,False
+WCC.NYSE,WESCO International Inc,Stock CFD's\NYSE\WCC.NYSE,4,3,0,1.0,USD,USD,USD,False
+NVS.NYSE,Novartis AG - ADR,Stock CFD's\NYSE\NVS.NYSE,4,3,0,1.0,USD,USD,USD,False
+CHGG.NYSE,Chegg Inc,Stock CFD's\NYSE\CHGG.NYSE,4,3,0,1.0,USD,USD,USD,False
+SPB.NYSE,Spectrum Brands Holdings Inc,Stock CFD's\NYSE\SPB.NYSE,4,3,0,1.0,USD,USD,USD,False
+DIN.NYSE,DineEquity Inc,Stock CFD's\NYSE\DIN.NYSE,4,3,0,1.0,USD,USD,USD,False
+ASH.NYSE,Ashland,Stock CFD's\NYSE\ASH.NYSE,3,3,0,1.0,USD,USD,USD,False
+INGR.NYSE,Ingredion Inc,Stock CFD's\NYSE\INGR.NYSE,4,3,0,1.0,USD,USD,USD,False
+AN.NYSE,AutoNation,Stock CFD's\NYSE\AN.NYSE,4,3,0,1.0,USD,USD,USD,False
+LMND.NYSE,Lemonade Inc,Stock CFD's\NYSE\LMND.NYSE,4,3,0,1.0,USD,USD,USD,False
+DELL.NYSE,Dell Technologies Inc,Stock CFD's\NYSE\DELL.NYSE,4,3,0,1.0,USD,USD,USD,False
+CRI.NYSE,Carter's Inc,Stock CFD's\NYSE\CRI.NYSE,4,3,0,1.0,USD,USD,USD,False
+MTH.NYSE,Meritage Homes Corp,Stock CFD's\NYSE\MTH.NYSE,4,3,0,1.0,USD,USD,USD,False
+ENS.NYSE,EnerSys Inc,Stock CFD's\NYSE\ENS.NYSE,3,3,0,1.0,USD,USD,USD,False
+NBR.NYSE,Nabors Indust,Stock CFD's\NYSE\NBR.NYSE,4,5,0,1.0,USD,USD,USD,False
+ATHM.NYSE,Autohome Inc,Stock CFD's\NYSE\ATHM.NYSE,3,3,0,1.0,USD,USD,USD,False
+MTZ.NYSE,MasTec Inc,Stock CFD's\NYSE\MTZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+BMI.NYSE,Badger Meter Inc,Stock CFD's\NYSE\BMI.NYSE,4,3,0,1.0,USD,USD,USD,False
+DDS.NYSE,Dillard's,Stock CFD's\NYSE\DDS.NYSE,4,3,0,1.0,USD,USD,USD,False
+BC.NYSE,Brunswick Corp/DE,Stock CFD's\NYSE\BC.NYSE,4,3,0,1.0,USD,USD,USD,False
+U.NYSE,Unity Software Inc,Stock CFD's\NYSE\U.NYSE,4,3,0,1.0,USD,USD,USD,False
+IDA.NYSE,IDACORP Inc,Stock CFD's\NYSE\IDA.NYSE,4,3,0,1.0,USD,USD,USD,False
+USNA.NYSE,USANA Health Sciences Inc,Stock CFD's\NYSE\USNA.NYSE,4,3,0,1.0,USD,USD,USD,False
+QTWO.NYSE,Q2 Holdings Inc,Stock CFD's\NYSE\QTWO.NYSE,3,3,0,1.0,USD,USD,USD,False
+ARW.NYSE,Arrow Electronics Inc,Stock CFD's\NYSE\ARW.NYSE,4,3,0,1.0,USD,USD,USD,False
+HAE.NYSE,Haemonetics Corp,Stock CFD's\NYSE\HAE.NYSE,3,3,0,1.0,USD,USD,USD,False
+EME.NYSE,EMCOR Group Inc,Stock CFD's\NYSE\EME.NYSE,4,3,0,1.0,USD,USD,USD,False
+SHAK.NYSE,Shake Shack Inc,Stock CFD's\NYSE\SHAK.NYSE,4,3,0,1.0,USD,USD,USD,False
+AFG.NYSE,American Financial Group Inc/O,Stock CFD's\NYSE\AFG.NYSE,4,3,0,1.0,USD,USD,USD,False
+IBP.NYSE,Installed Building Products Inc,Stock CFD's\NYSE\IBP.NYSE,3,3,0,1.0,USD,USD,USD,False
+OSK.NYSE,Oshkosh Corp,Stock CFD's\NYSE\OSK.NYSE,4,3,0,1.0,USD,USD,USD,False
+SNX.NYSE,SYNNEX Corp,Stock CFD's\NYSE\SNX.NYSE,4,3,0,1.0,USD,USD,USD,False
+RL.NYSE,Ralph Lauren Corp,Stock CFD's\NYSE\RL.NYSE,3,3,0,1.0,USD,USD,USD,False
+RGA.NYSE,Reinsurance Group of America Inc,Stock CFD's\NYSE\RGA.NYSE,4,3,0,1.0,USD,USD,USD,False
+CNMD.NYSE,CONMED Corp,Stock CFD's\NYSE\CNMD.NYSE,3,2,0,1.0,USD,USD,USD,False
+THG.NYSE,Hanover Insurance Group Inc/Th,Stock CFD's\NYSE\THG.NYSE,4,3,0,1.0,USD,USD,USD,False
+THO.NYSE,Thor Industries Inc,Stock CFD's\NYSE\THO.NYSE,4,3,0,1.0,USD,USD,USD,False
+PII.NYSE,Polaris,Stock CFD's\NYSE\PII.NYSE,4,3,0,1.0,USD,USD,USD,False
+FCN.NYSE,FTI Consulting Inc,Stock CFD's\NYSE\FCN.NYSE,4,3,0,1.0,USD,USD,USD,False
+MUSA.NYSE,Murphy USA Inc,Stock CFD's\NYSE\MUSA.NYSE,4,3,0,1.0,USD,USD,USD,False
+AGCO.NYSE,AGCO Corp,Stock CFD's\NYSE\AGCO.NYSE,3,3,0,1.0,USD,USD,USD,False
+EGP.NYSE,EastGroup Properties Inc,Stock CFD's\NYSE\EGP.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMG.NYSE,Affiliated Managers Group Inc,Stock CFD's\NYSE\AMG.NYSE,4,3,0,1.0,USD,USD,USD,False
+RS.NYSE,Reliance Steel & Aluminum Co,Stock CFD's\NYSE\RS.NYSE,4,3,0,1.0,USD,USD,USD,False
+GPI.NYSE,Group 1 Automotive Inc,Stock CFD's\NYSE\GPI.NYSE,4,3,0,1.0,USD,USD,USD,False
+RNR.NYSE,RenaissanceRe Holdings Ltd,Stock CFD's\NYSE\RNR.NYSE,4,3,0,1.0,USD,USD,USD,False
+AYI.NYSE,Acuity Brands Inc,Stock CFD's\NYSE\AYI.NYSE,4,3,0,1.0,USD,USD,USD,False
+VAC.NYSE,Marriott Vacations Worldwide C,Stock CFD's\NYSE\VAC.NYSE,3,3,0,1.0,USD,USD,USD,False
+WSM.NYSE,Williams-Sonoma Inc,Stock CFD's\NYSE\WSM.NYSE,4,3,0,1.0,USD,USD,USD,False
+JLL.NYSE,Jones Lang LaSalle Inc,Stock CFD's\NYSE\JLL.NYSE,4,3,0,1.0,USD,USD,USD,False
+LEA.NYSE,Lear Corp,Stock CFD's\NYSE\LEA.NYSE,3,3,0,1.0,USD,USD,USD,False
+MSGS.NYSE,Madison Square Garden Sport Corp,Stock CFD's\NYSE\MSGS.NYSE,4,2,0,1.0,USD,USD,USD,False
+HUBB.NYSE,Hubbell Inc,Stock CFD's\NYSE\HUBB.NYSE,4,3,0,1.0,USD,USD,USD,False
+IIPR.NYSE,Innovative Industrial Properties Inc,Stock CFD's\NYSE\IIPR.NYSE,4,3,0,1.0,USD,USD,USD,False
+INSP.NYSE,Inspire Medical Systems Inc,Stock CFD's\NYSE\INSP.NYSE,4,3,0,1.0,USD,USD,USD,False
+WEX.NYSE,WEX Inc,Stock CFD's\NYSE\WEX.NYSE,4,3,0,1.0,USD,USD,USD,False
+MED.NYSE,Medifast Inc,Stock CFD's\NYSE\MED.NYSE,4,3,0,1.0,USD,USD,USD,False
+FVRR.NYSE,Fiverr International Ltd.,Stock CFD's\NYSE\FVRR.NYSE,4,3,0,1.0,USD,USD,USD,False
+VEEV.NYSE,Veeva Systems Inc,Stock CFD's\NYSE\VEEV.NYSE,4,3,0,1.0,USD,USD,USD,False
+WSO.NYSE,Watsco Inc,Stock CFD's\NYSE\WSO.NYSE,4,3,0,1.0,USD,USD,USD,False
+PEN.NYSE,Penumbra Inc,Stock CFD's\NYSE\PEN.NYSE,3,3,0,1.0,USD,USD,USD,False
+ALX.NYSE,Alexander's Inc,Stock CFD's\NYSE\ALX.NYSE,4,3,0,1.0,USD,USD,USD,False
+RNG.NYSE,RingCentral Inc,Stock CFD's\NYSE\RNG.NYSE,4,3,0,1.0,USD,USD,USD,False
+BURL.NYSE,Burlington Stores Inc,Stock CFD's\NYSE\BURL.NYSE,4,3,0,1.0,USD,USD,USD,False
+DECK.NYSE,Deckers Outdoor Corp,Stock CFD's\NYSE\DECK.NYSE,4,2,0,1.0,USD,USD,USD,False
+CHE.NYSE,Chemed Corp,Stock CFD's\NYSE\CHE.NYSE,4,3,0,1.0,USD,USD,USD,False
+GHC.NYSE,Graham Holdings Co,Stock CFD's\NYSE\GHC.NYSE,4,3,0,1.0,USD,USD,USD,False
+MAN.NYSE,ManpowerGroup Inc.,Stock CFD's\NYSE\MAN.NYSE,4,3,0,1.0,USD,USD,USD,False
+MAC.NYSE,Macerich Co,Stock CFD's\NYSE\MAC.NYSE,4,3,0,1.0,USD,USD,USD,False
+TAL.NYSE,TAL Education Group,Stock CFD's\NYSE\TAL.NYSE,4,3,0,1.0,USD,USD,USD,False
+DBRG.NYSE,DigitalBridge Group Inc,Stock CFD's\NYSE\DBRG.NYSE,4,3,0,1.0,USD,USD,USD,False
+ADX.NYSE,Adams Express Co,Stock CFD's\NYSE\ADX.NYSE,4,3,0,1.0,USD,USD,USD,False
+ADNT.NYSE,Adient PLC,Stock CFD's\NYSE\ADNT.NYSE,4,3,0,1.0,USD,USD,USD,False
+ASIX.NYSE,AdvanSix Inc.,Stock CFD's\NYSE\ASIX.NYSE,3,3,0,1.0,USD,USD,USD,False
+WMS.NYSE,Advanced Drainage Systems Inc,Stock CFD's\NYSE\WMS.NYSE,3,3,0,1.0,USD,USD,USD,False
+AVK.NYSE,Advent Claymore Convertible Securities and Income Fund,Stock CFD's\NYSE\AVK.NYSE,1,3,0,1.0,USD,USD,USD,False
+AEG.NYSE,Aegon NV,Stock CFD's\NYSE\AEG.NYSE,4,3,0,1.0,USD,USD,USD,False
+AENZ.NYSE,Aenza SAA,Stock CFD's\NYSE\AENZ.NYSE,4,3,0,1.0,USD,USD,USD,False
+AEM.NYSE,Agnico Eagle Mines Ltd (US),Stock CFD's\NYSE\AEM.NYSE,4,3,0,1.0,USD,USD,USD,False
+AMR.NYSE,Alpha Metallurgi,Stock CFD's\NYSE\AMR.NYSE,3,3,0,1.0,USD,USD,USD,False
+PINE.NYSE,Alpine Income Property Trust Inc,Stock CFD's\NYSE\PINE.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALTG.NYSE,Alta Equipment Group Inc,Stock CFD's\NYSE\ALTG.NYSE,3,3,0,1.0,USD,USD,USD,False
+AXS.NYSE,Axis Capital Holdings Ltd,Stock CFD's\NYSE\AXS.NYSE,4,3,0,1.0,USD,USD,USD,False
+BBW.NYSE,Build-A-Bear Workshop Inc,Stock CFD's\NYSE\BBW.NYSE,4,3,0,1.0,USD,USD,USD,False
+CNHI.NYSE,CNH Industrial (US),Stock CFD's\NYSE\CNHI.NYSE,3,3,0,1.0,USD,USD,USD,False
+CWT.NYSE,California Water Service Group,Stock CFD's\NYSE\CWT.NYSE,4,3,0,1.0,USD,USD,USD,False
+STK.NYSE,Columbia Seligman Premium Technology Growth Fund Inc,Stock CFD's\NYSE\STK.NYSE,4,3,0,1.0,USD,USD,USD,False
+CBU.NYSE,Community Bank System Inc,Stock CFD's\NYSE\CBU.NYSE,4,3,0,1.0,USD,USD,USD,False
+CW.NYSE,Curtiss-Wright Corp,Stock CFD's\NYSE\CW.NYSE,3,3,0,1.0,USD,USD,USD,False
+FHN.NYSE,First Horizon,Stock CFD's\NYSE\FHN.NYSE,4,3,0,1.0,USD,USD,USD,False
+GME.NYSE,GameStop,Stock CFD's\NYSE\GME.NYSE,4,3,0,1.0,USD,USD,USD,False
+GNK.NYSE,Genco Shipping & Trading Ltd,Stock CFD's\NYSE\GNK.NYSE,3,3,0,1.0,USD,USD,USD,False
+GSK.NYSE,GlaxoSmithKline (US),Stock CFD's\NYSE\GSK.NYSE,4,3,0,1.0,USD,USD,USD,False
+KEN.NYSE,Kenon Holdings Ltd,Stock CFD's\NYSE\KEN.NYSE,4,3,0,1.0,USD,USD,USD,False
+LXU.NYSE,LSB Industries Inc,Stock CFD's\NYSE\LXU.NYSE,4,3,0,1.0,USD,USD,USD,False
+LU.NYSE,Lufax Holding Ltd,Stock CFD's\NYSE\LU.NYSE,4,3,0,1.0,USD,USD,USD,False
+PBT.NYSE,Permian Basin Royalty Trust,Stock CFD's\NYSE\PBT.NYSE,4,3,0,1.0,USD,USD,USD,False
+RBLX.NYSE,Roblox Corporation,Stock CFD's\NYSE\RBLX.NYSE,4,3,0,1.0,USD,USD,USD,False
+RY.NYSE,Royal Bank of Canada (US),Stock CFD's\NYSE\RY.NYSE,4,3,0,1.0,USD,USD,USD,False
+SB.NYSE,Safe Bulkers Inc,Stock CFD's\NYSE\SB.NYSE,4,3,0,1.0,USD,USD,USD,False
+SAR.NYSE,Saratoga Investment Corp,Stock CFD's\NYSE\SAR.NYSE,4,3,0,1.0,USD,USD,USD,False
+TKR.NYSE,Timken Co,Stock CFD's\NYSE\TKR.NYSE,4,3,0,1.0,USD,USD,USD,False
+VET.NYSE,Vermilion Energy Inc (US),Stock CFD's\NYSE\VET.NYSE,3,3,0,1.0,USD,USD,USD,False
+VSCO.NYSE,Victoria's Secret & Co,Stock CFD's\NYSE\VSCO.NYSE,4,3,0,1.0,USD,USD,USD,False
+FAX.NYSE,Aberdeen Asia-Pacific Income Fund Inc,Stock CFD's\NYSE\FAX.NYSE,4,3,0,1.0,USD,USD,USD,False
+AWP.NYSE,Aberdeen Global Premier Properties Fund,Stock CFD's\NYSE\AWP.NYSE,4,3,0,1.0,USD,USD,USD,False
+ACP.NYSE,Aberdeen Income Credit Strategies Fund,Stock CFD's\NYSE\ACP.NYSE,3,3,0,1.0,USD,USD,USD,False
+AOD.NYSE,Aberdeen Total Dynamic Dividend Fund,Stock CFD's\NYSE\AOD.NYSE,4,3,0,1.0,USD,USD,USD,False
+RERE.NYSE,Aihuishou International,Stock CFD's\NYSE\RERE.NYSE,4,3,0,1.0,USD,USD,USD,False
+AL.NYSE,Air Lease Corp,Stock CFD's\NYSE\AL.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALG.NYSE,Alamo Group Inc,Stock CFD's\NYSE\ALG.NYSE,4,3,0,1.0,USD,USD,USD,False
+AGI.NYSE,Alamos Gold Inc (US),Stock CFD's\NYSE\AGI.NYSE,4,3,0,1.0,USD,USD,USD,False
+ACI.NYSE,Albertsons Companies Inc - Class A,Stock CFD's\NYSE\ACI.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALC.NYSE,Alcon Inc (US),Stock CFD's\NYSE\ALC.NYSE,4,3,0,1.0,USD,USD,USD,False
+ALEX.NYSE,Alexander & Baldwin Inc,Stock CFD's\NYSE\ALEX.NYSE,4,3,0,1.0,USD,USD,USD,False
+AVD.NYSE,American Vanguard Corp,Stock CFD's\NYSE\AVD.NYSE,3,3,0,1.0,USD,USD,USD,False
+AX.NYSE,Axos Financial Inc,Stock CFD's\NYSE\AX.NYSE,4,2,0,1.0,USD,USD,USD,False
+LAW.NYSE,CS Disco Inc.,Stock CFD's\NYSE\LAW.NYSE,3,3,0,1.0,USD,USD,USD,False
+CALX.NYSE,Calix Inc,Stock CFD's\NYSE\CALX.NYSE,4,3,0,1.0,USD,USD,USD,False
+CATO.NYSE,Cato Corp/The,Stock CFD's\NYSE\CATO.NYSE,4,3,0,1.0,USD,USD,USD,False
+FUN.NYSE,Cedar Fair LP,Stock CFD's\NYSE\FUN.NYSE,3,3,0,1.0,USD,USD,USD,False
+CLS.NYSE,Celestica Inc (US),Stock CFD's\NYSE\CLS.NYSE,4,3,0,1.0,USD,USD,USD,False
+CPAC.NYSE,Cementos Pacasmayo SAA,Stock CFD's\NYSE\CPAC.NYSE,4,3,0,1.0,USD,USD,USD,False
+CVE.NYSE,Cenovus Energy Inc (US),Stock CFD's\NYSE\CVE.NYSE,3,3,0,1.0,USD,USD,USD,False
+CSR.NYSE,Centerspace,Stock CFD's\NYSE\CSR.NYSE,4,2,0,1.0,USD,USD,USD,False
+COUR.NYSE,"Coursera, Inc.",Stock CFD's\NYSE\COUR.NYSE,4,3,0,1.0,USD,USD,USD,False
+EEX.NYSE,Emerald Holding Inc,Stock CFD's\NYSE\EEX.NYSE,4,3,0,1.0,USD,USD,USD,False
+XPRO.NYSE,Expro Group Holdings NV,Stock CFD's\NYSE\XPRO.NYSE,4,3,0,1.0,USD,USD,USD,False
+RACE.NYSE,Ferrari NV (US),Stock CFD's\NYSE\RACE.NYSE,4,3,0,1.0,USD,USD,USD,False
+GES.NYSE,Guess? Inc,Stock CFD's\NYSE\GES.NYSE,4,3,0,1.0,USD,USD,USD,False
+IHS.NYSE,IHS Holding Limited,Stock CFD's\NYSE\IHS.NYSE,4,3,0,1.0,USD,USD,USD,False
+LGFa.NYSE,Lions Gate Entertainment Corp,Stock CFD's\NYSE\LGFa.NYSE,3,3,0,1.0,USD,USD,USD,False
+SHEL.NYSE,Shell PLC (US),Stock CFD's\NYSE\SHEL.NYSE,4,3,0,1.0,USD,USD,USD,False
+FOUR.NYSE,Shift4 Payments Inc,Stock CFD's\NYSE\FOUR.NYSE,3,3,0,1.0,USD,USD,USD,False
+SHG.NYSE,Shinhan Financial Group Co Ltd,Stock CFD's\NYSE\SHG.NYSE,4,3,0,1.0,USD,USD,USD,False
+SSTK.NYSE,Shutterstock Inc,Stock CFD's\NYSE\SSTK.NYSE,4,3,0,1.0,USD,USD,USD,False
+SIG.NYSE,Signet Jewelers Ltd,Stock CFD's\NYSE\SIG.NYSE,4,3,0,1.0,USD,USD,USD,False
+SMWB.NYSE,SimilarWeb LTD,Stock CFD's\NYSE\SMWB.NYSE,3,3,0,1.0,USD,USD,USD,False
+SLI.NYSE,Standard Lithium Ltd,Stock CFD's\NYSE\SLI.NYSE,4,4,0,1.0,USD,USD,USD,False
+SMP.NYSE,Standard Motor Products Inc,Stock CFD's\NYSE\SMP.NYSE,4,3,0,1.0,USD,USD,USD,False
+SXI.NYSE,Standex International Corp,Stock CFD's\NYSE\SXI.NYSE,4,3,0,1.0,USD,USD,USD,False
+STN.NYSE,Stantec Inc (US),Stock CFD's\NYSE\STN.NYSE,4,3,0,1.0,USD,USD,USD,False
+SGU.NYSE,Star Gas Partners LP,Stock CFD's\NYSE\SGU.NYSE,4,3,0,1.0,USD,USD,USD,False
+STLA.NYSE,Stellantis NV (US),Stock CFD's\NYSE\STLA.NYSE,4,3,0,1.0,USD,USD,USD,False
+STEM.NYSE,Stem Inc,Stock CFD's\NYSE\STEM.NYSE,4,3,0,1.0,USD,USD,USD,False
+SCL.NYSE,Stepan Co,Stock CFD's\NYSE\SCL.NYSE,4,3,0,1.0,USD,USD,USD,False
+STXS.NYSE,Stereotaxis Inc,Stock CFD's\NYSE\STXS.NYSE,4,3,0,1.0,USD,USD,USD,False
+STVN.NYSE,Stevanato Group SPA,Stock CFD's\NYSE\STVN.NYSE,3,3,0,1.0,USD,USD,USD,False
+THR.NYSE,Thermon Group Holdings Inc,Stock CFD's\NYSE\THR.NYSE,3,3,0,1.0,USD,USD,USD,False
+TDW.NYSE,Tidewater Inc,Stock CFD's\NYSE\TDW.NYSE,3,3,0,1.0,USD,USD,USD,False
+TINV.NYSE,Tiga Acquisition Corp,Stock CFD's\NYSE\TINV.NYSE,4,3,0,1.0,USD,USD,USD,False
+TLYS.NYSE,Tilly's Inc,Stock CFD's\NYSE\TLYS.NYSE,4,3,0,1.0,USD,USD,USD,False
+UL.NYSE,Unilever (US),Stock CFD's\NYSE\UL.NYSE,4,3,0,1.0,USD,USD,USD,False
+IAU.NYSE,iShares Gold Trust (US),Stock CFD's\NYSE\ETF\IAU.NYSE,4,3,0,1.0,USD,USD,USD,False
+XLV.NYSE,Health Care Select Sector SPDR Fund,Stock CFD's\NYSE\ETF\XLV.NYSE,4,3,0,1.0,USD,USD,USD,False
+XLK.NYSE,Technology Select Sector SPDR Fund,Stock CFD's\NYSE\ETF\XLK.NYSE,4,3,0,1.0,USD,USD,USD,False
+XLY.NYSE,Consumer Discretionary Select Sector SPDR Fund,Stock CFD's\NYSE\ETF\XLY.NYSE,4,3,0,1.0,USD,USD,USD,False
+BFH.NYSE,Bread Financial Holdings Inc.,Stock CFD's\NYSE\BFH.NYSE,4,3,0,1.0,USD,USD,USD,False
+GRMN.NYSE,Garmin Ltd.,Stock CFD's\NYSE\GRMN.NYSE,4,3,0,1.0,USD,USD,USD,False
+WT.NYSE,WisdomTree Investments Inc,Stock CFD's\NYSE\WT.NYSE,4,3,0,1.0,USD,USD,USD,False
+YINN.NYSE,Direxion Daily FTSE China Bull 3X Shares ETF CFD,Stock CFD's\NYSE\ETF\YINN.NYSE,4,2,0,1.0,USD,USD,USD,False
+EWT.NYSE,iShares MSCI Taiwan Index Fund CFD,Stock CFD's\NYSE\ETF\EWT.NYSE,4,2,0,1.0,USD,USD,USD,False
+EWC.NYSE,iShares MSCI Canada ETF CFD,Stock CFD's\NYSE\ETF\EWC.NYSE,4,2,0,1.0,USD,USD,USD,False
+EPHE.NYSE,iShares MSCI Philippines ETF CFD,Stock CFD's\NYSE\ETF\EPHE.NYSE,4,2,0,1.0,USD,USD,USD,False
+EWY.NYSE,iShares MSCI South Korea Capped ETF CFD,Stock CFD's\NYSE\ETF\EWY.NYSE,4,2,0,1.0,USD,USD,USD,False
+RVTY.NYSE,Revvity Inc,Stock CFD's\NYSE\RVTY.NYSE,4,3,0,1.0,USD,USD,USD,False
+NVRI.NYSE,Enviri Corp,Stock CFD's\NYSE\NVRI.NYSE,4,3,0,1.0,USD,USD,USD,False
+EG.NYSE,Everest Re Group Ltd.,Stock CFD's\NYSE\EG.NYSE,4,3,0,1.0,USD,USD,USD,False
+CDP.NYSE,COPT Defense Properties,Stock CFD's\NYSE\CDP.NYSE,4,3,0,1.0,USD,USD,USD,False
+EXPD.NYSE,Expeditors,Stock CFD's\NYSE\EXPD.NYSE,4,3,0,1.0,USD,USD,USD,False
+RGS.NAS,Regis Corp,Stock CFD's\NYSE\RGS.NAS,3,3,0,1.0,USD,USD,USD,False
+DAY.NYSE,Ceridian HCM Holding Inc. Common Stock,Stock CFD's\NYSE\DAY.NYSE,4,3,0,1.0,USD,USD,USD,False
+MTUS.NYSE,Metallus Inc,Stock CFD's\NYSE\MTUS.NYSE,3,3,0,1.0,USD,USD,USD,False
+DOC.NYSE,Healthpeak Properties,Stock CFD's\NYSE\DOC.NYSE,4,3,0,1.0,USD,USD,USD,False
+ABCB.NYSE,Ameris Bancorp,Stock CFD's\NYSE\ABCB.NYSE,3,3,0,1.0,USD,USD,USD,False
+GAP.NYSE,Gap Inc.,Stock CFD's\NYSE\GAP.NYSE,3,3,0,1.0,USD,USD,USD,False
+CURB.NYSE,Curbline Properties Corp.,Stock CFD's\NYSE\CURB.NYSE,4,3,0,1.0,USD,USD,USD,False
+XIFR.NYSE,NextEra Energy Partners LP,Stock CFD's\NYSE\XIFR.NYSE,4,3,0,1.0,USD,USD,USD,False
+SGI.NYSE,Tempur Sealy International Inc,Stock CFD's\NYSE\SGI.NYSE,4,3,0,1.0,USD,USD,USD,False
+JBTM.NYSE,John Bean Technologies Corp,Stock CFD's\NYSE\JBTM.NYSE,4,3,0,1.0,USD,USD,USD,False
+B.NYSE,Barrick Gold Corp,Stock CFD's\NYSE\B.NYSE,3,3,0,1.0,USD,USD,USD,False
+BRSL.NYSE,International Game Technology,Stock CFD's\NYSE\BRSL.NYSE,4,3,0,1.0,USD,USD,USD,False
+BBT.NYSE,Berkshire Hills Bancorp Inc,Stock CFD's\NYSE\BBT.NYSE,4,2,0,1.0,USD,USD,USD,False
+VHC.NAS,VirnetX Holding Corp,Stock CFD's\NYSE\VHC.NAS,4,3,0,1.0,USD,USD,USD,False
+AAPL.NAS,Apple Inc CFD,Stock CFD's\Nasdaq\AAPL.NAS,4,3,0,1.0,USD,USD,USD,False
+ADBE.NAS,Adobe Systems CFD,Stock CFD's\Nasdaq\ADBE.NAS,3,3,0,1.0,USD,USD,USD,False
+ADI.NAS,Analog Devices CFD,Stock CFD's\Nasdaq\ADI.NAS,4,3,0,1.0,USD,USD,USD,False
+ADP.NAS,Automatic Data Processing (ADP) CFD,Stock CFD's\Nasdaq\ADP.NAS,4,3,0,1.0,USD,USD,USD,False
+AMAT.NAS,Applied Materials CFD,Stock CFD's\Nasdaq\AMAT.NAS,4,3,0,1.0,USD,USD,USD,False
+AMGN.NAS,Amgen CFD,Stock CFD's\Nasdaq\AMGN.NAS,4,3,0,1.0,USD,USD,USD,False
+AMZN.NAS,Amazon.com CFD,Stock CFD's\Nasdaq\AMZN.NAS,4,3,0,1.0,USD,USD,USD,False
+AVGO.NAS,Broadcom Ltd CFD,Stock CFD's\Nasdaq\AVGO.NAS,4,3,0,1.0,USD,USD,USD,False
+BKNG.NAS,Booking Holdings Inc CFD,Stock CFD's\Nasdaq\BKNG.NAS,4,2,0,1.0,USD,USD,USD,False
+BIIB.NAS,Biogen Inc CFD,Stock CFD's\Nasdaq\BIIB.NAS,4,3,0,1.0,USD,USD,USD,False
+CELG.NAS,Celgene Corp CFD,Stock CFD's\Nasdaq\CELG.NAS,4,2,0,1.0,USD,USD,USD,False
+CHTR.NAS,Charter Communications Inc CFD,Stock CFD's\Nasdaq\CHTR.NAS,4,2,0,1.0,USD,USD,USD,False
+CMCSA.NAS,Comcast Corp A CFD,Stock CFD's\Nasdaq\CMCSA.NAS,4,2,0,1.0,USD,USD,USD,False
+CME.NAS,CME Group CFD,Stock CFD's\Nasdaq\CME.NAS,4,2,0,1.0,USD,USD,USD,False
+COST.NAS,Costco Wholesale CFD,Stock CFD's\Nasdaq\COST.NAS,4,2,0,1.0,USD,USD,USD,False
+CRON.NAS,Cronos Group Inc CFD,Stock CFD's\Nasdaq\CRON.NAS,3,2,0,1.0,USD,USD,USD,False
+CSCO.NAS,Cisco Systems CFD,Stock CFD's\Nasdaq\CSCO.NAS,4,2,0,1.0,USD,USD,USD,False
+CSX.NAS,CSX Corp CFD,Stock CFD's\Nasdaq\CSX.NAS,4,3,0,1.0,USD,USD,USD,False
+CTSH.NAS,Cognizant Technology Solutions CFD,Stock CFD's\Nasdaq\CTSH.NAS,4,2,0,1.0,USD,USD,USD,False
+EA.NAS,Electronic Arts CFD,Stock CFD's\Nasdaq\EA.NAS,4,2,0,1.0,USD,USD,USD,False
+EBAY.NAS,Ebay CFD,Stock CFD's\Nasdaq\EBAY.NAS,4,2,0,1.0,USD,USD,USD,False
+EQIX.NAS,Equinix CFD,Stock CFD's\Nasdaq\EQIX.NAS,4,2,0,1.0,USD,USD,USD,False
+FOX.NAS,Fox Corp - Class B CFD,Stock CFD's\Nasdaq\FOX.NAS,4,2,0,1.0,USD,USD,USD,False
+FOXA.NAS,Fox Corp - Class A CFD,Stock CFD's\Nasdaq\FOXA.NAS,4,2,0,1.0,USD,USD,USD,False
+GILD.NAS,Gilead Sciences CFD,Stock CFD's\Nasdaq\GILD.NAS,4,2,0,1.0,USD,USD,USD,False
+GOOG.NAS,Alphabet Inc C CFD,Stock CFD's\Nasdaq\GOOG.NAS,4,2,0,1.0,USD,USD,USD,False
+INTC.NAS,Intel Corp CFD,Stock CFD's\Nasdaq\INTC.NAS,4,2,0,1.0,USD,USD,USD,False
+INTU.NAS,Intuit CFD,Stock CFD's\Nasdaq\INTU.NAS,4,2,0,1.0,USD,USD,USD,False
+ISRG.NAS,Intuitive Surgical CFD,Stock CFD's\Nasdaq\ISRG.NAS,4,2,0,1.0,USD,USD,USD,False
+KHC.NAS,Kraft Heinz Co CFD,Stock CFD's\Nasdaq\KHC.NAS,4,2,0,1.0,USD,USD,USD,False
+MAR.NAS,Marriott Intl CFD,Stock CFD's\Nasdaq\MAR.NAS,4,2,0,1.0,USD,USD,USD,False
+MDLZ.NAS,Mondelez International CFD,Stock CFD's\Nasdaq\MDLZ.NAS,4,2,0,1.0,USD,USD,USD,False
+MSFT.NAS,Microsoft Corp CFD,Stock CFD's\Nasdaq\MSFT.NAS,4,2,0,1.0,USD,USD,USD,False
+MU.NAS,Micron Technology Inc CFD,Stock CFD's\Nasdaq\MU.NAS,4,2,0,1.0,USD,USD,USD,False
+NFLX.NAS,Netflix CFD,Stock CFD's\Nasdaq\NFLX.NAS,4,2,0,1.0,USD,USD,USD,False
+NVDA.NAS,Nvidia Corp CFD,Stock CFD's\Nasdaq\NVDA.NAS,4,2,0,1.0,USD,USD,USD,False
+PEP.NAS,Pepsico CFD,Stock CFD's\Nasdaq\PEP.NAS,4,2,0,1.0,USD,USD,USD,False
+PYPL.NAS,Paypal Holdings Inc CFD,Stock CFD's\Nasdaq\PYPL.NAS,4,2,0,1.0,USD,USD,USD,False
+QCOM.NAS,Qualcomm CFD,Stock CFD's\Nasdaq\QCOM.NAS,3,2,0,1.0,USD,USD,USD,False
+REGN.NAS,Regeneron Pharmaceuticals Inc CFD,Stock CFD's\Nasdaq\REGN.NAS,4,2,0,1.0,USD,USD,USD,False
+SBUX.NAS,Starbucks Corp CFD,Stock CFD's\Nasdaq\SBUX.NAS,4,2,0,1.0,USD,USD,USD,False
+SHPG.NAS,Shire Plc ADR CFD,Stock CFD's\Nasdaq\SHPG.NAS,0,2,0,1.0,USD,USD,USD,False
+TFCF.NAS,Twenty-First Century Fox (USD) B CFD,Stock CFD's\Nasdaq\TFCF.NAS,0,2,0,1.0,USD,USD,USD,False
+TFCFA.NAS,Twenty-First Century Fox (USD) A CFD,Stock CFD's\Nasdaq\TFCFA.NAS,0,2,0,1.0,USD,USD,USD,False
+TLRY.NAS,Tilray Inc CFD,Stock CFD's\Nasdaq\TLRY.NAS,4,2,0,1.0,USD,USD,USD,False
+TMUS.NAS,T-Mobile US CFD,Stock CFD's\Nasdaq\TMUS.NAS,4,2,0,1.0,USD,USD,USD,False
+TSLA.NAS,Tesla Motors CFD,Stock CFD's\Nasdaq\TSLA.NAS,4,2,0,1.0,USD,USD,USD,False
+TXN.NAS,Texas Instruments CFD,Stock CFD's\Nasdaq\TXN.NAS,4,2,0,1.0,USD,USD,USD,False
+VRTX.NAS,Vertex Pharma CFD,Stock CFD's\Nasdaq\VRTX.NAS,4,2,0,1.0,USD,USD,USD,False
+QQQ.NAS,Invesco QQQ Trust ETF CFD,Stock CFD's\Nasdaq\ETF\QQQ.NAS,4,2,0,1.0,USD,USD,USD,False
+TLT.NAS,iShares 20+ Year Treasury Bond ETF CFD,Stock CFD's\Nasdaq\ETF\TLT.NAS,4,2,0,1.0,USD,USD,USD,False
+LYFT.NAS,"Lyft, Inc. CFD",Stock CFD's\Nasdaq\LYFT.NAS,3,2,0,1.0,USD,USD,USD,False
+AMD.NAS,Advanced Micro Devices Inc CFD,Stock CFD's\Nasdaq\AMD.NAS,4,3,0,1.0,USD,USD,USD,False
+AKAM.NAS,Akamai Technologies Inc,Stock CFD's\Nasdaq\AKAM.NAS,3,3,0,1.0,USD,USD,USD,False
+ALGN.NAS,Align Technology CFD,Stock CFD's\Nasdaq\ALGN.NAS,4,3,0,1.0,USD,USD,USD,False
+LNT.NAS,Alliant Energy Corp CFD,Stock CFD's\Nasdaq\LNT.NAS,3,3,0,1.0,USD,USD,USD,False
+AAL.NAS,American Airlines Group CFD,Stock CFD's\Nasdaq\AAL.NAS,4,3,0,1.0,USD,USD,USD,False
+AEP.NAS,American Electric Power,Stock CFD's\Nasdaq\AEP.NAS,4,3,0,1.0,USD,USD,USD,False
+APA.NAS,Apache Corporation CFD,Stock CFD's\Nasdaq\APA.NAS,3,3,0,1.0,USD,USD,USD,False
+ADSK.NAS,Autodesk Inc. CFD,Stock CFD's\Nasdaq\ADSK.NAS,4,3,0,1.0,USD,USD,USD,False
+CHRW.NAS,C. H. Robinson Worldwide CFD,Stock CFD's\Nasdaq\CHRW.NAS,4,3,0,1.0,USD,USD,USD,False
+CDNS.NAS,Cadence Design Systems CFD,Stock CFD's\Nasdaq\CDNS.NAS,4,3,0,1.0,USD,USD,USD,False
+CDW.NAS,CDW CFD,Stock CFD's\Nasdaq\CDW.NAS,4,3,0,1.0,USD,USD,USD,False
+CINF.NAS,Cincinnati Financial,Stock CFD's\Nasdaq\CINF.NAS,4,3,0,1.0,USD,USD,USD,False
+CTAS.NAS,Cintas Corporation CFD,Stock CFD's\Nasdaq\CTAS.NAS,4,3,0,1.0,USD,USD,USD,False
+CPRT.NAS,Copart Inc CFD,Stock CFD's\Nasdaq\CPRT.NAS,4,2,0,1.0,USD,USD,USD,False
+XRAY.NAS,Dentsply Sirona,Stock CFD's\Nasdaq\XRAY.NAS,3,3,0,1.0,USD,USD,USD,False
+DXCM.NAS,DexCom,Stock CFD's\Nasdaq\DXCM.NAS,4,2,0,1.0,USD,USD,USD,False
+FANG.NAS,Diamondback Energy,Stock CFD's\Nasdaq\FANG.NAS,4,3,0,1.0,USD,USD,USD,False
+DLTR.NAS,Dollar Tree,Stock CFD's\Nasdaq\DLTR.NAS,4,3,0,1.0,USD,USD,USD,False
+ENPH.NAS,Enphase Energy,Stock CFD's\Nasdaq\ENPH.NAS,4,3,0,1.0,USD,USD,USD,False
+EXC.NAS,Exelon Corp.,Stock CFD's\Nasdaq\EXC.NAS,4,3,0,1.0,USD,USD,USD,False
+EXPE.NAS,Expedia Group,Stock CFD's\Nasdaq\EXPE.NAS,3,3,0,1.0,USD,USD,USD,False
+FFIV.NAS,F5 Networks,Stock CFD's\Nasdaq\FFIV.NAS,4,3,0,1.0,USD,USD,USD,False
+FAST.NAS,Fastenal Co,Stock CFD's\Nasdaq\FAST.NAS,3,3,0,1.0,USD,USD,USD,False
+FITB.NAS,Fifth Third Bancorp,Stock CFD's\Nasdaq\FITB.NAS,4,3,0,1.0,USD,USD,USD,False
+FISV.NAS,Fiserv Inc,Stock CFD's\Nasdaq\FISV.NAS,3,3,0,1.0,USD,USD,USD,False
+FTNT.NAS,Fortinet,Stock CFD's\Nasdaq\FTNT.NAS,3,2,0,1.0,USD,USD,USD,False
+GPC.NAS,Genuine Parts,Stock CFD's\Nasdaq\GPC.NAS,4,3,0,1.0,USD,USD,USD,False
+HAS.NAS,Hasbro Inc.,Stock CFD's\Nasdaq\HAS.NAS,4,3,0,1.0,USD,USD,USD,False
+HSIC.NAS,Henry Schein,Stock CFD's\Nasdaq\HSIC.NAS,4,3,0,1.0,USD,USD,USD,False
+HOLX.NAS,Hologic,Stock CFD's\Nasdaq\HOLX.NAS,4,3,0,1.0,USD,USD,USD,False
+HST.NAS,Host Hotels & Resorts,Stock CFD's\Nasdaq\HST.NAS,3,3,0,1.0,USD,USD,USD,False
+HBAN.NAS,Huntington Bancshares,Stock CFD's\Nasdaq\HBAN.NAS,4,3,0,1.0,USD,USD,USD,False
+IDXX.NAS,IDEXX Laboratories,Stock CFD's\Nasdaq\IDXX.NAS,4,2,0,1.0,USD,USD,USD,False
+ILMN.NAS,Illumina Inc,Stock CFD's\Nasdaq\ILMN.NAS,4,3,0,1.0,USD,USD,USD,False
+INCY.NAS,Incyte,Stock CFD's\Nasdaq\INCY.NAS,4,2,0,1.0,USD,USD,USD,False
+IPGP.NAS,IPG Photonics Corp.,Stock CFD's\Nasdaq\IPGP.NAS,4,2,0,1.0,USD,USD,USD,False
+JBHT.NAS,J. B. Hunt Transport Services,Stock CFD's\Nasdaq\JBHT.NAS,4,3,0,1.0,USD,USD,USD,False
+KLAC.NAS,KLA Corporation,Stock CFD's\Nasdaq\KLAC.NAS,4,3,0,1.0,USD,USD,USD,False
+LRCX.NAS,Lam Research,Stock CFD's\Nasdaq\LRCX.NAS,4,3,0,1.0,USD,USD,USD,False
+MCHP.NAS,Microchip Technology,Stock CFD's\Nasdaq\MCHP.NAS,3,3,0,1.0,USD,USD,USD,False
+MNST.NAS,Monster Beverage,Stock CFD's\Nasdaq\MNST.NAS,3,3,0,1.0,USD,USD,USD,False
+NDAQ.NAS,"Nasdaq, Inc.",Stock CFD's\Nasdaq\NDAQ.NAS,4,3,0,1.0,USD,USD,USD,False
+NTAP.NAS,NetApp,Stock CFD's\Nasdaq\NTAP.NAS,4,3,0,1.0,USD,USD,USD,False
+NWL.NAS,Newell Brands,Stock CFD's\Nasdaq\NWL.NAS,3,3,0,1.0,USD,USD,USD,False
+NWSA.NAS,News Corp. Class A,Stock CFD's\Nasdaq\NWSA.NAS,3,3,0,1.0,USD,USD,USD,False
+NWS.NAS,News Corp. Class B,Stock CFD's\Nasdaq\NWS.NAS,4,3,0,1.0,USD,USD,USD,False
+NTRS.NAS,Northern Trust Corp.,Stock CFD's\Nasdaq\NTRS.NAS,4,3,0,1.0,USD,USD,USD,False
+ORLY.NAS,O'Reilly Automotive,Stock CFD's\Nasdaq\ORLY.NAS,4,3,0,1.0,USD,USD,USD,False
+PCAR.NAS,PACCAR Inc.,Stock CFD's\Nasdaq\PCAR.NAS,4,3,0,1.0,USD,USD,USD,False
+PAYX.NAS,Paychex Inc.,Stock CFD's\Nasdaq\PAYX.NAS,4,3,0,1.0,USD,USD,USD,False
+PBCT.NAS,People's United Financial,Stock CFD's\Nasdaq\PBCT.NAS,3,3,0,1.0,USD,USD,USD,False
+PFG.NAS,Principal Financial Group,Stock CFD's\Nasdaq\PFG.NAS,4,3,0,1.0,USD,USD,USD,False
+REG.NAS,Regency Centers Corporation,Stock CFD's\Nasdaq\REG.NAS,4,3,0,1.0,USD,USD,USD,False
+ROST.NAS,Ross Stores,Stock CFD's\Nasdaq\ROST.NAS,4,3,0,1.0,USD,USD,USD,False
+STX.NAS,Seagate Technology,Stock CFD's\Nasdaq\STX.NAS,4,3,0,1.0,USD,USD,USD,False
+TROW.NAS,T. Rowe Price Group,Stock CFD's\Nasdaq\TROW.NAS,3,3,0,1.0,USD,USD,USD,False
+TER.NAS,Teradyne,Stock CFD's\Nasdaq\TER.NAS,4,3,0,1.0,USD,USD,USD,False
+ULTA.NAS,Ulta Beauty,Stock CFD's\Nasdaq\ULTA.NAS,4,3,0,1.0,USD,USD,USD,False
+UAL.NAS,United Airlines Holdings,Stock CFD's\Nasdaq\UAL.NAS,4,3,0,1.0,USD,USD,USD,False
+VRSN.NAS,Verisign Inc.,Stock CFD's\Nasdaq\VRSN.NAS,4,3,0,1.0,USD,USD,USD,False
+VTRS.NAS,Viatris,Stock CFD's\Nasdaq\VTRS.NAS,3,3,0,1.0,USD,USD,USD,False
+WLTW.NAS,Willis Towers Watson,Stock CFD's\Nasdaq\WLTW.NAS,4,3,0,1.0,USD,USD,USD,False
+WYNN.NAS,Wynn Resorts Ltd,Stock CFD's\Nasdaq\WYNN.NAS,3,3,0,1.0,USD,USD,USD,False
+XEL.NAS,Xcel Energy Inc,Stock CFD's\Nasdaq\XEL.NAS,4,3,0,1.0,USD,USD,USD,False
+ZION.NAS,Zions Bancorp,Stock CFD's\Nasdaq\ZION.NAS,4,3,0,1.0,USD,USD,USD,False
+JKHY.NAS,Jack Henry & Associates,Stock CFD's\Nasdaq\JKHY.NAS,4,2,0,1.0,USD,USD,USD,False
+LKQ.NAS,LKQ Corporation,Stock CFD's\Nasdaq\LKQ.NAS,4,2,0,1.0,USD,USD,USD,False
+MKTX.NAS,MarketAxess,Stock CFD's\Nasdaq\MKTX.NAS,3,2,0,1.0,USD,USD,USD,False
+ODFL.NAS,Old Dominion Freight Line,Stock CFD's\Nasdaq\ODFL.NAS,4,2,0,1.0,USD,USD,USD,False
+POOL.NAS,Pool Corporation,Stock CFD's\Nasdaq\POOL.NAS,4,2,0,1.0,USD,USD,USD,False
+QRVO.NAS,Qorvo,Stock CFD's\Nasdaq\QRVO.NAS,4,2,0,1.0,USD,USD,USD,False
+RDWR.NAS,Radware Ltd.,Stock CFD's\Nasdaq\RDWR.NAS,4,2,0,1.0,USD,USD,USD,False
+SBAC.NAS,SBA Communications,Stock CFD's\Nasdaq\SBAC.NAS,4,2,0,1.0,USD,USD,USD,False
+SWKS.NAS,Skyworks Solutions,Stock CFD's\Nasdaq\SWKS.NAS,4,2,0,1.0,USD,USD,USD,False
+SNPS.NAS,Synopsys Inc.,Stock CFD's\Nasdaq\SNPS.NAS,4,2,0,1.0,USD,USD,USD,False
+TTWO.NAS,Take-Two Interactive,Stock CFD's\Nasdaq\TTWO.NAS,3,2,0,1.0,USD,USD,USD,False
+TSCO.NAS,Tractor Supply Company,Stock CFD's\Nasdaq\TSCO.NAS,4,2,0,1.0,USD,USD,USD,False
+TRMB.NAS,Trimble Inc.,Stock CFD's\Nasdaq\TRMB.NAS,4,2,0,1.0,USD,USD,USD,False
+VRSK.NAS,Verisk Analytics,Stock CFD's\Nasdaq\VRSK.NAS,4,2,0,1.0,USD,USD,USD,False
+ZBRA.NAS,Zebra Technologies,Stock CFD's\Nasdaq\ZBRA.NAS,4,2,0,1.0,USD,USD,USD,False
+ABNB.NAS,Airbnb Inc. Class A Common Stock,Stock CFD's\Nasdaq\ABNB.NAS,3,3,0,1.0,USD,USD,USD,False
+AFRM.NAS,Affirm Holdings Inc. Class A Common Stock,Stock CFD's\Nasdaq\AFRM.NAS,3,3,0,1.0,USD,USD,USD,False
+ALNY.NAS,Alnylam Pharmaceuticals Inc. Common Stock,Stock CFD's\Nasdaq\ALNY.NAS,4,2,0,1.0,USD,USD,USD,False
+APPN.NAS,Appian Corporation Class A Common Stock,Stock CFD's\Nasdaq\APPN.NAS,3,3,0,1.0,USD,USD,USD,False
+BMRN.NAS,BioMarin Pharmaceutical Inc. Common Stock,Stock CFD's\Nasdaq\BMRN.NAS,4,2,0,1.0,USD,USD,USD,False
+BSY.NAS,Bentley Systems Incorporated Class B Common Stock,Stock CFD's\Nasdaq\BSY.NAS,3,3,0,1.0,USD,USD,USD,False
+BYND.NAS,Beyond Meat Inc. Common Stock,Stock CFD's\Nasdaq\BYND.NAS,4,3,0,1.0,USD,USD,USD,False
+CG.NAS,The Carlyle Group Inc. Common Stock,Stock CFD's\Nasdaq\CG.NAS,3,2,0,1.0,USD,USD,USD,False
+CGNX.NAS,Cognex Corporation Common Stock,Stock CFD's\Nasdaq\CGNX.NAS,4,2,0,1.0,USD,USD,USD,False
+CRWD.NAS,CrowdStrike Holdings Inc. Class A Common Stock,Stock CFD's\Nasdaq\CRWD.NAS,4,3,0,1.0,USD,USD,USD,False
+CSGP.NAS,CoStar Group Inc. Common Stock,Stock CFD's\Nasdaq\CSGP.NAS,4,2,0,1.0,USD,USD,USD,False
+CZR.NAS,Caesars Entertainment Inc. Common Stock,Stock CFD's\Nasdaq\CZR.NAS,4,3,0,1.0,USD,USD,USD,False
+DBX.NAS,Dropbox Inc. Class A Common Stock,Stock CFD's\Nasdaq\DBX.NAS,3,3,0,1.0,USD,USD,USD,False
+DDOG.NAS,Datadog Inc. Class A Common Stock,Stock CFD's\Nasdaq\DDOG.NAS,3,3,0,1.0,USD,USD,USD,False
+DKNG.NAS,DraftKings Inc. Class A Common Stock,Stock CFD's\Nasdaq\DKNG.NAS,3,3,0,1.0,USD,USD,USD,False
+DOCU.NAS,DocuSign Inc. Common Stock,Stock CFD's\Nasdaq\DOCU.NAS,4,3,0,1.0,USD,USD,USD,False
+ENTG.NAS,Entegris Inc. Common Stock,Stock CFD's\Nasdaq\ENTG.NAS,4,2,0,1.0,USD,USD,USD,False
+ERIE.NAS,Erie Indemnity Company Class A Common Stock,Stock CFD's\Nasdaq\ERIE.NAS,4,2,0,1.0,USD,USD,USD,False
+EXAS.NAS,Exact Sciences Corporation Common Stock,Stock CFD's\Nasdaq\EXAS.NAS,4,3,0,1.0,USD,USD,USD,False
+EXPI.NAS,eXp World Holdings Inc. Common Stock,Stock CFD's\Nasdaq\EXPI.NAS,3,3,0,1.0,USD,USD,USD,False
+FIVE.NAS,Five Below Inc. Common Stock,Stock CFD's\Nasdaq\FIVE.NAS,4,3,0,1.0,USD,USD,USD,False
+FIVN.NAS,Five9 Inc. Common Stock,Stock CFD's\Nasdaq\FIVN.NAS,3,3,0,1.0,USD,USD,USD,False
+FSLR.NAS,First Solar Inc. Common Stock,Stock CFD's\Nasdaq\FSLR.NAS,4,3,0,1.0,USD,USD,USD,False
+FWONK.NAS,Liberty Media Corporation Series C Liberty Formula One Common S,Stock CFD's\Nasdaq\FWONK.NAS,4,3,0,1.0,USD,USD,USD,False
+GDRX.NAS,GoodRx Holdings Inc. Class A Common Stock,Stock CFD's\Nasdaq\GDRX.NAS,4,3,0,1.0,USD,USD,USD,False
+GLPI.NAS,Gaming and Leisure Properties Inc. Common Stock,Stock CFD's\Nasdaq\GLPI.NAS,4,3,0,1.0,USD,USD,USD,False
+IAC.NAS,IAC/InterActiveCorp Common Stock,Stock CFD's\Nasdaq\IAC.NAS,4,3,0,1.0,USD,USD,USD,False
+IBKR.NAS,Interactive Brokers Group Inc. Class A Common Stock,Stock CFD's\Nasdaq\IBKR.NAS,4,2,0,1.0,USD,USD,USD,False
+IEP.NAS,Icahn Enterprises L.P. Common Stock,Stock CFD's\Nasdaq\IEP.NAS,4,3,0,1.0,USD,USD,USD,False
+KDP.NAS,Keurig Dr Pepper Inc. Common Stock,Stock CFD's\Nasdaq\KDP.NAS,4,3,0,1.0,USD,USD,USD,False
+LAZR.NAS,Luminar Technologies Inc. Class A Common Stock,Stock CFD's\Nasdaq\LAZR.NAS,3,3,0,1.0,USD,USD,USD,False
+LBRDA.NAS,Liberty Broadband Corporation Class A Common Stock,Stock CFD's\Nasdaq\LBRDA.NAS,4,3,0,1.0,USD,USD,USD,False
+LBRDK.NAS,Liberty Broadband Corporation Class C Common Stock,Stock CFD's\Nasdaq\LBRDK.NAS,3,3,0,1.0,USD,USD,USD,False
+LOGI.NAS,Logitech International S.A. Ordinary Shares,Stock CFD's\Nasdaq\LOGI.NAS,4,3,0,1.0,USD,USD,USD,False
+LPLA.NAS,LPL Financial Holdings Inc. Common Stock,Stock CFD's\Nasdaq\LPLA.NAS,4,2,0,1.0,USD,USD,USD,False
+MASI.NAS,Masimo Corporation Common Stock,Stock CFD's\Nasdaq\MASI.NAS,4,2,0,1.0,USD,USD,USD,False
+MDB.NAS,MongoDB Inc. Class A Common Stock,Stock CFD's\Nasdaq\MDB.NAS,4,3,0,1.0,USD,USD,USD,False
+MORN.NAS,Morningstar Inc. Common Stock,Stock CFD's\Nasdaq\MORN.NAS,4,2,0,1.0,USD,USD,USD,False
+MPWR.NAS,Monolithic Power Systems Inc. Common Stock,Stock CFD's\Nasdaq\MPWR.NAS,4,2,0,1.0,USD,USD,USD,False
+MRNA.NAS,Moderna Inc. Common Stock,Stock CFD's\Nasdaq\MRNA.NAS,3,3,0,1.0,USD,USD,USD,False
+MTCH.NAS,Match Group Inc. Common Stock,Stock CFD's\Nasdaq\MTCH.NAS,4,3,0,1.0,USD,USD,USD,False
+NBIX.NAS,Neurocrine Biosciences Inc. Common Stock,Stock CFD's\Nasdaq\NBIX.NAS,4,2,0,1.0,USD,USD,USD,False
+NDSN.NAS,Nordson Corporation Common Stock,Stock CFD's\Nasdaq\NDSN.NAS,3,2,0,1.0,USD,USD,USD,False
+NTRA.NAS,Natera Inc. Common Stock,Stock CFD's\Nasdaq\NTRA.NAS,3,3,0,1.0,USD,USD,USD,False
+NVAX.NAS,Novavax Inc. Common Stock,Stock CFD's\Nasdaq\NVAX.NAS,4,3,0,1.0,USD,USD,USD,False
+OKTA.NAS,Okta Inc. Class A Common Stock,Stock CFD's\Nasdaq\OKTA.NAS,4,3,0,1.0,USD,USD,USD,False
+OLED.NAS,Universal Display Corporation Common Stock,Stock CFD's\Nasdaq\OLED.NAS,3,2,0,1.0,USD,USD,USD,False
+ON.NAS,ON Semiconductor Corporation Common Stock,Stock CFD's\Nasdaq\ON.NAS,4,2,0,1.0,USD,USD,USD,False
+OPEN.NAS,Opendoor Technologies Inc Common Stock,Stock CFD's\Nasdaq\OPEN.NAS,3,3,0,1.0,USD,USD,USD,False
+PCTY.NAS,Paylocity Holding Corporation Common Stock,Stock CFD's\Nasdaq\PCTY.NAS,4,3,0,1.0,USD,USD,USD,False
+PEGA.NAS,Pegasystems Inc. Common Stock,Stock CFD's\Nasdaq\PEGA.NAS,4,2,0,1.0,USD,USD,USD,False
+PENN.NAS,Penn National Gaming Inc. Common Stock,Stock CFD's\Nasdaq\PENN.NAS,3,2,0,1.0,USD,USD,USD,False
+PLUG.NAS,Plug Power Inc. Common Stock,Stock CFD's\Nasdaq\PLUG.NAS,4,3,0,1.0,USD,USD,USD,False
+PODD.NAS,Insulet Corporation Common Stock,Stock CFD's\Nasdaq\PODD.NAS,3,2,0,1.0,USD,USD,USD,False
+PTC.NAS,PTC Inc. Common Stock,Stock CFD's\Nasdaq\PTC.NAS,3,2,0,1.0,USD,USD,USD,False
+PTON.NAS,Peloton Interactive Inc. Class A Common Stock,Stock CFD's\Nasdaq\PTON.NAS,3,3,0,1.0,USD,USD,USD,False
+RGEN.NAS,Repligen Corporation Common Stock,Stock CFD's\Nasdaq\RGEN.NAS,4,3,0,1.0,USD,USD,USD,False
+ROKU.NAS,Roku Inc. Class A Common Stock,Stock CFD's\Nasdaq\ROKU.NAS,4,3,0,1.0,USD,USD,USD,False
+RPRX.NAS,Royalty Pharma plc Class A Ordinary Shares,Stock CFD's\Nasdaq\RPRX.NAS,3,3,0,1.0,USD,USD,USD,False
+RUN.NAS,Sunrun Inc. Common Stock,Stock CFD's\Nasdaq\RUN.NAS,3,3,0,1.0,USD,USD,USD,False
+SIRI.NAS,Sirius XM Holdings Inc. Common Stock,Stock CFD's\Nasdaq\SIRI.NAS,4,3,0,1.0,USD,USD,USD,False
+SSNC.NAS,SS&C Technologies Holdings Inc. Common Stock,Stock CFD's\Nasdaq\SSNC.NAS,4,2,0,1.0,USD,USD,USD,False
+TECH.NAS,Bio-Techne Corp Common Stock,Stock CFD's\Nasdaq\TECH.NAS,4,2,0,1.0,USD,USD,USD,False
+TTD.NAS,The Trade Desk Inc. Class A Common Stock,Stock CFD's\Nasdaq\TTD.NAS,3,3,0,1.0,USD,USD,USD,False
+WDAY.NAS,Workday Inc. Class A Common Stock,Stock CFD's\Nasdaq\WDAY.NAS,4,3,0,1.0,USD,USD,USD,False
+WMG.NAS,Warner Music Group Corp. Class A Common Stock,Stock CFD's\Nasdaq\WMG.NAS,4,2,0,1.0,USD,USD,USD,False
+Z.NAS,Zillow Group Inc. Class C Capital Stock,Stock CFD's\Nasdaq\Z.NAS,4,2,0,1.0,USD,USD,USD,False
+ZG.NAS,Zillow Group Inc. Class A Common Stock,Stock CFD's\Nasdaq\ZG.NAS,4,2,0,1.0,USD,USD,USD,False
+ZM.NAS,Zoom Video Communications Inc. Class A Common Stock,Stock CFD's\Nasdaq\ZM.NAS,4,3,0,1.0,USD,USD,USD,False
+ZS.NAS,Zscaler Inc. Common Stock,Stock CFD's\Nasdaq\ZS.NAS,4,3,0,1.0,USD,USD,USD,False
+SNDL.NAS,Sundial Growers Inc,Stock CFD's\Nasdaq\SNDL.NAS,4,3,0,1.0,USD,USD,USD,False
+TNXP.NAS,Tonix Pharmaceuticals Holding Corp,Stock CFD's\Nasdaq\TNXP.NAS,3,3,0,1.0,USD,USD,USD,False
+TXMD.NAS,TherapeuticsMD Inc,Stock CFD's\Nasdaq\TXMD.NAS,3,3,0,1.0,USD,USD,USD,False
+GERN.NAS,Geron Corp,Stock CFD's\Nasdaq\GERN.NAS,4,3,0,1.0,USD,USD,USD,False
+JFU.NAS,9F Inc,Stock CFD's\Nasdaq\JFU.NAS,3,3,0,1.0,USD,USD,USD,False
+VEON.NAS,Veon Ltd,Stock CFD's\Nasdaq\VEON.NAS,4,3,0,1.0,USD,USD,USD,False
+CRBP.NAS,Corbus Pharmaceuticals Holdings Inc,Stock CFD's\Nasdaq\CRBP.NAS,3,3,0,1.0,USD,USD,USD,False
+MARK.NAS,Remark Holdings Inc,Stock CFD's\Nasdaq\MARK.NAS,4,3,0,1.0,USD,USD,USD,False
+NBEV.NAS,New Age Beverages Corporation,Stock CFD's\Nasdaq\NBEV.NAS,3,3,0,1.0,USD,USD,USD,False
+NERV.NAS,Minerva Neurosciences Inc,Stock CFD's\Nasdaq\NERV.NAS,3,3,0,1.0,USD,USD,USD,False
+VSTM.NAS,Verastem Inc,Stock CFD's\Nasdaq\VSTM.NAS,4,3,0,1.0,USD,USD,USD,False
+AGEN.NAS,Agenus Inc,Stock CFD's\Nasdaq\AGEN.NAS,4,3,0,1.0,USD,USD,USD,False
+ABUS.NAS,Arbutus Biopharma,Stock CFD's\Nasdaq\ABUS.NAS,3,3,0,1.0,USD,USD,USD,False
+RIGL.NAS,Rigel Pharmaceuticals Inc,Stock CFD's\Nasdaq\RIGL.NAS,4,2,0,1.0,USD,USD,USD,False
+IFRX.NAS,Inflarx NV,Stock CFD's\Nasdaq\IFRX.NAS,3,3,0,1.0,USD,USD,USD,False
+OVID.NAS,Ovid Therapeutics Inc,Stock CFD's\Nasdaq\OVID.NAS,4,3,0,1.0,USD,USD,USD,False
+CRNT.NAS,Ceragon Networks Ltd,Stock CFD's\Nasdaq\CRNT.NAS,4,3,0,1.0,USD,USD,USD,False
+WATT.NAS,Energous Corp,Stock CFD's\Nasdaq\WATT.NAS,3,3,0,1.0,USD,USD,USD,False
+GNPX.NAS,Genprex Inc,Stock CFD's\Nasdaq\GNPX.NAS,4,3,0,1.0,USD,USD,USD,False
+MNKD.NAS,MannKind Corp,Stock CFD's\Nasdaq\MNKD.NAS,4,3,0,1.0,USD,USD,USD,False
+TRVG.NAS,Trivago NV,Stock CFD's\Nasdaq\TRVG.NAS,4,3,0,1.0,USD,USD,USD,False
+VRAY.NAS,ViewRay Inc,Stock CFD's\Nasdaq\VRAY.NAS,4,3,0,1.0,USD,USD,USD,False
+OPK.NAS,Opko Health Inc,Stock CFD's\Nasdaq\OPK.NAS,4,3,0,1.0,USD,USD,USD,False
+CPRX.NAS,Catalyst Pharmaceutical Partners Inc,Stock CFD's\Nasdaq\CPRX.NAS,3,4,0,1.0,USD,USD,USD,False
+NYMT.NAS,New York Mortgage Trust Inc,Stock CFD's\Nasdaq\NYMT.NAS,4,3,0,1.0,USD,USD,USD,False
+NCMI.NAS,National CineMedia Inc,Stock CFD's\Nasdaq\NCMI.NAS,4,2,0,1.0,USD,USD,USD,False
+IZEA.NAS,IZEA Worldwide Inc,Stock CFD's\Nasdaq\IZEA.NAS,3,3,0,1.0,USD,USD,USD,False
+VYGR.NAS,"Voyager Therapeutics, Inc.",Stock CFD's\Nasdaq\VYGR.NAS,4,3,0,1.0,USD,USD,USD,False
+ARAY.NAS,Accuray Inc,Stock CFD's\Nasdaq\ARAY.NAS,3,3,0,1.0,USD,USD,USD,False
+LXRX.NAS,Lexicon Pharmaceuticals Inc,Stock CFD's\Nasdaq\LXRX.NAS,3,4,0,1.0,USD,USD,USD,False
+FRSX.NAS,Foresight Autonomous Holdings Ltd,Stock CFD's\Nasdaq\FRSX.NAS,3,3,0,1.0,USD,USD,USD,False
+CERS.NAS,Cerus Corp,Stock CFD's\Nasdaq\CERS.NAS,3,3,0,1.0,USD,USD,USD,False
+VKTX.NAS,"Viking Therapeutics, Inc.",Stock CFD's\Nasdaq\VKTX.NAS,4,3,0,1.0,USD,USD,USD,False
+AYRO.NAS,AYRO Inc,Stock CFD's\Nasdaq\AYRO.NAS,3,3,0,1.0,USD,USD,USD,False
+WIMI.NAS,WiMi Hologram Cloud Inc,Stock CFD's\Nasdaq\WIMI.NAS,3,3,0,1.0,USD,USD,USD,False
+XNET.NAS,Xunlei Ltd,Stock CFD's\Nasdaq\XNET.NAS,4,3,0,1.0,USD,USD,USD,False
+KNDI.NAS,Kandi Technologies Group Inc,Stock CFD's\Nasdaq\KNDI.NAS,4,3,0,1.0,USD,USD,USD,False
+PRQR.NAS,ProQR Therapeutics NV,Stock CFD's\Nasdaq\PRQR.NAS,3,3,0,1.0,USD,USD,USD,False
+VYNE.NAS,Vyne Therapeutics Inc,Stock CFD's\Nasdaq\VYNE.NAS,3,3,0,1.0,USD,USD,USD,False
+CNDT.NAS,Conduent Inc,Stock CFD's\Nasdaq\CNDT.NAS,3,3,0,1.0,USD,USD,USD,False
+PTEN.NAS,Patterson Uti Energy,Stock CFD's\Nasdaq\PTEN.NAS,4,3,0,1.0,USD,USD,USD,False
+AYTU.NAS,Aytu BioScience Inc,Stock CFD's\Nasdaq\AYTU.NAS,4,3,0,1.0,USD,USD,USD,False
+PGEN.NAS,Pregicen Inc,Stock CFD's\Nasdaq\PGEN.NAS,4,3,0,1.0,USD,USD,USD,False
+BNGO.NAS,Bionano Genomics Inc,Stock CFD's\Nasdaq\BNGO.NAS,3,3,0,1.0,USD,USD,USD,False
+OCGN.NAS,Ocugen Inc,Stock CFD's\Nasdaq\OCGN.NAS,4,3,0,1.0,USD,USD,USD,False
+NNDM.NAS,Nano Dimension Ltd - ADR,Stock CFD's\Nasdaq\NNDM.NAS,4,3,0,1.0,USD,USD,USD,False
+PSEC.NAS,Prospect Capital Corp,Stock CFD's\Nasdaq\PSEC.NAS,3,2,0,1.0,USD,USD,USD,False
+HLIT.NAS,Harmonic Inc,Stock CFD's\Nasdaq\HLIT.NAS,4,2,0,1.0,USD,USD,USD,False
+GEVO.NAS,Gevo Inc,Stock CFD's\Nasdaq\GEVO.NAS,4,3,0,1.0,USD,USD,USD,False
+INO.NAS,Inovio Pharmaceuticals Inc,Stock CFD's\Nasdaq\INO.NAS,4,3,0,1.0,USD,USD,USD,False
+DTIL.NAS,Precision Biosciences Inc,Stock CFD's\Nasdaq\DTIL.NAS,4,3,0,1.0,USD,USD,USD,False
+INSG.NAS,Inseego Corp.,Stock CFD's\Nasdaq\INSG.NAS,3,2,0,1.0,USD,USD,USD,False
+GOSS.NAS,Gossamer Bio Inc,Stock CFD's\Nasdaq\GOSS.NAS,3,3,0,1.0,USD,USD,USD,False
+PAA.NAS,Plains All American Pipeline L,Stock CFD's\Nasdaq\PAA.NAS,3,3,0,1.0,USD,USD,USD,False
+CODX.NAS,Co-Diagnostics Inc,Stock CFD's\Nasdaq\CODX.NAS,3,3,0,1.0,USD,USD,USD,False
+EGAN.NAS,eGain Corp,Stock CFD's\Nasdaq\EGAN.NAS,4,3,0,1.0,USD,USD,USD,False
+FOLD.NAS,Amicus Therapeutics Inc,Stock CFD's\Nasdaq\FOLD.NAS,4,3,0,1.0,USD,USD,USD,False
+PBYI.NAS,Puma Biotechnology Inc,Stock CFD's\Nasdaq\PBYI.NAS,3,3,0,1.0,USD,USD,USD,False
+PAGP.NAS,Plains GP Holdings LP,Stock CFD's\Nasdaq\PAGP.NAS,3,3,0,1.0,USD,USD,USD,False
+ADVM.NAS,Adverum Biotechnologies Inc,Stock CFD's\Nasdaq\ADVM.NAS,4,3,0,1.0,USD,USD,USD,False
+SY.NAS,So-Young International Inc,Stock CFD's\Nasdaq\SY.NAS,4,3,0,1.0,USD,USD,USD,False
+CRMD.NAS,CorMedix Inc,Stock CFD's\Nasdaq\CRMD.NAS,4,3,0,1.0,USD,USD,USD,False
+DVAX.NAS,Dynavax Technologies Corp,Stock CFD's\Nasdaq\DVAX.NAS,3,3,0,1.0,USD,USD,USD,False
+GOGO.NAS,Gogo Inc,Stock CFD's\Nasdaq\GOGO.NAS,3,3,0,1.0,USD,USD,USD,False
+DOYU.NAS,DouYu International Holdings Ltd - ADR,Stock CFD's\Nasdaq\DOYU.NAS,4,3,0,1.0,USD,USD,USD,False
+GLAD.NAS,Gladstone Capital Corp,Stock CFD's\Nasdaq\GLAD.NAS,4,3,0,1.0,USD,USD,USD,False
+NMRK.NAS,Newmark Group Inc - Class A,Stock CFD's\Nasdaq\NMRK.NAS,4,2,0,1.0,USD,USD,USD,False
+BCRX.NAS,BioCryst Pharmaceuticals Inc,Stock CFD's\Nasdaq\BCRX.NAS,4,3,0,1.0,USD,USD,USD,False
+QIWI.NAS,QIWI plc,Stock CFD's\Nasdaq\QIWI.NAS,3,3,0,1.0,USD,USD,USD,False
+NDLS.NAS,Noodles & Co,Stock CFD's\Nasdaq\NDLS.NAS,3,3,0,1.0,USD,USD,USD,False
+OSUR.NAS,OraSure Technologies Inc,Stock CFD's\Nasdaq\OSUR.NAS,3,2,0,1.0,USD,USD,USD,False
+GLNG.NAS,Golar LNG Ltd,Stock CFD's\Nasdaq\GLNG.NAS,4,2,0,1.0,USD,USD,USD,False
+VRA.NAS,Vera Bradley Inc,Stock CFD's\Nasdaq\VRA.NAS,4,2,0,1.0,USD,USD,USD,False
+UNIT.NAS,Uniti Group Inc,Stock CFD's\Nasdaq\UNIT.NAS,4,3,0,1.0,USD,USD,USD,False
+CAMP.NAS,CalAmp Corp,Stock CFD's\Nasdaq\CAMP.NAS,3,3,0,1.0,USD,USD,USD,False
+CRIS.NAS,Curis Inc,Stock CFD's\Nasdaq\CRIS.NAS,3,3,0,1.0,USD,USD,USD,False
+SGMO.NAS,Sangamo Biosciences Inc,Stock CFD's\Nasdaq\SGMO.NAS,4,2,0,1.0,USD,USD,USD,False
+SVC.NAS,Service Properties Trust,Stock CFD's\Nasdaq\SVC.NAS,3,3,0,1.0,USD,USD,USD,False
+GPRO.NAS,GoPro Inc (A shares),Stock CFD's\Nasdaq\GPRO.NAS,3,3,0,1.0,USD,USD,USD,False
+ALDX.NAS,Aldeyra Therapeutics Inc,Stock CFD's\Nasdaq\ALDX.NAS,3,3,0,1.0,USD,USD,USD,False
+FOSL.NAS,Fossil,Stock CFD's\Nasdaq\FOSL.NAS,3,3,0,1.0,USD,USD,USD,False
+CWCO.NAS,Consolidated Water Co Ltd,Stock CFD's\Nasdaq\CWCO.NAS,4,3,0,1.0,USD,USD,USD,False
+FCEL.NAS,FuelCell Energy Inc,Stock CFD's\Nasdaq\FCEL.NAS,4,3,0,1.0,USD,USD,USD,False
+ERIC.NAS,Telefonaktiebolaget LM Ericsson,Stock CFD's\Nasdaq\ERIC.NAS,4,3,0,1.0,USD,USD,USD,False
+WKHS.NAS,Workhorse Group Inc,Stock CFD's\Nasdaq\WKHS.NAS,3,3,0,1.0,USD,USD,USD,False
+ALT.NAS,Altimmune Inc,Stock CFD's\Nasdaq\ALT.NAS,3,3,0,1.0,USD,USD,USD,False
+LILA.NAS,Liberty Latin America Ltd,Stock CFD's\Nasdaq\LILA.NAS,3,3,0,1.0,USD,USD,USD,False
+CLNE.NAS,Clean Energy Fuels Corp,Stock CFD's\Nasdaq\CLNE.NAS,4,2,0,1.0,USD,USD,USD,False
+EOLS.NAS,Evolus Inc,Stock CFD's\Nasdaq\EOLS.NAS,3,3,0,1.0,USD,USD,USD,False
+ATRA.NAS,Atara Biotherapeutics Inc,Stock CFD's\Nasdaq\ATRA.NAS,3,3,0,1.0,USD,USD,USD,False
+ANGI.NAS,ANGI Homeservices Inc,Stock CFD's\Nasdaq\ANGI.NAS,4,3,0,1.0,USD,USD,USD,False
+NAVI.NAS,Navient Corp,Stock CFD's\Nasdaq\NAVI.NAS,4,3,0,1.0,USD,USD,USD,False
+CHRS.NAS,Coherus Biosciences Inc,Stock CFD's\Nasdaq\CHRS.NAS,3,3,0,1.0,USD,USD,USD,False
+SSSS.NAS,Sutter Rock Capital Corp,Stock CFD's\Nasdaq\SSSS.NAS,4,3,0,1.0,USD,USD,USD,False
+ZYXI.NAS,Zynex Inc,Stock CFD's\Nasdaq\ZYXI.NAS,3,3,0,1.0,USD,USD,USD,False
+MITK.NAS,Mitek Systems Inc,Stock CFD's\Nasdaq\MITK.NAS,4,3,0,1.0,USD,USD,USD,False
+COMM.NAS,CommScope Holding Co Inc,Stock CFD's\Nasdaq\COMM.NAS,4,3,0,1.0,USD,USD,USD,False
+SSRM.NAS,Silver Standard Resources Inc,Stock CFD's\Nasdaq\SSRM.NAS,4,2,0,1.0,USD,USD,USD,False
+MOMO.NAS,Momo Inc,Stock CFD's\Nasdaq\MOMO.NAS,4,3,0,1.0,USD,USD,USD,False
+SABR.NAS,Sabre Corp,Stock CFD's\Nasdaq\SABR.NAS,4,3,0,1.0,USD,USD,USD,False
+MVIS.NAS,MicroVision Inc,Stock CFD's\Nasdaq\MVIS.NAS,3,3,0,1.0,USD,USD,USD,False
+AVXL.NAS,Anavex Life Sciences Corp,Stock CFD's\Nasdaq\AVXL.NAS,4,3,0,1.0,USD,USD,USD,False
+VIAV.NAS,Viavi Solutions Inc,Stock CFD's\Nasdaq\VIAV.NAS,4,3,0,1.0,USD,USD,USD,False
+ROIC.NAS,Retail Opportunity Investments,Stock CFD's\Nasdaq\ROIC.NAS,3,2,0,1.0,USD,USD,USD,False
+MDIV.NAS,First Trust Multi-Asset Diversified Income Index Fund,Stock CFD's\Nasdaq\MDIV.NAS,4,3,0,1.0,USD,USD,USD,False
+OCUL.NAS,Ocular Therapeutix Inc,Stock CFD's\Nasdaq\OCUL.NAS,4,3,0,1.0,USD,USD,USD,False
+AGNC.NAS,AGNC Investment Corp,Stock CFD's\Nasdaq\AGNC.NAS,4,2,0,1.0,USD,USD,USD,False
+XBIT.NAS,XBiotech Inc,Stock CFD's\Nasdaq\XBIT.NAS,3,3,0,1.0,USD,USD,USD,False
+SPWH.NAS,Sportsmans Warehouse Holdings Inc,Stock CFD's\Nasdaq\SPWH.NAS,4,3,0,1.0,USD,USD,USD,False
+IHRT.NAS,iHeartMedia Inc,Stock CFD's\Nasdaq\IHRT.NAS,4,3,0,1.0,USD,USD,USD,False
+SWBI.NAS,Smith & Wesson Brands Inc,Stock CFD's\Nasdaq\SWBI.NAS,4,2,0,1.0,USD,USD,USD,False
+DENN.NAS,Denny's Corp,Stock CFD's\Nasdaq\DENN.NAS,4,3,0,1.0,USD,USD,USD,False
+GT.NAS,Goodyear,Stock CFD's\Nasdaq\GT.NAS,4,3,0,1.0,USD,USD,USD,False
+CAN.NAS,Canaan Inc,Stock CFD's\Nasdaq\CAN.NAS,4,3,0,1.0,USD,USD,USD,False
+SBRA.NAS,Sabra Health Care REIT Inc,Stock CFD's\Nasdaq\SBRA.NAS,3,2,0,1.0,USD,USD,USD,False
+FLEX.NAS,Flex Ltd,Stock CFD's\Nasdaq\FLEX.NAS,4,3,0,1.0,USD,USD,USD,False
+SVMK.NAS,SVMK Inc,Stock CFD's\Nasdaq\SVMK.NAS,4,3,0,1.0,USD,USD,USD,False
+SLM.NAS,SLM,Stock CFD's\Nasdaq\SLM.NAS,4,3,0,1.0,USD,USD,USD,False
+ARCC.NAS,Ares Capital Corp,Stock CFD's\Nasdaq\ARCC.NAS,4,3,0,1.0,USD,USD,USD,False
+AXGN.NAS,AxoGen Inc,Stock CFD's\Nasdaq\AXGN.NAS,4,3,0,1.0,USD,USD,USD,False
+NKTR.NAS,Nektar Therapeutics,Stock CFD's\Nasdaq\NKTR.NAS,3,2,0,1.0,USD,USD,USD,False
+MCRB.NAS,Seres Therapeutics Inc,Stock CFD's\Nasdaq\MCRB.NAS,4,3,0,1.0,USD,USD,USD,False
+GOOD.NAS,Gladstone Commercial Corp,Stock CFD's\Nasdaq\GOOD.NAS,4,3,0,1.0,USD,USD,USD,False
+MLCO.NAS,Melco Resorts & Entertainment Ltd - ADR,Stock CFD's\Nasdaq\MLCO.NAS,3,2,0,1.0,USD,USD,USD,False
+MAT.NAS,Mattel Inc.,Stock CFD's\Nasdaq\MAT.NAS,4,3,0,1.0,USD,USD,USD,False
+ACAD.NAS,ACADIA Pharmaceuticals Inc,Stock CFD's\Nasdaq\ACAD.NAS,3,3,0,1.0,USD,USD,USD,False
+JBLU.NAS,JetBlue Airways Corp,Stock CFD's\Nasdaq\JBLU.NAS,4,2,0,1.0,USD,USD,USD,False
+PCVX.NAS,Vaxcyte Inc,Stock CFD's\Nasdaq\PCVX.NAS,3,3,0,1.0,USD,USD,USD,False
+CLDX.NAS,Celldex Therapeutics Inc,Stock CFD's\Nasdaq\CLDX.NAS,3,2,0,1.0,USD,USD,USD,False
+VREX.NAS,Varex Imaging Corp,Stock CFD's\Nasdaq\VREX.NAS,4,3,0,1.0,USD,USD,USD,False
+CLSK.NAS,CleanSpark Inc,Stock CFD's\Nasdaq\CLSK.NAS,4,3,0,1.0,USD,USD,USD,False
+WEN.NAS,Wendys/Arby,Stock CFD's\Nasdaq\WEN.NAS,3,3,0,1.0,USD,USD,USD,False
+NMIH.NAS,NMI Holdings Inc,Stock CFD's\Nasdaq\NMIH.NAS,4,3,0,1.0,USD,USD,USD,False
+LI.NAS,LI Auto Inc (ADR),Stock CFD's\Nasdaq\LI.NAS,4,3,0,1.0,USD,USD,USD,False
+CYTK.NAS,Cytokinetics Inc,Stock CFD's\Nasdaq\CYTK.NAS,4,3,0,1.0,USD,USD,USD,False
+SNDX.NAS,Syndax Pharmaceuticals Inc,Stock CFD's\Nasdaq\SNDX.NAS,4,3,0,1.0,USD,USD,USD,False
+EXEL.NAS,Exelixis Inc,Stock CFD's\Nasdaq\EXEL.NAS,4,2,0,1.0,USD,USD,USD,False
+ILPT.NAS,Industrial Logistics Properties Trust,Stock CFD's\Nasdaq\ILPT.NAS,4,3,0,1.0,USD,USD,USD,False
+CDXS.NAS,"Codexis, Inc.",Stock CFD's\Nasdaq\CDXS.NAS,3,3,0,1.0,USD,USD,USD,False
+QFIN.NAS,360 DigiTech Inc,Stock CFD's\Nasdaq\QFIN.NAS,4,3,0,1.0,USD,USD,USD,False
+LBTYK.NAS,Liberty Global PLC Class C,Stock CFD's\Nasdaq\LBTYK.NAS,4,2,0,1.0,USD,USD,USD,False
+LBTYA.NAS,Liberty Global PLC Class A,Stock CFD's\Nasdaq\LBTYA.NAS,4,3,0,1.0,USD,USD,USD,False
+SFM.NAS,Sprouts Farmers Market Inc,Stock CFD's\Nasdaq\SFM.NAS,4,3,0,1.0,USD,USD,USD,False
+BLMN.NAS,Bloomin' Brands Inc,Stock CFD's\Nasdaq\BLMN.NAS,3,3,0,1.0,USD,USD,USD,False
+FLWS.NAS,1-800-Flowers.com Inc,Stock CFD's\Nasdaq\FLWS.NAS,4,3,0,1.0,USD,USD,USD,False
+ANDE.NAS,Andersons Inc/The,Stock CFD's\Nasdaq\ANDE.NAS,4,2,0,1.0,USD,USD,USD,False
+HEAR.NAS,Turtle Beach Corp,Stock CFD's\Nasdaq\HEAR.NAS,3,3,0,1.0,USD,USD,USD,False
+NTNX.NAS,Nutanix Inc,Stock CFD's\Nasdaq\NTNX.NAS,4,2,0,1.0,USD,USD,USD,False
+KTOS.NAS,Kratos Defense & Security Solutions Inc,Stock CFD's\Nasdaq\KTOS.NAS,4,3,0,1.0,USD,USD,USD,False
+GPRE.NAS,Green Plains Inc,Stock CFD's\Nasdaq\GPRE.NAS,4,3,0,1.0,USD,USD,USD,False
+TSEM.NAS,Tower Semiconductor Ltd,Stock CFD's\Nasdaq\TSEM.NAS,4,3,0,1.0,USD,USD,USD,False
+VUZI.NAS,Vuzix Corporation,Stock CFD's\Nasdaq\VUZI.NAS,4,3,0,1.0,USD,USD,USD,False
+SBGI.NAS,Sinclair Broadcast Group Inc,Stock CFD's\Nasdaq\SBGI.NAS,3,2,0,1.0,USD,USD,USD,False
+GIII.NAS,G-III Apparel Group Ltd,Stock CFD's\Nasdaq\GIII.NAS,4,2,0,1.0,USD,USD,USD,False
+MMYT.NAS,MakeMyTrip Ltd,Stock CFD's\Nasdaq\MMYT.NAS,4,3,0,1.0,USD,USD,USD,False
+CHEF.NAS,Chefs' Warehouse Inc/The,Stock CFD's\Nasdaq\CHEF.NAS,4,3,0,1.0,USD,USD,USD,False
+PACB.NAS,Pacific Biosciences of California Inc,Stock CFD's\Nasdaq\PACB.NAS,3,3,0,1.0,USD,USD,USD,False
+QURE.NAS,uniQure B.V.,Stock CFD's\Nasdaq\QURE.NAS,3,3,0,1.0,USD,USD,USD,False
+PINC.NAS,Premier Inc,Stock CFD's\Nasdaq\PINC.NAS,4,3,0,1.0,USD,USD,USD,False
+SNSR.NAS,Global X Internet of Things ETF,Stock CFD's\Nasdaq\SNSR.NAS,4,4,0,1.0,USD,USD,USD,False
+EH.NAS,Ehang Holdings Ltd,Stock CFD's\Nasdaq\EH.NAS,3,3,0,1.0,USD,USD,USD,False
+SSTI.NAS,Shotspotter Inc,Stock CFD's\Nasdaq\SSTI.NAS,3,3,0,1.0,USD,USD,USD,False
+BLFS.NAS,Biolife Solutions Inc,Stock CFD's\Nasdaq\BLFS.NAS,3,3,0,1.0,USD,USD,USD,False
+STOK.NAS,Stoke Therapeutics Inc,Stock CFD's\Nasdaq\STOK.NAS,3,3,0,1.0,USD,USD,USD,False
+GNTX.NAS,Gentex Corp/MI,Stock CFD's\Nasdaq\GNTX.NAS,4,2,0,1.0,USD,USD,USD,False
+NIU.NAS,Niu Technologies,Stock CFD's\Nasdaq\NIU.NAS,4,3,0,1.0,USD,USD,USD,False
+AY.NAS,Atlantica Yield PLC,Stock CFD's\Nasdaq\AY.NAS,4,3,0,1.0,USD,USD,USD,False
+EVER.NAS,EverQuote Inc,Stock CFD's\Nasdaq\EVER.NAS,4,3,0,1.0,USD,USD,USD,False
+GO.NAS,Grocery Outlet Holding Corp.,Stock CFD's\Nasdaq\GO.NAS,4,3,0,1.0,USD,USD,USD,False
+BZUN.NAS,Baozun Inc,Stock CFD's\Nasdaq\BZUN.NAS,4,2,0,1.0,USD,USD,USD,False
+URBN.NAS,Urban Outfitters,Stock CFD's\Nasdaq\URBN.NAS,4,3,0,1.0,USD,USD,USD,False
+TCOM.NAS,TRIP.COM GROUP LTD,Stock CFD's\Nasdaq\TCOM.NAS,4,3,0,1.0,USD,USD,USD,False
+XP.NAS,Xp Inc,Stock CFD's\Nasdaq\XP.NAS,4,3,0,1.0,USD,USD,USD,False
+PFF.NAS,iShares US Preferred Stock ETF,Stock CFD's\Nasdaq\PFF.NAS,4,3,0,1.0,USD,USD,USD,False
+RRGB.NAS,Red Robin Gourmet Burgers Inc,Stock CFD's\Nasdaq\RRGB.NAS,4,2,0,1.0,USD,USD,USD,False
+TIGO.NAS,Millicom International Cellular SA,Stock CFD's\Nasdaq\TIGO.NAS,3,3,0,1.0,USD,USD,USD,False
+ARCT.NAS,Arcturus Therapeutics Holdings Inc,Stock CFD's\Nasdaq\ARCT.NAS,4,3,0,1.0,USD,USD,USD,False
+FWONA.NAS,Liberty Media Formula One Series A,Stock CFD's\Nasdaq\FWONA.NAS,3,2,0,1.0,USD,USD,USD,False
+SONO.NAS,Sonos,Stock CFD's\Nasdaq\SONO.NAS,4,3,0,1.0,USD,USD,USD,False
+IRDM.NAS,Iridium Communications Inc,Stock CFD's\Nasdaq\IRDM.NAS,4,2,0,1.0,USD,USD,USD,False
+EDIT.NAS,Editas Medicine Inc.,Stock CFD's\Nasdaq\EDIT.NAS,4,3,0,1.0,USD,USD,USD,False
+SANM.NAS,Sanmina Sci,Stock CFD's\Nasdaq\SANM.NAS,4,3,0,1.0,USD,USD,USD,False
+ODP.NAS,ODP Corp,Stock CFD's\Nasdaq\ODP.NAS,3,3,0,1.0,USD,USD,USD,False
+BLNK.NAS,Blink Charging Co.,Stock CFD's\Nasdaq\BLNK.NAS,3,3,0,1.0,USD,USD,USD,False
+SLGN.NAS,Silgan Holdings Inc,Stock CFD's\Nasdaq\SLGN.NAS,4,2,0,1.0,USD,USD,USD,False
+HALO.NAS,Halozyme Therapeutics Inc,Stock CFD's\Nasdaq\HALO.NAS,4,2,0,1.0,USD,USD,USD,False
+CIBR.NAS,First Trust Nasdaq Cybersecurity ETF,Stock CFD's\Nasdaq\CIBR.NAS,4,3,0,1.0,USD,USD,USD,False
+AVT.NAS,Avnet Inc,Stock CFD's\Nasdaq\AVT.NAS,4,3,0,1.0,USD,USD,USD,False
+HAIN.NAS,Hain Celestial Group Inc/The,Stock CFD's\Nasdaq\HAIN.NAS,3,2,0,1.0,USD,USD,USD,False
+PGNY.NAS,Progyny Inc,Stock CFD's\Nasdaq\PGNY.NAS,3,3,0,1.0,USD,USD,USD,False
+PLAY.NAS,Dave & Buster's Entertainment Inc,Stock CFD's\Nasdaq\PLAY.NAS,4,3,0,1.0,USD,USD,USD,False
+IONS.NAS,Ionis Pharmaceuticals Inc,Stock CFD's\Nasdaq\IONS.NAS,4,2,0,1.0,USD,USD,USD,False
+CSIQ.NAS,Canadian Solar Inc,Stock CFD's\Nasdaq\CSIQ.NAS,3,3,0,1.0,USD,USD,USD,False
+UPWK.NAS,Upwork Inc.,Stock CFD's\Nasdaq\UPWK.NAS,4,3,0,1.0,USD,USD,USD,False
+RVMD.NAS,Revolution Medicines Inc,Stock CFD's\Nasdaq\RVMD.NAS,3,3,0,1.0,USD,USD,USD,False
+BHF.NAS,Brighthouse Financial Inc,Stock CFD's\Nasdaq\BHF.NAS,3,3,0,1.0,USD,USD,USD,False
+VIR.NAS,Vir Biotechnology Inc,Stock CFD's\Nasdaq\VIR.NAS,3,3,0,1.0,USD,USD,USD,False
+FROG.NAS,JFrog Ltd,Stock CFD's\Nasdaq\FROG.NAS,3,3,0,1.0,USD,USD,USD,False
+BLDR.NAS,Builders FirstSource Inc,Stock CFD's\Nasdaq\BLDR.NAS,4,3,0,1.0,USD,USD,USD,False
+MARA.NAS,Marathon Digital Holdings Inc,Stock CFD's\Nasdaq\MARA.NAS,4,3,0,1.0,USD,USD,USD,False
+FIZZ.NAS,National Beverage Corp,Stock CFD's\Nasdaq\FIZZ.NAS,4,3,0,1.0,USD,USD,USD,False
+LSCC.NAS,Lattice Semiconductor Corp,Stock CFD's\Nasdaq\LSCC.NAS,4,2,0,1.0,USD,USD,USD,False
+WB.NAS,Weibo Corp,Stock CFD's\Nasdaq\WB.NAS,4,3,0,1.0,USD,USD,USD,False
+MRVL.NAS,Marvell,Stock CFD's\Nasdaq\MRVL.NAS,4,3,0,1.0,USD,USD,USD,False
+ISTB.NAS,iShares Core Short-Term USD Bond,Stock CFD's\Nasdaq\ISTB.NAS,4,3,0,1.0,USD,USD,USD,False
+STLD.NAS,Steel Dynamics,Stock CFD's\Nasdaq\STLD.NAS,4,3,0,1.0,USD,USD,USD,False
+VTIP.NAS,Vanguard Short-Term Inflation-Protected Securities ETF,Stock CFD's\Nasdaq\VTIP.NAS,3,3,0,1.0,USD,USD,USD,False
+SFIX.NAS,Stitch Fix INC,Stock CFD's\Nasdaq\SFIX.NAS,4,3,0,1.0,USD,USD,USD,False
+VCYT.NAS,Veracyte Inc,Stock CFD's\Nasdaq\VCYT.NAS,4,3,0,1.0,USD,USD,USD,False
+IUSB.NAS,iShares Core Total USD Bond Market ETF,Stock CFD's\Nasdaq\IUSB.NAS,4,3,0,1.0,USD,USD,USD,False
+INGN.NAS,Inogen Inc,Stock CFD's\Nasdaq\INGN.NAS,4,3,0,1.0,USD,USD,USD,False
+TRIP.NAS,TripAdvisor,Stock CFD's\Nasdaq\TRIP.NAS,3,3,0,1.0,USD,USD,USD,False
+SKYW.NAS,SkyWest Inc,Stock CFD's\Nasdaq\SKYW.NAS,4,2,0,1.0,USD,USD,USD,False
+AXSM.NAS,Axsome Therapeutics Inc,Stock CFD's\Nasdaq\AXSM.NAS,4,3,0,1.0,USD,USD,USD,False
+UEIC.NAS,Universal Electronics Inc,Stock CFD's\Nasdaq\UEIC.NAS,3,3,0,1.0,USD,USD,USD,False
+HTHT.NAS,Huazhu Group Ltd,Stock CFD's\Nasdaq\HTHT.NAS,3,2,0,1.0,USD,USD,USD,False
+PCH.NAS,Potlatch Corp,Stock CFD's\Nasdaq\PCH.NAS,4,2,0,1.0,USD,USD,USD,False
+LPSN.NAS,LivePerson Inc,Stock CFD's\Nasdaq\LPSN.NAS,4,2,0,1.0,USD,USD,USD,False
+DOMO.NAS,Domo Inc,Stock CFD's\Nasdaq\DOMO.NAS,4,3,0,1.0,USD,USD,USD,False
+BBIO.NAS,BridgeBio Pharma,Stock CFD's\Nasdaq\BBIO.NAS,4,3,0,1.0,USD,USD,USD,False
+CEVA.NAS,CEVA Inc,Stock CFD's\Nasdaq\CEVA.NAS,4,3,0,1.0,USD,USD,USD,False
+CAKE.NAS,Cheesecake Factory Inc/The,Stock CFD's\Nasdaq\CAKE.NAS,4,2,0,1.0,USD,USD,USD,False
+SEIC.NAS,SEI Investments Co,Stock CFD's\Nasdaq\SEIC.NAS,4,2,0,1.0,USD,USD,USD,False
+YNDX.NAS,Yandex NV,Stock CFD's\Nasdaq\YNDX.NAS,3,2,0,1.0,USD,USD,USD,False
+ARWR.NAS,Arrowhead Research Corp,Stock CFD's\Nasdaq\ARWR.NAS,4,3,0,1.0,USD,USD,USD,False
+STNE.NAS,StoneCo Ltd.,Stock CFD's\Nasdaq\STNE.NAS,3,3,0,1.0,USD,USD,USD,False
+SNEX.NAS,StoneX Group Inc,Stock CFD's\Nasdaq\SNEX.NAS,4,3,0,1.0,USD,USD,USD,False
+BRKR.NAS,Bruker Corp,Stock CFD's\Nasdaq\BRKR.NAS,4,2,0,1.0,USD,USD,USD,False
+HQY.NAS,HealthEquity Inc,Stock CFD's\Nasdaq\HQY.NAS,4,3,0,1.0,USD,USD,USD,False
+IUSV.NAS,iShares Core US Value ETF,Stock CFD's\Nasdaq\IUSV.NAS,4,3,0,1.0,USD,USD,USD,False
+IDCC.NAS,InterDigital Inc/PA,Stock CFD's\Nasdaq\IDCC.NAS,4,2,0,1.0,USD,USD,USD,False
+SMTC.NAS,Semtech Corp,Stock CFD's\Nasdaq\SMTC.NAS,3,2,0,1.0,USD,USD,USD,False
+PLCE.NAS,Children's Place Retail Stores,Stock CFD's\Nasdaq\PLCE.NAS,4,2,0,1.0,USD,USD,USD,False
+EHTH.NAS,eHealth Inc,Stock CFD's\Nasdaq\EHTH.NAS,3,2,0,1.0,USD,USD,USD,False
+IXUS.NAS,iShares Core MSCI Total International Stock ETF,Stock CFD's\Nasdaq\IXUS.NAS,4,3,0,1.0,USD,USD,USD,False
+SRPT.NAS,Sarepta Therapeutics Inc,Stock CFD's\Nasdaq\SRPT.NAS,4,3,0,1.0,USD,USD,USD,False
+MRCY.NAS,Mercury Systems Inc,Stock CFD's\Nasdaq\MRCY.NAS,4,3,0,1.0,USD,USD,USD,False
+CAR.NAS,Avis Budget Group Inc,Stock CFD's\Nasdaq\CAR.NAS,4,3,0,1.0,USD,USD,USD,False
+SDGR.NAS,Schrodinger Inc,Stock CFD's\Nasdaq\SDGR.NAS,3,3,0,1.0,USD,USD,USD,False
+NTLA.NAS,Intellia Therapeutics Inc,Stock CFD's\Nasdaq\NTLA.NAS,3,3,0,1.0,USD,USD,USD,False
+RPD.NAS,Rapid7 Inc,Stock CFD's\Nasdaq\RPD.NAS,4,3,0,1.0,USD,USD,USD,False
+FATE.NAS,Fate Therapeutics Inc,Stock CFD's\Nasdaq\FATE.NAS,4,3,0,1.0,USD,USD,USD,False
+MCHI.NAS,iShares MSCI China ETF,Stock CFD's\Nasdaq\MCHI.NAS,4,3,0,1.0,USD,USD,USD,False
+POWI.NAS,Power Integrations Inc,Stock CFD's\Nasdaq\POWI.NAS,4,2,0,1.0,USD,USD,USD,False
+CROX.NAS,Crocs,Stock CFD's\Nasdaq\CROX.NAS,4,3,0,1.0,USD,USD,USD,False
+SHY.NAS,iShares 1-3 Year Treasury Bond ETF,Stock CFD's\Nasdaq\SHY.NAS,3,3,0,1.0,USD,USD,USD,False
+ALRM.NAS,Alarm.com Holdings Inc,Stock CFD's\Nasdaq\ALRM.NAS,3,3,0,1.0,USD,USD,USD,False
+CRUS.NAS,Cirrus Logic Inc,Stock CFD's\Nasdaq\CRUS.NAS,4,2,0,1.0,USD,USD,USD,False
+OLLI.NAS,Ollie's Bargain Outlet Holdings Inc,Stock CFD's\Nasdaq\OLLI.NAS,4,3,0,1.0,USD,USD,USD,False
+ACMR.NAS,ACM Research Inc,Stock CFD's\Nasdaq\ACMR.NAS,3,3,0,1.0,USD,USD,USD,False
+TNDM.NAS,Tandem Diabetes Care Inc,Stock CFD's\Nasdaq\TNDM.NAS,3,3,0,1.0,USD,USD,USD,False
+LITE.NAS,Lumentum Holdings Inc.,Stock CFD's\Nasdaq\LITE.NAS,4,3,0,1.0,USD,USD,USD,False
+CVAC.NAS,CureVac N.V.,Stock CFD's\Nasdaq\CVAC.NAS,4,3,0,1.0,USD,USD,USD,False
+PZZA.NAS,Papa John's International Inc,Stock CFD's\Nasdaq\PZZA.NAS,3,2,0,1.0,USD,USD,USD,False
+AAXJ.NAS,iShares MSCI All Country Asia ex Japan ETF,Stock CFD's\Nasdaq\AAXJ.NAS,4,3,0,1.0,USD,USD,USD,False
+ITRI.NAS,Itron Inc,Stock CFD's\Nasdaq\ITRI.NAS,4,2,0,1.0,USD,USD,USD,False
+IUSG.NAS,iShares Core US Growth ETF,Stock CFD's\Nasdaq\IUSG.NAS,4,3,0,1.0,USD,USD,USD,False
+LAMR.NAS,Lamar Advertising Co.,Stock CFD's\Nasdaq\LAMR.NAS,3,3,0,1.0,USD,USD,USD,False
+ACWI.NAS,iShares MSCI ACWI ETF,Stock CFD's\Nasdaq\ACWI.NAS,4,3,0,1.0,USD,USD,USD,False
+TXRH.NAS,Texas Roadhouse Inc,Stock CFD's\Nasdaq\TXRH.NAS,3,2,0,1.0,USD,USD,USD,False
+SKYY.NAS,First Trust ISE Cloud Computing Index Fund,Stock CFD's\Nasdaq\SKYY.NAS,4,3,0,1.0,USD,USD,USD,False
+NTES.NAS,NetEase Inc,Stock CFD's\Nasdaq\NTES.NAS,4,2,0,1.0,USD,USD,USD,False
+AMBA.NAS,Ambarella Inc,Stock CFD's\Nasdaq\AMBA.NAS,4,3,0,1.0,USD,USD,USD,False
+BILI.NAS,Bilibili Inc.,Stock CFD's\Nasdaq\BILI.NAS,3,2,0,1.0,USD,USD,USD,False
+CDLX.NAS,Cardlytics Inc,Stock CFD's\Nasdaq\CDLX.NAS,3,3,0,1.0,USD,USD,USD,False
+EMB.NAS,iShares JP Morgan USD Emerging Markets Bond ETF,Stock CFD's\Nasdaq\EMB.NAS,3,3,0,1.0,USD,USD,USD,False
+SHV.NAS,iShares Short Treasury Bond ETF,Stock CFD's\Nasdaq\SHV.NAS,4,3,0,1.0,USD,USD,USD,False
+JACK.NAS,Jack in the Box Inc,Stock CFD's\Nasdaq\JACK.NAS,4,2,0,1.0,USD,USD,USD,False
+RYAAY.NAS,Ryanair Holdings plc,Stock CFD's\Nasdaq\RYAAY.NAS,4,3,0,1.0,USD,USD,USD,False
+IEF.NAS,iShares 7-10 Year Treasury Bond ETF,Stock CFD's\Nasdaq\IEF.NAS,3,3,0,1.0,USD,USD,USD,False
+BNTX.NAS,BioNTech SE,Stock CFD's\Nasdaq\BNTX.NAS,4,3,0,1.0,USD,USD,USD,False
+AVAV.NAS,Aerovironment Inc,Stock CFD's\Nasdaq\AVAV.NAS,4,2,0,1.0,USD,USD,USD,False
+CHKP.NAS,Check Point Software Technologies,Stock CFD's\Nasdaq\CHKP.NAS,4,3,0,1.0,USD,USD,USD,False
+DVY.NAS,iShares Select Dividend ETF,Stock CFD's\Nasdaq\DVY.NAS,4,3,0,1.0,USD,USD,USD,False
+IRBT.NAS,iRobot Corp,Stock CFD's\Nasdaq\IRBT.NAS,3,2,0,1.0,USD,USD,USD,False
+CRSP.NAS,CRISPR Therapeutics AG,Stock CFD's\Nasdaq\CRSP.NAS,3,3,0,1.0,USD,USD,USD,False
+LECO.NAS,Lincoln Electric Holdings Inc,Stock CFD's\Nasdaq\LECO.NAS,4,2,0,1.0,USD,USD,USD,False
+VC.NAS,Visteon Corp,Stock CFD's\Nasdaq\VC.NAS,4,3,0,1.0,USD,USD,USD,False
+QDEL.NAS,Quidel Corp,Stock CFD's\Nasdaq\QDEL.NAS,3,2,0,1.0,USD,USD,USD,False
+NVCR.NAS,Novocure Ltd,Stock CFD's\Nasdaq\NVCR.NAS,4,3,0,1.0,USD,USD,USD,False
+IRTC.NAS,iRhythm Technologies Inc,Stock CFD's\Nasdaq\IRTC.NAS,4,3,0,1.0,USD,USD,USD,False
+CYBR.NAS,Cyberark Software Ltd,Stock CFD's\Nasdaq\CYBR.NAS,4,3,0,1.0,USD,USD,USD,False
+SYNA.NAS,Synaptics Inc,Stock CFD's\Nasdaq\SYNA.NAS,3,2,0,1.0,USD,USD,USD,False
+PDD.NAS,Pinduoduo Inc.,Stock CFD's\Nasdaq\PDD.NAS,3,3,0,1.0,USD,USD,USD,False
+APPF.NAS,AppFolio Inc,Stock CFD's\Nasdaq\APPF.NAS,4,3,0,1.0,USD,USD,USD,False
+EEFT.NAS,Euronet Worldwide Inc,Stock CFD's\Nasdaq\EEFT.NAS,4,2,0,1.0,USD,USD,USD,False
+NXST.NAS,Nexstar Broadcasting Group Inc,Stock CFD's\Nasdaq\NXST.NAS,3,3,0,1.0,USD,USD,USD,False
+SLAB.NAS,Silicon Laboratories Inc,Stock CFD's\Nasdaq\SLAB.NAS,4,2,0,1.0,USD,USD,USD,False
+JOUT.NAS,Johnson Outdoors Inc,Stock CFD's\Nasdaq\JOUT.NAS,3,3,0,1.0,USD,USD,USD,False
+IBB.NAS,iShares Nasdaq Biotechnology ETF,Stock CFD's\Nasdaq\IBB.NAS,4,3,0,1.0,USD,USD,USD,False
+FRPT.NAS,Freshpet Inc,Stock CFD's\Nasdaq\FRPT.NAS,4,3,0,1.0,USD,USD,USD,False
+JAZZ.NAS,Jazz Pharmaceuticals Plc,Stock CFD's\Nasdaq\JAZZ.NAS,3,3,0,1.0,USD,USD,USD,False
+CBRL.NAS,Cracker Barrel Old Country Sto,Stock CFD's\Nasdaq\CBRL.NAS,4,2,0,1.0,USD,USD,USD,False
+UTHR.NAS,United Therapeutics Corp,Stock CFD's\Nasdaq\UTHR.NAS,4,2,0,1.0,USD,USD,USD,False
+MKSI.NAS,MKS Instruments Inc,Stock CFD's\Nasdaq\MKSI.NAS,3,2,0,1.0,USD,USD,USD,False
+NXPI.NAS,NXP Semiconductor NV,Stock CFD's\Nasdaq\NXPI.NAS,4,2,0,1.0,USD,USD,USD,False
+CASY.NAS,Casey's General Stores Inc,Stock CFD's\Nasdaq\CASY.NAS,4,2,0,1.0,USD,USD,USD,False
+TEAM.NAS,Atlassian,Stock CFD's\Nasdaq\TEAM.NAS,4,3,0,1.0,USD,USD,USD,False
+BIDU.NAS,Baidu Inc ADR Class A,Stock CFD's\Nasdaq\BIDU.NAS,4,3,0,1.0,USD,USD,USD,False
+TREE.NAS,LendingTree Inc,Stock CFD's\Nasdaq\TREE.NAS,4,3,0,1.0,USD,USD,USD,False
+CHDN.NAS,Churchill Downs Inc,Stock CFD's\Nasdaq\CHDN.NAS,4,2,0,1.0,USD,USD,USD,False
+NICE.NAS,NICE Systems Ltd,Stock CFD's\Nasdaq\NICE.NAS,4,2,0,1.0,USD,USD,USD,False
+SMH.NAS,Market Vectors Semiconductor ETF,Stock CFD's\Nasdaq\SMH.NAS,1,3,0,1.0,USD,USD,USD,False
+VONG.NAS,Vanguard Russell 1000 Growth ETF,Stock CFD's\Nasdaq\VONG.NAS,4,3,0,1.0,USD,USD,USD,False
+SEDG.NAS,SolarEdge Technologies Inc,Stock CFD's\Nasdaq\SEDG.NAS,4,2,0,1.0,USD,USD,USD,False
+WIX.NAS,Wix.com Ltd,Stock CFD's\Nasdaq\WIX.NAS,4,3,0,1.0,USD,USD,USD,False
+LULU.NAS,Lululemon Athletica Inc,Stock CFD's\Nasdaq\LULU.NAS,4,3,0,1.0,USD,USD,USD,False
+CACC.NAS,Credit Acceptance Corp,Stock CFD's\Nasdaq\CACC.NAS,4,2,0,1.0,USD,USD,USD,False
+SOXX.NAS,iShares PHLX Semiconductor ETF,Stock CFD's\Nasdaq\SOXX.NAS,4,3,0,1.0,USD,USD,USD,False
+MSTR.NAS,MicroStrategy Inc,Stock CFD's\Nasdaq\MSTR.NAS,4,2,0,1.0,USD,USD,USD,False
+MELI.NAS,MercadoLibre Inc,Stock CFD's\Nasdaq\MELI.NAS,4,2,0,1.0,USD,USD,USD,False
+HOOD.NAS,Robinhood Markets Inc.,Stock CFD's\Nasdaq\HOOD.NAS,3,3,0,1.0,USD,USD,USD,False
+MVRS.NAS,Meta Platforms Inc CFD,Stock CFD's\Nasdaq\MVRS.NAS,4,2,0,1.0,USD,USD,USD,False
+MXL.NAS,MaxLinear Inc,Stock CFD's\Nasdaq\MXL.NAS,3,3,0,1.0,USD,USD,USD,False
+ADAG.NAS,Adagene Inc ADR,Stock CFD's\Nasdaq\ADAG.NAS,3,3,0,1.0,USD,USD,USD,False
+AHCO.NAS,Adapthealth Corp,Stock CFD's\Nasdaq\AHCO.NAS,4,3,0,1.0,USD,USD,USD,False
+ADPT.NAS,Adaptive Biotechnologies,Stock CFD's\Nasdaq\ADPT.NAS,3,3,0,1.0,USD,USD,USD,False
+ADUS.NAS,Addus Homecare Corp,Stock CFD's\Nasdaq\ADUS.NAS,4,3,0,1.0,USD,USD,USD,False
+ADV.NAS,Advantage Solutions Inc,Stock CFD's\Nasdaq\ADV.NAS,3,3,0,1.0,USD,USD,USD,False
+ADN.NAS,Advent Technologies Holdings Inc,Stock CFD's\Nasdaq\ADN.NAS,3,3,0,1.0,USD,USD,USD,False
+AEHR.NAS,Aehr Test Systems,Stock CFD's\Nasdaq\AEHR.NAS,4,3,0,1.0,USD,USD,USD,False
+AMTX.NAS,Aemetis Inc,Stock CFD's\Nasdaq\AMTX.NAS,4,3,0,1.0,USD,USD,USD,False
+AFYA.NAS,Afya Ltd,Stock CFD's\Nasdaq\AFYA.NAS,4,3,0,1.0,USD,USD,USD,False
+BIRD.NAS,Allbirds Inc.,Stock CFD's\Nasdaq\BIRD.NAS,3,3,0,1.0,USD,USD,USD,False
+ATEC.NAS,Alphatec Holdings Inc,Stock CFD's\Nasdaq\ATEC.NAS,4,3,0,1.0,USD,USD,USD,False
+ASTE.NAS,Astec Industries Inc,Stock CFD's\Nasdaq\ASTE.NAS,4,2,0,1.0,USD,USD,USD,False
+AZN.NAS,AstraZeneca (US),Stock CFD's\Nasdaq\AZN.NAS,4,3,0,1.0,USD,USD,USD,False
+ACLS.NAS,Axcelis Technologies Inc,Stock CFD's\Nasdaq\ACLS.NAS,4,3,0,1.0,USD,USD,USD,False
+AXON.NAS,Axon Enterprise Inc,Stock CFD's\Nasdaq\AXON.NAS,4,2,0,1.0,USD,USD,USD,False
+CHI.NAS,Calamos Convertible Opportunities and Income Fund,Stock CFD's\Nasdaq\CHI.NAS,4,3,0,1.0,USD,USD,USD,False
+CBAN.NAS,Colony Bankcorp Inc,Stock CFD's\Nasdaq\CBAN.NAS,4,3,0,1.0,USD,USD,USD,False
+CTKB.NAS,Cytek Biosciences Inc,Stock CFD's\Nasdaq\CTKB.NAS,3,3,0,1.0,USD,USD,USD,False
+GABC.NAS,German American Bancorp Inc,Stock CFD's\Nasdaq\GABC.NAS,4,3,0,1.0,USD,USD,USD,False
+GRAB.NAS,Grab Holdings Limited,Stock CFD's\Nasdaq\GRAB.NAS,4,3,0,1.0,USD,USD,USD,False
+GRPN.NAS,Groupon,Stock CFD's\Nasdaq\GRPN.NAS,3,3,0,1.0,USD,USD,USD,False
+GRWG.NAS,GrowGeneration Corp,Stock CFD's\Nasdaq\GRWG.NAS,3,3,0,1.0,USD,USD,USD,False
+MNDY.NAS,Monday.com Ltd,Stock CFD's\Nasdaq\MNDY.NAS,4,3,0,1.0,USD,USD,USD,False
+RIVN.NAS,Rivian Automotive Inc.,Stock CFD's\Nasdaq\RIVN.NAS,4,3,0,1.0,USD,USD,USD,False
+RKLB.NAS,Rocket Lab USA Inc,Stock CFD's\Nasdaq\RKLB.NAS,4,3,0,1.0,USD,USD,USD,False
+RCKT.NAS,"Rocket Pharmaceuticals, Inc.",Stock CFD's\Nasdaq\RCKT.NAS,3,3,0,1.0,USD,USD,USD,False
+SGA.NAS,Saga Communications Inc,Stock CFD's\Nasdaq\SGA.NAS,3,3,0,1.0,USD,USD,USD,False
+SPNS.NAS,Sapiens International Corp,Stock CFD's\Nasdaq\SPNS.NAS,4,3,0,1.0,USD,USD,USD,False
+SOFI.NAS,SoFi Technologies,Stock CFD's\Nasdaq\SOFI.NAS,4,3,0,1.0,USD,USD,USD,False
+STKL.NAS,SunOpta Inc (US),Stock CFD's\Nasdaq\STKL.NAS,3,2,0,1.0,USD,USD,USD,False
+TFSL.NAS,TFS Financial Corp,Stock CFD's\Nasdaq\TFSL.NAS,4,2,0,1.0,USD,USD,USD,False
+TSBK.NAS,Timberland Bancorp Inc,Stock CFD's\Nasdaq\TSBK.NAS,4,3,0,1.0,USD,USD,USD,False
+UPST.NAS,Upstart Holdings Inc,Stock CFD's\Nasdaq\UPST.NAS,4,3,0,1.0,USD,USD,USD,False
+URGN.NAS,UroGen Pharma Ltd.,Stock CFD's\Nasdaq\URGN.NAS,3,3,0,1.0,USD,USD,USD,False
+USIO.NAS,Usio Inc,Stock CFD's\Nasdaq\USIO.NAS,4,3,0,1.0,USD,USD,USD,False
+VECO.NAS,Veeco Instruments Inc,Stock CFD's\Nasdaq\VECO.NAS,3,2,0,1.0,USD,USD,USD,False
+VNOM.NAS,Viper Energy Partners LP,Stock CFD's\Nasdaq\VNOM.NAS,4,3,0,1.0,USD,USD,USD,False
+WERN.NAS,Werner Enterprises Inc,Stock CFD's\Nasdaq\WERN.NAS,4,2,0,1.0,USD,USD,USD,False
+ABEO.NAS,Abeona Therapeutics Inc.,Stock CFD's\Nasdaq\ABEO.NAS,3,3,0,1.0,USD,USD,USD,False
+AIKI.NAS,Aikido Pharma Inc,Stock CFD's\Nasdaq\AIKI.NAS,0,3,0,1.0,USD,USD,USD,False
+ALRN.NAS,Aileron Therapeutics Inc,Stock CFD's\Nasdaq\ALRN.NAS,3,3,0,1.0,USD,USD,USD,False
+AIRS.NAS,AirSculpt Technologies Inc.,Stock CFD's\Nasdaq\AIRS.NAS,3,3,0,1.0,USD,USD,USD,False
+AIRG.NAS,Airgain Inc,Stock CFD's\Nasdaq\AIRG.NAS,4,3,0,1.0,USD,USD,USD,False
+ANTE.NAS,Airnet Technology Inc,Stock CFD's\Nasdaq\ANTE.NAS,3,3,0,1.0,USD,USD,USD,False
+AKTX.NAS,Akari Therapeutics PLC,Stock CFD's\Nasdaq\AKTX.NAS,3,3,0,1.0,USD,USD,USD,False
+AKRO.NAS,Akero Therapeutics Inc,Stock CFD's\Nasdaq\AKRO.NAS,3,3,0,1.0,USD,USD,USD,False
+AHG.NAS,Akso Health Group,Stock CFD's\Nasdaq\AHG.NAS,3,3,0,1.0,USD,USD,USD,False
+ALEC.NAS,Alector Inc,Stock CFD's\Nasdaq\ALEC.NAS,3,3,0,1.0,USD,USD,USD,False
+ALRS.NAS,Alerus Financial Corp,Stock CFD's\Nasdaq\ALRS.NAS,4,3,0,1.0,USD,USD,USD,False
+DOX.NAS,Amdocs Ltd,Stock CFD's\Nasdaq\DOX.NAS,4,3,0,1.0,USD,USD,USD,False
+BZFD.NAS,BuzzFeed Inc,Stock CFD's\Nasdaq\BZFD.NAS,3,4,0,1.0,USD,USD,USD,False
+CWST.NAS,Casella Waste Systems Inc,Stock CFD's\Nasdaq\CWST.NAS,4,3,0,1.0,USD,USD,USD,False
+CASS.NAS,Cass Information Systems Inc,Stock CFD's\Nasdaq\CASS.NAS,4,2,0,1.0,USD,USD,USD,False
+SAVA.NAS,Cassava Sciences Inc,Stock CFD's\Nasdaq\SAVA.NAS,3,3,0,1.0,USD,USD,USD,False
+CSTL.NAS,Castle Biosciences Inc,Stock CFD's\Nasdaq\CSTL.NAS,4,3,0,1.0,USD,USD,USD,False
+CTRM.NAS,Castor Maritime Inc,Stock CFD's\Nasdaq\CTRM.NAS,3,3,0,1.0,USD,USD,USD,False
+CATY.NAS,Cathay General Bancorp,Stock CFD's\Nasdaq\CATY.NAS,4,2,0,1.0,USD,USD,USD,False
+CVCO.NAS,Cavco Industries Inc,Stock CFD's\Nasdaq\CVCO.NAS,4,3,0,1.0,USD,USD,USD,False
+CELC.NAS,Celcuity Inc,Stock CFD's\Nasdaq\CELC.NAS,4,3,0,1.0,USD,USD,USD,False
+CLBT.NAS,Cellebrite DI Ltd,Stock CFD's\Nasdaq\CLBT.NAS,4,3,0,1.0,USD,USD,USD,False
+CLRB.NAS,Cellectar Biosciences Inc,Stock CFD's\Nasdaq\CLRB.NAS,3,3,0,1.0,USD,USD,USD,False
+CELH.NAS,Celsius Holdings Inc,Stock CFD's\Nasdaq\CELH.NAS,3,3,0,1.0,USD,USD,USD,False
+CELU.NAS,Celularity Inc,Stock CFD's\Nasdaq\CELU.NAS,4,3,0,1.0,USD,USD,USD,False
+CENN.NAS,Cenntro Electric Group Ltd,Stock CFD's\Nasdaq\CENN.NAS,3,3,0,1.0,USD,USD,USD,False
+COIN.NAS,Coinbase Global Inc,Stock CFD's\Nasdaq\COIN.NAS,4,3,0,1.0,USD,USD,USD,False
+CRSR.NAS,Corsair Gaming Inc,Stock CFD's\Nasdaq\CRSR.NAS,4,3,0,1.0,USD,USD,USD,False
+DAVE.NAS,Dave Inc,Stock CFD's\Nasdaq\DAVE.NAS,4,3,0,1.0,USD,USD,USD,False
+DAWN.NAS,Day One Biopharmaceuticals Inc,Stock CFD's\Nasdaq\DAWN.NAS,4,3,0,1.0,USD,USD,USD,False
+EKSO.NAS,Ekso Bionics Holdings Inc,Stock CFD's\Nasdaq\EKSO.NAS,4,3,0,1.0,USD,USD,USD,False
+GAME.NAS,Engine Gaming and Media Inc,Stock CFD's\Nasdaq\GAME.NAS,3,3,0,1.0,USD,USD,USD,False
+EVO.NAS,Evotec SE,Stock CFD's\Nasdaq\EVO.NAS,4,3,0,1.0,USD,USD,USD,False
+XGN.NAS,Exagen Inc,Stock CFD's\Nasdaq\XGN.NAS,4,3,0,1.0,USD,USD,USD,False
+XCUR.NAS,Exicure Inc,Stock CFD's\Nasdaq\XCUR.NAS,3,3,0,1.0,USD,USD,USD,False
+EXLS.NAS,ExlService Holdings Inc,Stock CFD's\Nasdaq\EXLS.NAS,4,2,0,1.0,USD,USD,USD,False
+EXFY.NAS,Expensify Inc,Stock CFD's\Nasdaq\EXFY.NAS,3,3,0,1.0,USD,USD,USD,False
+EXPO.NAS,Exponent Inc,Stock CFD's\Nasdaq\EXPO.NAS,4,2,0,1.0,USD,USD,USD,False
+GSIT.NAS,GSI Technology Inc,Stock CFD's\Nasdaq\GSIT.NAS,4,3,0,1.0,USD,USD,USD,False
+LAND.NAS,Gladstone Land Corp,Stock CFD's\Nasdaq\LAND.NAS,3,3,0,1.0,USD,USD,USD,False
+ICFI.NAS,ICF International Inc,Stock CFD's\Nasdaq\ICFI.NAS,4,2,0,1.0,USD,USD,USD,False
+SHEN.NAS,Shenandoah Telecommunications Co,Stock CFD's\Nasdaq\SHEN.NAS,4,3,0,1.0,USD,USD,USD,False
+SHLS.NAS,Shoals Technologies Group Inc,Stock CFD's\Nasdaq\SHLS.NAS,4,3,0,1.0,USD,USD,USD,False
+SCVL.NAS,Shoe Carnival Inc,Stock CFD's\Nasdaq\SCVL.NAS,4,3,0,1.0,USD,USD,USD,False
+SHBI.NAS,Shore Bancshares Inc,Stock CFD's\Nasdaq\SHBI.NAS,4,3,0,1.0,USD,USD,USD,False
+SITM.NAS,SiTime Corp,Stock CFD's\Nasdaq\SITM.NAS,3,3,0,1.0,USD,USD,USD,False
+BSRR.NAS,Sierra Bancorp,Stock CFD's\Nasdaq\BSRR.NAS,4,3,0,1.0,USD,USD,USD,False
+SIFY.NAS,Sify Technologies Ltd,Stock CFD's\Nasdaq\SIFY.NAS,4,3,0,1.0,USD,USD,USD,False
+SGHT.NAS,Sight Sciences Inc.,Stock CFD's\Nasdaq\SGHT.NAS,3,3,0,1.0,USD,USD,USD,False
+SILC.NAS,Silicom Ltd,Stock CFD's\Nasdaq\SILC.NAS,4,3,0,1.0,USD,USD,USD,False
+SIMO.NAS,Silicon Motion Technology Corp,Stock CFD's\Nasdaq\SIMO.NAS,4,2,0,1.0,USD,USD,USD,False
+SAMG.NAS,Silvercrest Asset Management Group Inc,Stock CFD's\Nasdaq\SAMG.NAS,4,3,0,1.0,USD,USD,USD,False
+SFNC.NAS,Simmons First National Corp,Stock CFD's\Nasdaq\SFNC.NAS,4,2,0,1.0,USD,USD,USD,False
+STGW.NAS,Stagwell Inc,Stock CFD's\Nasdaq\STGW.NAS,3,3,0,1.0,USD,USD,USD,False
+SBLK.NAS,Star Bulk Carriers Corp,Stock CFD's\Nasdaq\SBLK.NAS,4,3,0,1.0,USD,USD,USD,False
+GASS.NAS,StealthGas Inc,Stock CFD's\Nasdaq\GASS.NAS,3,3,0,1.0,USD,USD,USD,False
+STEP.NAS,StepStone Group Inc,Stock CFD's\Nasdaq\STEP.NAS,3,3,0,1.0,USD,USD,USD,False
+SBT.NAS,Sterling Bancorp Inc,Stock CFD's\Nasdaq\SBT.NAS,4,3,0,1.0,USD,USD,USD,False
+STRL.NAS,Sterling Construction Company Inc,Stock CFD's\Nasdaq\STRL.NAS,4,3,0,1.0,USD,USD,USD,False
+TDUP.NAS,ThredUp Inc.,Stock CFD's\Nasdaq\TDUP.NAS,4,3,0,1.0,USD,USD,USD,False
+THRY.NAS,Thryv Holdings Inc,Stock CFD's\Nasdaq\THRY.NAS,4,3,0,1.0,USD,USD,USD,False
+VINC.NAS,Vincerx Pharma Inc,Stock CFD's\Nasdaq\VINC.NAS,4,3,0,1.0,USD,USD,USD,False
+VINP.NAS,Vinci Partners Investments Ltd,Stock CFD's\Nasdaq\VINP.NAS,3,3,0,1.0,USD,USD,USD,False
+BBIG.NAS,Vinco Ventures Inc,Stock CFD's\Nasdaq\BBIG.NAS,1,3,0,1.0,USD,USD,USD,False
+VIOT.NAS,Viomi Technology Co Ltd,Stock CFD's\Nasdaq\VIOT.NAS,3,3,0,1.0,USD,USD,USD,False
+XWEL.NAS,XpresSpa Group Inc,Stock CFD's\Nasdaq\XWEL.NAS,3,3,0,1.0,USD,USD,USD,False
+TXG.NAS,10x Genomics Inc. Class A Common Stock,Stock CFD's\Nasdaq\TXG.NAS,3,3,0,1.0,USD,USD,USD,False
+CECO.NAS,Ceco Environmental Corp,Stock CFD's\Nasdaq\CECO.NAS,4,3,0,1.0,USD,USD,USD,False
+EGHT.NAS,8x8 Inc,Stock CFD's\Nasdaq\EGHT.NAS,4,3,0,1.0,USD,USD,USD,False
+EVRG.NAS,Evergy,Stock CFD's\Nasdaq\EVRG.NAS,4,3,0,1.0,USD,USD,USD,False
+INDY.NAS,iShares India 50 ETF CFD,Stock CFD's\Nasdaq\ETF\INDY.NAS,3,2,0,1.0,USD,USD,USD,False
+BGC.NAS,BGC Partners Inc,Stock CFD's\Nasdaq\BGC.NAS,3,2,0,1.0,USD,USD,USD,False
+ROP.NAS,Roper Technologies,Stock CFD's\Nasdaq\ROP.NAS,4,3,0,1.0,USD,USD,USD,False
+COO.NAS,The Cooper Companies CFD,Stock CFD's\Nasdaq\COO.NAS,3,3,0,1.0,USD,USD,USD,False
+DASH.NAS,DoorDash Inc,Stock CFD's\Nasdaq\DASH.NAS,4,3,0,1.0,USD,USD,USD,False
+LIN.NAS,Linde plc CFD,Stock CFD's\Nasdaq\LIN.NAS,3,2,0,1.0,USD,USD,USD,False
+SYRE.NAS,"Spyre Therapeutics, Inc",Stock CFD's\Nasdaq\SYRE.NAS,3,3,0,1.0,USD,USD,USD,False
+TLPH.NAS,Talphera Inc,Stock CFD's\Nasdaq\TLPH.NAS,3,3,0,1.0,USD,USD,USD,False
+ARQ.NAS,Advanced Emissions Solutions Inc,Stock CFD's\Nasdaq\ARQ.NAS,3,3,0,1.0,USD,USD,USD,False
+GRYP.NAS,Gryphon Digital Mining Inc,Stock CFD's\Nasdaq\GRYP.NAS,3,3,0,1.0,USD,USD,USD,False
+TRAW.NAS,Traws Pharma Inc,Stock CFD's\Nasdaq\TRAW.NAS,3,3,0,1.0,USD,USD,USD,False
+CPB.NAS,Campbell Soup CFD,Stock CFD's\Nasdaq\CPB.NAS,4,3,0,1.0,USD,USD,USD,False
+CBAN.NYSE,Colony Bankcorp Inc,Stock CFD's\Nasdaq\CBAN.NYSE,3,3,0,1.0,USD,USD,USD,False
+PLTR.NAS,Palantir Technologies Inc,Stock CFD's\Nasdaq\PLTR.NAS,4,3,0,1.0,USD,USD,USD,False
+DPZ.NAS,Domino's Pizza,Stock CFD's\Nasdaq\DPZ.NAS,4,3,0,1.0,USD,USD,USD,False
+TRI.NAS,Thomson Reuters Corp (US),Stock CFD's\Nasdaq\TRI.NAS,3,3,0,1.0,USD,USD,USD,False
+QVCGA.NAS,Qurate Retail Group Inc QVC Group,Stock CFD's\Nasdaq\QVCGA.NAS,3,3,0,1.0,USD,USD,USD,False
+KLRS.NAS,Kalaris Therapeutics Inc,Stock CFD's\Nasdaq\KLRS.NAS,3,3,0,1.0,USD,USD,USD,False
+TVRD.NAS,Tvardi Therapeutics Inc,Stock CFD's\Nasdaq\TVRD.NAS,4,3,0,1.0,USD,USD,USD,False
+GTM.NAS,ZoomInfo Technologies Inc. Class A Common Stock,Stock CFD's\Nasdaq\GTM.NAS,4,3,0,1.0,USD,USD,USD,False
+KMB.NAS,Kimberly-Clark,Stock CFD's\Nasdaq\KMB.NAS,3,3,0,1.0,USD,USD,USD,False
+PSKY.NAS,Paramount Global,Stock CFD's\Nasdaq\PSKY.NAS,0,3,0,1.0,USD,USD,USD,False
+SBLX.NAS,STABLEX TECHNOLOGIES INC,Stock CFD's\Nasdaq\SBLX.NAS,3,3,0,1.0,USD,USD,USD,False
+ADAM.NAS,New York Mortgage Trust Inc,Stock CFD's\Nasdaq\ADAM.NAS,4,3,0,1.0,USD,USD,USD,False
+ETSY.NYSE,Etsy,Stock CFD's\Nasdaq\ETSY.NYSE,3,2,0,1.0,USD,USD,USD,False
+AUDNZD,Australian Dollar vs New Zealand Dollar,Forex\Minors\AUDNZD,4,5,12,100000.0,AUD,NZD,AUD,True
+AUDCAD,Australian Dollar vs Canadian Dollar,Forex\Minors\AUDCAD,4,5,12,100000.0,AUD,CAD,AUD,True
+AUDCHF,Australian Dollar vs Swiss Franc,Forex\Minors\AUDCHF,4,5,11,100000.0,AUD,CHF,AUD,True
+AUDJPY,Australian Dollar vs Japanese Yen,Forex\Minors\AUDJPY,4,3,11,100000.0,AUD,JPY,AUD,True
+CHFJPY,Swiss Franc vs Japanese Yen,Forex\Minors\CHFJPY,4,3,0,100000.0,CHF,JPY,CHF,False
+EURGBP,Euro vs Great Britain Pound,Forex\Minors\EURGBP,4,5,10,100000.0,EUR,GBP,EUR,True
+EURAUD,Euro vs Australian Dollar,Forex\Minors\EURAUD,4,5,12,100000.0,EUR,AUD,EUR,True
+EURJPY,Euro vs Japanese Yen,Forex\Minors\EURJPY,4,3,10,100000.0,EUR,JPY,EUR,True
+EURCHF,Euro vs Swiss Franc,Forex\Minors\EURCHF,4,5,11,100000.0,EUR,CHF,EUR,True
+EURNZD,Euro vs New Zealand Dollar,Forex\Minors\EURNZD,4,5,14,100000.0,EUR,NZD,EUR,True
+EURCAD,Euro vs Canadian Dollar,Forex\Minors\EURCAD,4,5,12,100000.0,EUR,CAD,EUR,True
+GBPCHF,Great Britain Pound vs Swiss Franc,Forex\Minors\GBPCHF,4,5,11,100000.0,GBP,CHF,GBP,True
+GBPJPY,Great Britain Pound vs Japanese Yen,Forex\Minors\GBPJPY,4,3,15,100000.0,GBP,JPY,GBP,True
+CADCHF,Canadian Dollar vs Swiss Franc,Forex\Minors\CADCHF,4,5,0,100000.0,CAD,CHF,CAD,False
+CADJPY,Canadian Dollar vs Japanese Yen,Forex\Minors\CADJPY,4,3,0,100000.0,CAD,JPY,CAD,False
+GBPAUD,Great Britain Pound vs Australian Dollar,Forex\Minors\GBPAUD,4,5,12,100000.0,GBP,AUD,GBP,True
+GBPCAD,Great Britain Pound vs Canadian Dollar,Forex\Minors\GBPCAD,4,5,13,100000.0,GBP,CAD,GBP,True
+GBPNZD,Great Britain Pound vs New Zealand Dollar,Forex\Minors\GBPNZD,4,5,15,100000.0,GBP,NZD,GBP,True
+NZDCAD,New Zealand Dollar vs Canadian Dollar,Forex\Minors\NZDCAD,4,5,12,100000.0,NZD,CAD,NZD,True
+NZDCHF,New Zealand Dollar vs Swiss Franc,Forex\Minors\NZDCHF,4,5,11,100000.0,NZD,CHF,NZD,True
+NZDJPY,New Zealand Dollar vs Japanese Yen,Forex\Minors\NZDJPY,4,3,11,100000.0,NZD,JPY,NZD,True
+NZDUSD,New Zealand Dollar vs US Dollar,Forex\Minors\NZDUSD,4,5,10,100000.0,NZD,USD,NZD,True
+USDSGD,US Dollar vs Singapore Dollar,Forex\Minors\USDSGD,4,5,0,100000.0,USD,SGD,USD,False
+AUDSGD,Australian Dollar vs Singpore Dollar,Forex\Exotics\AUDSGD,4,5,0,100000.0,AUD,SGD,AUD,False
+CHFSGD,Swiss Franc vs Singapore Dollar,Forex\Exotics\CHFSGD,4,5,0,100000.0,CHF,SGD,CHF,False
+EURDKK,Euro vs Danish Korner,Forex\Exotics\EURDKK,4,5,0,100000.0,EUR,DKK,EUR,False
+EURHKD,Euro vs Hong Kong Dollar,Forex\Exotics\EURHKD,4,5,0,100000.0,EUR,HKD,EUR,False
+EURNOK,Euro vs Norwegian Krona,Forex\Exotics\EURNOK,4,5,0,100000.0,EUR,NOK,EUR,False
+EURPLN,Euro vs Polish Zloty,Forex\Exotics\EURPLN,4,5,0,100000.0,EUR,PLN,EUR,False
+EURSEK,Euro vs Swedish Kronor,Forex\Exotics\EURSEK,4,5,0,100000.0,EUR,SEK,EUR,False
+EURSGD,Euro vs Singapore Dollar,Forex\Exotics\EURSGD,4,5,0,100000.0,EUR,SGD,EUR,False
+EURTRY,Euro vs Turkish Lira,Forex\Exotics\EURTRY,3,5,0,100000.0,EUR,TRY,EUR,False
+EURZAR,Euro vs South African Rand,Forex\Exotics\EURZAR,4,5,0,100000.0,EUR,ZAR,EUR,False
+GBPDKK,Great Britain Pound vs Danish Kroner,Forex\Exotics\GBPDKK,4,5,0,100000.0,GBP,DKK,GBP,False
+GBPNOK,Great Britain Pound vs Norwegian Krona,Forex\Exotics\GBPNOK,4,5,0,100000.0,GBP,NOK,GBP,False
+GBPSEK,Great Britain Pound vs Swedish Kronor,Forex\Exotics\GBPSEK,4,5,0,100000.0,GBP,SEK,GBP,False
+GBPSGD,Great Britain Pound vs Singapore Dollar,Forex\Exotics\GBPSGD,4,5,0,100000.0,GBP,SGD,GBP,False
+GBPTRY,Great Britain Pound vs Turkish Lira,Forex\Exotics\GBPTRY,3,5,0,100000.0,GBP,TRY,GBP,False
+NOKJPY,Norwegian Kroner vs Japanese Yen,Forex\Exotics\NOKJPY,4,3,0,100000.0,NOK,JPY,NOK,False
+NOKSEK,Norwegian Kroner vs Swedish Kronor,Forex\Exotics\NOKSEK,4,5,0,100000.0,NOK,SEK,NOK,False
+SEKJPY,Swedish Kronor vs. Japanese Yen,Forex\Exotics\SEKJPY,4,3,0,100000.0,SEK,JPY,SEK,False
+SGDJPY,Singapore Dollar vs. Japanese Yen,Forex\Exotics\SGDJPY,4,3,0,100000.0,SGD,JPY,SGD,False
+USDCNH,US Dollar vs Chinese Renminbi,Forex\Exotics\USDCNH,4,5,44,100000.0,USD,CNH,USD,True
+USDCZK,US Dollar vs Czech Republic Korunas,Forex\Exotics\USDCZK,4,4,0,100000.0,USD,CZK,USD,False
+USDDKK,US Dollar vs Danish Kroner,Forex\Exotics\USDDKK,4,5,0,100000.0,USD,DKK,USD,False
+USDHKD,US Dollar vs Hong Kong Dollar,Forex\Exotics\USDHKD,4,5,0,100000.0,USD,HKD,USD,False
+USDHUF,US Dollar vs Hungarian Forints,Forex\Exotics\USDHUF,4,3,0,100000.0,USD,HUF,USD,False
+USDMXN,US Dollar vs Mexican Peso,Forex\Exotics\USDMXN,4,5,0,100000.0,USD,MXN,USD,False
+USDNOK,US Dollar vs Norwegian Kroner,Forex\Exotics\USDNOK,4,5,0,100000.0,USD,NOK,USD,False
+USDPLN,US Dollar vs Polish Zlotys,Forex\Exotics\USDPLN,4,5,0,100000.0,USD,PLN,USD,False
+USDRUB,US Dollar vs Russian Ruble,Forex\Exotics\USDRUB,3,5,0,100000.0,USD,RUB,USD,False
+USDSEK,US Dollar vs Swedish Kroner,Forex\Exotics\USDSEK,4,5,794,100000.0,USD,SEK,USD,True
+USDTHB,US Dollar vs Thai Baht,Forex\Exotics\USDTHB,4,5,0,100000.0,USD,THB,USD,False
+USDTRY,US Dollar vsTurkish Lira,Forex\Exotics\USDTRY,3,5,0,100000.0,USD,TRY,USD,False
+USDZAR,US Dollar vs South African Rand,Forex\Exotics\USDZAR,4,5,0,100000.0,USD,ZAR,USD,False
+EURUSD,Euro vs US Dollar,Forex\Majors\EURUSD,4,5,8,100000.0,EUR,USD,EUR,True
+GBPUSD,Great Britain Pound vs US Dollar,Forex\Majors\GBPUSD,4,5,8,100000.0,GBP,USD,GBP,True
+USDCHF,US Dollar vs Swiss Franc,Forex\Majors\USDCHF,4,5,8,100000.0,USD,CHF,USD,True
+USDJPY,US Dollar vs Japanese Yen,Forex\Majors\USDJPY,4,3,8,100000.0,USD,JPY,USD,True
+USDCAD,US Dollar vs Canadian Dollar,Forex\Majors\USDCAD,4,5,8,100000.0,USD,CAD,USD,True
+AUDUSD,Australian Dollar vs US Dollar,Forex\Majors\AUDUSD,4,5,8,100000.0,AUD,USD,AUD,True
+ADS.ETR,Adidas AG,Stock CFD's\EU\ETR\ADS.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+ALV.ETR,Allianz SE (DE),Stock CFD's\EU\ETR\ALV.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+BAS.ETR,Basf Se (DE),Stock CFD's\EU\ETR\BAS.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+BAYN.ETR,Bayer AG (DE),Stock CFD's\EU\ETR\BAYN.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+BMW.ETR,Bayerische Motoren Werke AG (Preference),Stock CFD's\EU\ETR\BMW.ETR,3,2,0,1.0,EUR,EUR,EUR,False
+BEI.ETR,Beiersdorf,Stock CFD's\EU\ETR\BEI.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+CON.ETR,Continental AG,Stock CFD's\EU\ETR\CON.ETR,3,3,0,1.0,EUR,EUR,EUR,False
+1COV.ETR,Covestro AG,Stock CFD's\EU\ETR\1COV.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+DB1.ETR,Deutsche Boerse NA,Stock CFD's\EU\ETR\DB1.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+DTE.ETR,Deutsche Telekom AG (DE),Stock CFD's\EU\ETR\DTE.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+EOAN.ETR,E.On Se (DE),Stock CFD's\EU\ETR\EOAN.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+FRE.ETR,Fresenius KGaA,Stock CFD's\EU\ETR\FRE.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+FME.ETR,Fresenius Medical Care AG (DE),Stock CFD's\EU\ETR\FME.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+HEI.ETR,HeidelbergCement AG,Stock CFD's\EU\ETR\HEI.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+HEN3.ETR,Henkel AG & Co KGaA,Stock CFD's\EU\ETR\HEN3.ETR,3,2,0,1.0,EUR,EUR,EUR,False
+IFX.ETR,Infineon TECH.AG,Stock CFD's\EU\ETR\IFX.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+LHA.ETR,Lufthansa,Stock CFD's\EU\ETR\LHA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+MRK.ETR,Merck KGAA,Stock CFD's\EU\ETR\MRK.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+MUV2.ETR,Muench.Rueckvers.VNA,Stock CFD's\EU\ETR\MUV2.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+RWE.ETR,RWE AG (DE),Stock CFD's\EU\ETR\RWE.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+SAP.ETR,SAP SE,Stock CFD's\EU\ETR\SAP.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+SIE.ETR,Siemens AG (DE),Stock CFD's\EU\ETR\SIE.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+VOW3.ETR,Volkswagen AG,Stock CFD's\EU\ETR\VOW3.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+VNA.ETR,Vonovia SE,Stock CFD's\EU\ETR\VNA.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+ANA.MAD,Acciona,Stock CFD's\EU\MAD\ANA.MAD,4,3,0,1.0,EUR,EUR,EUR,False
+ACX.MAD,Acerinox SA,Stock CFD's\EU\MAD\ACX.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+ACS.MAD,ACS,Stock CFD's\EU\MAD\ACS.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+AENA.MAD,Aena SA,Stock CFD's\EU\MAD\AENA.MAD,4,3,0,1.0,EUR,EUR,EUR,False
+AMS.MAD,Amadeus IT Holdings SA,Stock CFD's\EU\MAD\AMS.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+SAB.MAD,Banco de Sabadell,Stock CFD's\EU\MAD\SAB.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+SAN.MAD,Banco Santander SA (ES),Stock CFD's\EU\MAD\SAN.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+BKT.MAD,BankInter,Stock CFD's\EU\MAD\BKT.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+BBVA.MAD,BBVA SA (ES),Stock CFD's\EU\MAD\BBVA.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+CABK.MAD,CaixaBank SA,Stock CFD's\EU\MAD\CABK.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+CLNX.MAD,Cellnex,Stock CFD's\EU\MAD\CLNX.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+CIE.MAD,CIE Automotive,Stock CFD's\EU\MAD\CIE.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+COL.MAD,Inmobiliaria Colonial,Stock CFD's\EU\MAD\COL.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+ENG.MAD,Enagas,Stock CFD's\EU\MAD\ENG.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+ELE.MAD,Endesa,Stock CFD's\EU\MAD\ELE.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+FER.MAD,Ferrovial,Stock CFD's\EU\MAD\FER.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+GRF.MAD,Grifols SA,Stock CFD's\EU\MAD\GRF.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+IBE.MAD,Iberdrola,Stock CFD's\EU\MAD\IBE.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+ITX.MAD,Inditex,Stock CFD's\EU\MAD\ITX.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+IDR.MAD,Indra Sistemas,Stock CFD's\EU\MAD\IDR.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+MAP.MAD,Mapfre,Stock CFD's\EU\MAD\MAP.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+MEL.MAD,Melia Hotels International,Stock CFD's\EU\MAD\MEL.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+MRL.MAD,Merlin Properties Socimi SA,Stock CFD's\EU\MAD\MRL.MAD,4,3,0,1.0,EUR,EUR,EUR,False
+NTGY.MAD,Naturgy Energy Group,Stock CFD's\EU\MAD\NTGY.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+REP.MAD,Repsol YPF,Stock CFD's\EU\MAD\REP.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+TRE.MAD,Tecnicas Reunida,Stock CFD's\EU\MAD\TRE.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+TEF.MAD,Telefonica SA (ES),Stock CFD's\EU\MAD\TEF.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+VIS.MAD,Viscofan,Stock CFD's\EU\MAD\VIS.MAD,4,4,0,1.0,EUR,EUR,EUR,False
+AC.PAR,Accor,Stock CFD's\EU\PAR\AC.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+AIR.PAR,Airbus SE,Stock CFD's\EU\PAR\AIR.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+AI.PAR,Air Liquide,Stock CFD's\EU\PAR\AI.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+ATO.PAR,Atos Origin,Stock CFD's\EU\PAR\ATO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+CS.PAR,AXA SA (FR),Stock CFD's\EU\PAR\CS.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+BNP.PAR,BNP Paribas SA (FR),Stock CFD's\EU\PAR\BNP.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+EN.PAR,Bouygues,Stock CFD's\EU\PAR\EN.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+CAP.PAR,Cap Gemini,Stock CFD's\EU\PAR\CAP.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+CA.PAR,Carrefour,Stock CFD's\EU\PAR\CA.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+ACA.PAR,Credit Agricole,Stock CFD's\EU\PAR\ACA.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+BN.PAR,Danone,Stock CFD's\EU\PAR\BN.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+DSY.PAR,Dassault Systemes,Stock CFD's\EU\PAR\DSY.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+ENGI.PAR,Engie,Stock CFD's\EU\PAR\ENGI.PAR,3,4,0,1.0,EUR,EUR,EUR,False
+EL.PAR,Essilor International,Stock CFD's\EU\PAR\EL.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+RMS.PAR,Hermes,Stock CFD's\EU\PAR\RMS.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+KER.PAR,Kering,Stock CFD's\EU\PAR\KER.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+LR.PAR,Legrand,Stock CFD's\EU\PAR\LR.PAR,3,4,0,1.0,EUR,EUR,EUR,False
+OR.PAR,L'Oreal,Stock CFD's\EU\PAR\OR.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+MC.PAR,LVMH Moet Hennessy Louis Vuitton SA (FR),Stock CFD's\EU\PAR\MC.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+ML.PAR,Michelin,Stock CFD's\EU\PAR\ML.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+ORA.PAR,Orange,Stock CFD's\EU\PAR\ORA.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+RI.PAR,Pernod Ricard,Stock CFD's\EU\PAR\RI.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+UG.PAR,Peugeot Invest,Stock CFD's\EU\PAR\UG.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+PUB.PAR,Publicis Groupe,Stock CFD's\EU\PAR\PUB.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+RNO.PAR,Renault SA (FR),Stock CFD's\EU\PAR\RNO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+SAF.PAR,Safran,Stock CFD's\EU\PAR\SAF.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+SGO.PAR,Saint Gobain,Stock CFD's\EU\PAR\SGO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+SAN.PAR,Sanofi (FR),Stock CFD's\EU\PAR\SAN.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+SU.PAR,Schneider Electric,Stock CFD's\EU\PAR\SU.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+GLE.PAR,Société Générale,Stock CFD's\EU\PAR\GLE.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+SW.PAR,Sodexo,Stock CFD's\EU\PAR\SW.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+FP.PAR,TotalEnergies (FR),Stock CFD's\EU\PAR\FP.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+FR.PAR,Valeo,Stock CFD's\EU\PAR\FR.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+VIE.PAR,Veolia Environment,Stock CFD's\EU\PAR\VIE.PAR,3,4,0,1.0,EUR,EUR,EUR,False
+DG.PAR,Vinci,Stock CFD's\EU\PAR\DG.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+VIV.PAR,Vivendi,Stock CFD's\EU\PAR\VIV.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+AALB.AMS,Aalberts Inds,Stock CFD's\EU\AMS\AALB.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+ABN.AMS,ABN AMRO Group,Stock CFD's\EU\AMS\ABN.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+AGN.AMS,Aegon,Stock CFD's\EU\AMS\AGN.AMS,3,4,0,1.0,EUR,EUR,EUR,False
+AD.AMS,Koninklijke Ahold Delhaize NV,Stock CFD's\EU\AMS\AD.AMS,3,4,0,1.0,EUR,EUR,EUR,False
+ASML.AMS,ASML,Stock CFD's\EU\AMS\ASML.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+ASRNL.AMS,ASR Nederland NV,Stock CFD's\EU\AMS\ASRNL.AMS,4,3,0,1.0,EUR,EUR,EUR,False
+GLPG.AMS,Galapagos NV,Stock CFD's\EU\AMS\GLPG.AMS,3,3,0,1.0,EUR,EUR,EUR,False
+HEIA.AMS,Heineken,Stock CFD's\EU\AMS\HEIA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+INGA.AMS,ING Groep NV (NL),Stock CFD's\EU\AMS\INGA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+DSM.AMS,DSM,Stock CFD's\EU\AMS\DSM.AMS,3,4,0,1.0,EUR,EUR,EUR,False
+KPN.AMS,KPN,Stock CFD's\EU\AMS\KPN.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+NN.AMS,NN Group NV,Stock CFD's\EU\AMS\NN.AMS,4,3,0,1.0,EUR,EUR,EUR,False
+PHIA.AMS,Kon Philips,Stock CFD's\EU\AMS\PHIA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+RAND.AMS,Randstad,Stock CFD's\EU\AMS\RAND.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+URW.AMS,Unibail Rodamco SE & WFD,Stock CFD's\EU\AMS\URW.AMS,4,3,0,1.0,EUR,EUR,EUR,False
+UNA.AMS,Unilever PLC - ADR,Stock CFD's\EU\AMS\UNA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+VPK.AMS,Vopak,Stock CFD's\EU\AMS\VPK.AMS,3,4,0,1.0,EUR,EUR,EUR,False
+WKL.AMS,Wolters Kluwer,Stock CFD's\EU\AMS\WKL.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+DRI.ETR,1&1 AG,Stock CFD's\EU\ETR\DRI.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+ADV.ETR,Adva,Stock CFD's\EU\ETR\ADV.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+AIXA.ETR,Aixtron,Stock CFD's\EU\ETR\AIXA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+NDA.ETR,Aurubis,Stock CFD's\EU\ETR\NDA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+BC8.ETR,Bechtle,Stock CFD's\EU\ETR\BC8.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+GBF.ETR,Bilfinger Berger,Stock CFD's\EU\ETR\GBF.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+BNR.ETR,Brenntag SE,Stock CFD's\EU\ETR\BNR.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+COK.ETR,Cancom SE,Stock CFD's\EU\ETR\COK.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+AFX.ETR,Carl Zeiss Meditec,Stock CFD's\EU\ETR\AFX.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+CBK.ETR,Commerzbank AG (DE),Stock CFD's\EU\ETR\CBK.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+COP.ETR,CompuGroup Medical SE & Co KGaA,Stock CFD's\EU\ETR\COP.ETR,3,3,0,1.0,EUR,EUR,EUR,False
+DBK.ETR,Deutsche Bank AG (DE),Stock CFD's\EU\ETR\DBK.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+DWNI.ETR,Deutsche Wohnen SE,Stock CFD's\EU\ETR\DWNI.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+DEZ.ETR,Deutz,Stock CFD's\EU\ETR\DEZ.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+DRW8.ETR,Draegerwerk AG & Co KGaA,Stock CFD's\EU\ETR\DRW8.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+ZIL2.ETR,ElringKlinger,Stock CFD's\EU\ETR\ZIL2.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+EVK.ETR,Evonik Industries AG,Stock CFD's\EU\ETR\EVK.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+EVT.ETR,Evotec,Stock CFD's\EU\ETR\EVT.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+FRA.ETR,Fraport,Stock CFD's\EU\ETR\FRA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+FNTN.ETR,Freenet,Stock CFD's\EU\ETR\FNTN.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+G1A.ETR,GEA,Stock CFD's\EU\ETR\G1A.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+GFT.ETR,GFT Technologies AG,Stock CFD's\EU\ETR\GFT.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+HNR1.ETR,Hannover RE,Stock CFD's\EU\ETR\HNR1.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+HOT.ETR,HOCHTIEF,Stock CFD's\EU\ETR\HOT.ETR,3,3,0,1.0,EUR,EUR,EUR,False
+BOSS.ETR,Hugo Boss,Stock CFD's\EU\ETR\BOSS.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+SDF.ETR,K+S,Stock CFD's\EU\ETR\SDF.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+KGX.ETR,KION Group AG,Stock CFD's\EU\ETR\KGX.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+KCO.ETR,Kloeckner & Co,Stock CFD's\EU\ETR\KCO.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+KRN.ETR,Krones,Stock CFD's\EU\ETR\KRN.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+LXS.ETR,Lanxess,Stock CFD's\EU\ETR\LXS.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+M5Z.ETR,Manz Automation,Stock CFD's\EU\ETR\M5Z.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+MTX.ETR,MTU Aero Engines NA,Stock CFD's\EU\ETR\MTX.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+NEM.ETR,Nemetschek AG,Stock CFD's\EU\ETR\NEM.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+NDX1.ETR,Nordex,Stock CFD's\EU\ETR\NDX1.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+PFV.ETR,Pfeiffer Vacuum,Stock CFD's\EU\ETR\PFV.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+PSM.ETR,ProSiebenSat 1,Stock CFD's\EU\ETR\PSM.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+QIA.ETR,Qiagen N.V.,Stock CFD's\EU\ETR\QIA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+RHM.ETR,Rheinmetall,Stock CFD's\EU\ETR\RHM.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+RHK.ETR,Rhoen-Klinikum,Stock CFD's\EU\ETR\RHK.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+RRTL.ETR,RTL Group SA (DE),Stock CFD's\EU\ETR\RRTL.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+SZG.ETR,Salzgitter,Stock CFD's\EU\ETR\SZG.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+SRT.ETR,Sartorius AG Vz,Stock CFD's\EU\ETR\SRT.ETR,4,2,0,1.0,EUR,EUR,EUR,False
+SGL.ETR,SGL,Stock CFD's\EU\ETR\SGL.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+WAF.ETR,Siltronic AG,Stock CFD's\EU\ETR\WAF.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+SZU.ETR,Suedzucker,Stock CFD's\EU\ETR\SZU.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+SMHN.ETR,Suess Microtec,Stock CFD's\EU\ETR\SMHN.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+SY1.ETR,Symrise AG,Stock CFD's\EU\ETR\SY1.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+TEG.ETR,TAG Immobilien AG,Stock CFD's\EU\ETR\TEG.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+TLX.ETR,Talanx AG,Stock CFD's\EU\ETR\TLX.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+O2D.ETR,Telefonica Deutschland Holding,Stock CFD's\EU\ETR\O2D.ETR,1,3,0,1.0,EUR,EUR,EUR,False
+TKA.ETR,ThyssenKrupp,Stock CFD's\EU\ETR\TKA.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+UN01.ETR,Uniper AG,Stock CFD's\EU\ETR\UN01.ETR,3,3,0,1.0,EUR,EUR,EUR,False
+UTDI.ETR,United Internet,Stock CFD's\EU\ETR\UTDI.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+WCH.ETR,Wacker Chemie,Stock CFD's\EU\ETR\WCH.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+ZAL.ETR,Zalando SE,Stock CFD's\EU\ETR\ZAL.ETR,3,4,0,1.0,EUR,EUR,EUR,False
+AF.PAR,AIR France-KLM,Stock CFD's\EU\PAR\AF.PAR,3,4,0,1.0,EUR,EUR,EUR,False
+ALD.PAR,ALD SA,Stock CFD's\EU\PAR\ALD.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+ALO.PAR,Alstom,Stock CFD's\EU\PAR\ALO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+AKE.PAR,Arkema,Stock CFD's\EU\PAR\AKE.PAR,3,4,0,1.0,EUR,EUR,EUR,False
+BOL.PAR,Bollore,Stock CFD's\EU\PAR\BOL.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+BVI.PAR,Bureau Veritas,Stock CFD's\EU\PAR\BVI.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+CO.PAR,Casino Guichard Perrachon,Stock CFD's\EU\PAR\CO.PAR,3,3,0,1.0,EUR,EUR,EUR,False
+CDI.PAR,Christian Dior SA,Stock CFD's\EU\PAR\CDI.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+EDEN.PAR,Edenred,Stock CFD's\EU\PAR\EDEN.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+FGR.PAR,Eiffage,Stock CFD's\EU\PAR\FGR.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+FNAC.PAR,Fnac Darty,Stock CFD's\EU\PAR\FNAC.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+MMB.PAR,Lagardere,Stock CFD's\EU\PAR\MMB.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+MAU.PAR,Maurel & Prom,Stock CFD's\EU\PAR\MAU.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+RCO.PAR,Remy Cointreau,Stock CFD's\EU\PAR\RCO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+HO.PAR,Thales,Stock CFD's\EU\PAR\HO.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+UBI.PAR,Ubisoft Entertainment,Stock CFD's\EU\PAR\UBI.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+VK.PAR,Vallourec,Stock CFD's\EU\PAR\VK.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+VCT.PAR,Vicat,Stock CFD's\EU\PAR\VCT.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+AKZA.AMS,Akzo Nobel NV,Stock CFD's\EU\AMS\AKZA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+SBMO.AMS,SBM Offshore,Stock CFD's\EU\AMS\SBMO.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+TOM2.AMS,TomTom,Stock CFD's\EU\AMS\TOM2.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+ICAD.PAR,Icade,Stock CFD's\EU\PAR\ICAD.PAR,4,3,0,1.0,EUR,EUR,EUR,False
+JCDX.PAR,JCDecaux,Stock CFD's\EU\PAR\JCDX.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+FPE3.ETR,Fuchs Petrolub AG,Stock CFD's\EU\ETR\FPE3.ETR,4,3,0,1.0,EUR,EUR,EUR,False
+PAH3.ETR,Porsche Automobil Holding,Stock CFD's\EU\ETR\PAH3.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+FUR.AMS,Fugro NV,Stock CFD's\EU\AMS\FUR.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+WHA.AMS,Wereldhave,Stock CFD's\EU\AMS\WHA.AMS,4,3,0,1.0,EUR,EUR,EUR,False
+MTS.MAD,ArcelorMittal (ES),Stock CFD's\EU\MAD\MTS.MAD,3,4,0,1.0,EUR,EUR,EUR,False
+ECMPA.AMS,Eurocommercial Properties,Stock CFD's\EU\AMS\ECMPA.AMS,4,4,0,1.0,EUR,EUR,EUR,False
+P911.ETR,Porsche AG,Stock CFD's\EU\ETR\P911.ETR,4,4,0,1.0,EUR,EUR,EUR,False
+OPM.PAR,Opmobility,Stock CFD's\EU\PAR\OPM.PAR,4,4,0,1.0,EUR,EUR,EUR,False
+III.LSE,3i Group,Stock CFD's\UK\LSE\III.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+ADM.LSE,Admiral Group,Stock CFD's\UK\LSE\ADM.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+AAL.LSE,Anglo American,Stock CFD's\UK\LSE\AAL.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+ANTO.LSE,Antofagasta,Stock CFD's\UK\LSE\ANTO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+AHT.LSE,Ashtead Group,Stock CFD's\UK\LSE\AHT.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+ABF.LSE,Associated British Foods,Stock CFD's\UK\LSE\ABF.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+AML.LSE,Aston Martin Lagonda Global Holdings PLC,Stock CFD's\UK\LSE\AML.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+AZN.LSE,AstraZeneca,Stock CFD's\UK\LSE\AZN.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+AV.LSE,Aviva,Stock CFD's\UK\LSE\AV.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BA.LSE,BAE Systems,Stock CFD's\UK\LSE\BA.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BARC.LSE,Barclays,Stock CFD's\UK\LSE\BARC.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BDEV.LSE,Barratt Developments,Stock CFD's\UK\LSE\BDEV.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BATS.LSE,British American Tobacco PLC (GB),Stock CFD's\UK\LSE\BATS.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BKG.LSE,Berkeley Group,Stock CFD's\UK\LSE\BKG.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BP.LSE,BP,Stock CFD's\UK\LSE\BP.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BLND.LSE,British Land,Stock CFD's\UK\LSE\BLND.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+BTA.LSE,BT Group,Stock CFD's\UK\LSE\BTA.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+BNZL.LSE,Bunzl,Stock CFD's\UK\LSE\BNZL.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+BRBY.LSE,Burberry Group,Stock CFD's\UK\LSE\BRBY.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+CCL.LSE,Carnival,Stock CFD's\UK\LSE\CCL.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+CNA.LSE,Centrica,Stock CFD's\UK\LSE\CNA.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+CCH.LSE,Coca-Cola HBC AG,Stock CFD's\UK\LSE\CCH.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+CPG.LSE,Compass Group,Stock CFD's\UK\LSE\CPG.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+CRH.LSE,CRH (UK),Stock CFD's\UK\LSE\CRH.LSE,3,5,0,1.0,GBP,GBP,GBP,False
+DCC.LSE,Dcc PLC (GB),Stock CFD's\UK\LSE\DCC.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+DGE.LSE,Diageo PLC (GB),Stock CFD's\UK\LSE\DGE.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+EZJ.LSE,EasyJet,Stock CFD's\UK\LSE\EZJ.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+EXPN.LSE,Experian,Stock CFD's\UK\LSE\EXPN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+FRES.LSE,Fresnillo,Stock CFD's\UK\LSE\FRES.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+GLEN.LSE,Glencore Xstrata plc (UK),Stock CFD's\UK\LSE\GLEN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+GSK.LSE,GlaxoSmithKline,Stock CFD's\UK\LSE\GSK.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+HLMA.LSE,Halma,Stock CFD's\UK\LSE\HLMA.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+HSBA.LSE,HSBC,Stock CFD's\UK\LSE\HSBA.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+IAG.LSE,International Consolidated Airlines Group,Stock CFD's\UK\LSE\IAG.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+IMB.LSE,Imperial Brands,Stock CFD's\UK\LSE\IMB.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+INF.LSE,Informa,Stock CFD's\UK\LSE\INF.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+ITRK.LSE,Intertek Group,Stock CFD's\UK\LSE\ITRK.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+ITV.LSE,ITV,Stock CFD's\UK\LSE\ITV.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+JMAT.LSE,Johnson Matthey,Stock CFD's\UK\LSE\JMAT.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+JE.LSE,Just Eat Plc,Stock CFD's\UK\LSE\JE.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+KGF.LSE,Kingfisher,Stock CFD's\UK\LSE\KGF.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+LAND.LSE,Land Securities,Stock CFD's\UK\LSE\LAND.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+LGEN.LSE,Legal & General,Stock CFD's\UK\LSE\LGEN.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+LLOY.LSE,Lloyds Banking,Stock CFD's\UK\LSE\LLOY.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+LSE.LSE,London Stock Exchange,Stock CFD's\UK\LSE\LSE.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+MKS.LSE,Marks & Spencer,Stock CFD's\UK\LSE\MKS.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+MRO.LSE,Melrose,Stock CFD's\UK\LSE\MRO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+MNDI.LSE,Mondi,Stock CFD's\UK\LSE\MNDI.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+NG.LSE,National Grid,Stock CFD's\UK\LSE\NG.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+NXT.LSE,Next,Stock CFD's\UK\LSE\NXT.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+OCDO.LSE,Ocado Group,Stock CFD's\UK\LSE\OCDO.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+FLTR.LSE,Flutter Entertainment,Stock CFD's\UK\LSE\FLTR.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+PSON.LSE,Pearson,Stock CFD's\UK\LSE\PSON.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+PSN.LSE,Persimmon,Stock CFD's\UK\LSE\PSN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+PRU.LSE,Prudential,Stock CFD's\UK\LSE\PRU.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+RB.LSE,Reckitt Benckiser,Stock CFD's\UK\LSE\RB.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+REL.LSE,RELX PLC,Stock CFD's\UK\LSE\REL.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+RTO.LSE,Rentokil Initial,Stock CFD's\UK\LSE\RTO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+RIO.LSE,Rio Tinto PLC,Stock CFD's\UK\LSE\RIO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+RR.LSE,Rolls-Royce,Stock CFD's\UK\LSE\RR.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SGE.LSE,Sage Group,Stock CFD's\UK\LSE\SGE.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SBRY.LSE,Sainsbury,Stock CFD's\UK\LSE\SBRY.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+SDR.LSE,Schroders,Stock CFD's\UK\LSE\SDR.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SMT.LSE,Scottish Mortgage IT,Stock CFD's\UK\LSE\SMT.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SGRO.LSE,SEGRO,Stock CFD's\UK\LSE\SGRO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SVT.LSE,Severn Trent,Stock CFD's\UK\LSE\SVT.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+RDSB.LSE,Shell PLC (GB),Stock CFD's\UK\LSE\RDSB.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SN.LSE,Smith & Nephew,Stock CFD's\UK\LSE\SN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SMIN.LSE,Smiths Group,Stock CFD's\UK\LSE\SMIN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SKG.LSE,Smurfit Kappa Group PLC GB,Stock CFD's\UK\LSE\SKG.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+STAN.LSE,Standard Chartered,Stock CFD's\UK\LSE\STAN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+STJ.LSE,St James's Place,Stock CFD's\UK\LSE\STJ.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+TSCO.LSE,Tesco,Stock CFD's\UK\LSE\TSCO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+ULVR.LSE,Unilever PLC,Stock CFD's\UK\LSE\ULVR.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+UU.LSE,United Utilities,Stock CFD's\UK\LSE\UU.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+VOD.LSE,Vodafone,Stock CFD's\UK\LSE\VOD.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+WTB.LSE,Whitbread,Stock CFD's\UK\LSE\WTB.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+WPP.LSE,WPP,Stock CFD's\UK\LSE\WPP.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+AUTO.LSE,Auto Trader Group PLC,Stock CFD's\UK\LSE\AUTO.LSE,3,5,0,1.0,GBP,GBP,GBP,False
+BHP.LSE,BHP Group PLC (GB),Stock CFD's\UK\LSE\BHP.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+CPI.LSE,Capita Group,Stock CFD's\UK\LSE\CPI.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+HMSO.LSE,Hammerson,Stock CFD's\UK\LSE\HMSO.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+HAS.LSE,Hays,Stock CFD's\UK\LSE\HAS.LSE,4,5,0,1.0,GBP,GBP,GBP,False
+IMI.LSE,IMI,Stock CFD's\UK\LSE\IMI.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+JUP.LSE,Jupiter Fund Management PLC,Stock CFD's\UK\LSE\JUP.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+EMG.LSE,Man Group PLC,Stock CFD's\UK\LSE\EMG.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+PFC.LSE,Petrofac,Stock CFD's\UK\LSE\PFC.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+SRP.LSE,Serco Group,Stock CFD's\UK\LSE\SRP.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+TPK.LSE,Travis Perkins,Stock CFD's\UK\LSE\TPK.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+TLW.LSE,Tullow Oil PLC (GB),Stock CFD's\UK\LSE\TLW.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+ATST.LSE,Alliance Trust,Stock CFD's\UK\LSE\ATST.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+OMU.LSE,Old Mutual,Stock CFD's\UK\LSE\OMU.LSE,3,4,0,1.0,GBP,GBP,GBP,False
+ICGIN.LSE,Intermediate Cap,Stock CFD's\UK\ICGIN.LSE,4,4,0,1.0,GBP,GBP,GBP,False
+GCZ25,Gold Futures - December25,Commodities\Metal Futures\GCZ25,4,2,0,100.0,USD,USD,USD,False

@@ -221,7 +221,6 @@ class Signals_V2(Strategy):
 
         # --- convert time từ giờ server (GMT+2) về giờ New York ---
         df["time"] = pd.to_datetime(df["time"], unit="s", utc=True)
-        df["time"] = df["time"] + pd.Timedelta(hours=2)   # ⬅️ giờ server của broker (ICMarkets, Exness…)
         df["time"] = df["time"].dt.tz_convert("America/New_York")
         df.set_index("time", inplace=True)
 
